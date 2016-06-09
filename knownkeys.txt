@@ -1,0 +1,115 @@
+key.attack
+key.use
+key.forward
+key.left
+key.back
+key.right
+key.jump
+key.sneak
+key.sprint
+key.drop
+key.inventory
+key.chat
+key.playerlist
+key.pickItem
+key.command
+key.screenshot
+key.togglePerspective
+key.smoothCamera
+key.fullscreen
+key.spectatorOutlines
+key.swapHands
+key.hotbar.1
+key.hotbar.2
+key.hotbar.3
+key.hotbar.4
+key.hotbar.5
+key.hotbar.6
+key.hotbar.7
+key.hotbar.8
+key.hotbar.9
+ALT Key
+Boost Key
+Mode Switch Key
+Side Inventory Key
+Hub Expand Key
+KEY_MODE
+chiselsbytes.keybind
+enchiridion.key.library
+Glider Toggle
+Sound Locator
+Night Vision
+Goggles of Revealing
+Step Assist
+Speed
+Jump
+Yeta Wrench Mode
+Toggle Electromagnet
+key.moreoverlays.lightoverlay.desc
+key.moreoverlays.chunkbounds.desc
+key.moreoverlays.invsearch.desc
+psimisc.keybind
+ssu.key.upload
+ssu.key.delete
+Key.SlashBlade.PS
+Key.SlashBlade.SA
+Key.SlashBlade.LO
+Key.SlashBlade.CA
+Baubles Inventory
+3DManeuverGear.Key.RetractLeft
+3DManeuverGear.Key.RetractRight
+key.jei.toggleOverlay
+key.jei.focusSearch
+key.jei.showRecipe
+key.jei.showUses
+key.jei.recipeBack
+key.trowel.selectCorner
+key.trowel.next
+key.trowel.selectVertSlab
+key.trowel.selectStep
+key.trowel.prev
+key.trowel.selectFull
+key.trowel.selectStairs
+key.trowel.selectSlab
+mod.chiselsandbits.chiselmode.single
+mod.chiselsandbits.chiselmode.snap2
+mod.chiselsandbits.chiselmode.snap4
+mod.chiselsandbits.chiselmode.snap8
+mod.chiselsandbits.chiselmode.line
+mod.chiselsandbits.chiselmode.plane
+mod.chiselsandbits.chiselmode.connected_plane
+mod.chiselsandbits.chiselmode.cube_small
+mod.chiselsandbits.chiselmode.cube_medium
+mod.chiselsandbits.chiselmode.cube_large
+mod.chiselsandbits.chiselmode.drawn_region
+mod.chiselsandbits.other.mode
+mod.chiselsandbits.other.rotate.ccw
+mod.chiselsandbits.other.rotate.cw
+mod.chiselsandbits.other.pickbit
+mod.chiselsandbits.other.undo
+mod.chiselsandbits.other.redo
+mod.chiselsandbits.other.add_to_clipboard
+key.shieldwield
+key.restoreHotbar1
+key.restoreHotbar2
+key.restoreHotbar3
+key.hudtoggle
+waila.keybind.wailaconfig
+waila.keybind.wailadisplay
+waila.keybind.liquid
+waila.keybind.recipe
+waila.keybind.usage
+Toggle Farting
+Open Exalted Crafter
+invtweaks.key.sort
+key.modifier
+key.quantumflux.magnet
+keys.techreborn.config
+key.trashslot.delete
+WorldEdit Reference
+key.journeymap.map_toggle
+key.journeymap.zoom_in
+key.journeymap.zoom_out
+key.journeymap.minimap_type
+key.journeymap.minimap_preset
+key.journeymap.create_waypoint
