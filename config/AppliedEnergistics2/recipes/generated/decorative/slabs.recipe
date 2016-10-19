@@ -1,0 +1,31 @@
+shaped=
+    ae2:chiseled_quartz_block ae2:chiseled_quartz_block ae2:chiseled_quartz_block
+    -> 6 ae2:ChiseledQuartzSlabBlock
+
+shaped=
+    ae2:fluix ae2:fluix ae2:fluix
+    -> 6 ae2:FluixSlabBlock
+
+shaped=
+    ae2:quartz_pillar ae2:quartz_pillar ae2:quartz_pillar
+    -> 6 ae2:QuartzPillarSlabBlock
+
+shaped=
+    ae2:quartz_block ae2:quartz_block ae2:quartz_block
+    -> 6 ae2:QuartzSlabBlock
+
+shaped=
+    ae2:sky_stone_block ae2:sky_stone_block ae2:sky_stone_block
+    -> 6 ae2:SkyStoneSlabBlock
+
+shaped=
+    ae2:smooth_sky_stone_block ae2:smooth_sky_stone_block ae2:smooth_sky_stone_block
+    -> 6 ae2:SkyStoneBlockSlabBlock
+
+shaped=
+    ae2:sky_stone_brick ae2:sky_stone_brick ae2:sky_stone_brick
+    -> 6 ae2:SkyStoneBrickSlabBlock
+
+shaped=
+    ae2:sky_stone_small_brick ae2:sky_stone_small_brick ae2:sky_stone_small_brick
+    -> 6 ae2:SkyStoneSmallBrickSlabBlock
