@@ -1,17 +1,6 @@
 //Vanilla Changes
 recipes.removeShaped(<minecraft:chest> * 4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
-furnace.remove(<minecraft:baked_potato>);
-furnace.remove(<minecraft:cooked_porkchop>);
-furnace.remove(<minecraft:cooked_fish>);
-furnace.remove(<minecraft:cooked_fish:1>);
-furnace.remove(<minecraft:cooked_beef>);
-furnace.remove(<minecraft:cooked_chicken>);
-furnace.remove(<minecraft:cooked_mutton>);
-furnace.remove(<minecraft:cooked_rabbit>);
-furnace.remove(<minecraft:bread>);
-furnace.remove(<minecraft:cooked_mutton>);
-furnace.remove(<minecraft:cooked_rabbit>);
 
 recipes.remove(<minecraft:bread>);
 
