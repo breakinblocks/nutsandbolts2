@@ -35,102 +35,6 @@
     },
     "color": "#D0CBC7"
   },
-  "3": {
-    "name": "Tin",
-    "tier": 2,
-    "amount": 4,
-    "input": "ingotTin",
-    "output": {
-      "name": "libvulpes:productingot",
-      "amount": 4,
-      "meta": 5
-    },
-    "color": "#879AA8"
-  },
-  "4": {
-    "name": "Copper",
-    "tier": 2,
-    "amount": 4,
-    "input": "ingotCopper",
-    "output": {
-      "name": "libvulpes:productingot",
-      "amount": 4,
-      "meta": 4
-    },
-    "color": "#CC6633"
-  },
-  "5": {
-    "name": "Aluminum",
-    "tier": 2,
-    "amount": 4,
-    "input": "ingotAluminum",
-    "output": {
-      "name": "libvulpes:productingot",
-      "amount": 4,
-      "meta": 9
-    },
-    "color": "#C6CE82"
-  },
-  "6": {
-    "name": "Zinc",
-    "tier": 2,
-    "amount": 4,
-    "input": "ingotZinc",
-    "output": {
-      "name": "gregtech:gt.metaitem.01",
-      "amount": 4,
-      "meta": 11036
-    },
-    "color": "#C0B0B6"
-  },
-  "7": {
-    "name": "Coal",
-    "tier": 2,
-    "amount": 4,
-    "input": "minecraft:coal:0#0",
-    "output": {
-      "name": "minecraft:coal",
-      "amount": 4,
-      "meta": 0
-    },
-    "color": "#2D2C2F"
-  },
-  "8": {
-    "name": "Charcoal",
-    "tier": 2,
-    "amount": 4,
-    "input": "minecraft:coal:1#0",
-    "output": {
-      "name": "minecraft:coal",
-      "amount": 4,
-      "meta": 1
-    },
-    "color": "#2D2C2F"
-  },
-  "9": {
-    "name": "Saltpeter",
-    "tier": 2,
-    "amount": 4,
-    "input": "dustSaltpeter",
-    "output": {
-      "name": "gregtech:gt.metaitem.01",
-      "amount": 8,
-      "meta": 2836
-    },
-    "color": "#B6C5D4"
-  },
-  "10": {
-    "name": "Salt",
-    "tier": 2,
-    "amount": 4,
-    "input": "dustSalt",
-    "output": {
-      "name": "harvestcraft:saltItem",
-      "amount": 8,
-      "meta": 0
-    },
-    "color": "#B6C5D4"
-  },
   "11": {
     "name": "Leathery",
     "tier": 2,
@@ -190,90 +94,6 @@
       "meta": 0
     },
     "color": "#FFD742"
-  },
-  "16": {
-    "name": "Iron",
-    "tier": 3,
-    "amount": 4,
-    "input": "ingotIron",
-    "output": {
-      "name": "minecraft:iron_ingot",
-      "amount": 4,
-      "meta": 0
-    },
-    "color": "#9F9CA0"
-  },
-  "17": {
-    "name": "Gold",
-    "tier": 3,
-    "amount": 4,
-    "input": "ingotGold",
-    "output": {
-      "name": "minecraft:gold_ingot",
-      "amount": 4,
-      "meta": 0
-    },
-    "color": "#FFFF00"
-  },
-  "18": {
-    "name": "Lead",
-    "tier": 3,
-    "amount": 4,
-    "input": "ingotLead",
-    "output": {
-      "name": "immersiveengineering:metal",
-      "amount": 4,
-      "meta": 2
-    },
-    "color": "#666699"
-  },
-  "19": {
-    "name": "Silver",
-    "tier": 3,
-    "amount": 4,
-    "input": "ingotSilver",
-    "output": {
-      "name": "immersiveengineering:metal",
-      "amount": 4,
-      "meta": 3
-    },
-    "color": "#BBBDB8"
-  },
-  "20": {
-    "name": "Nickel",
-    "tier": 3,
-    "amount": 4,
-    "input": "ingotNickel",
-    "output": {
-      "name": "immersiveengineering:metal",
-      "amount": 4,
-      "meta": 4
-    },
-    "color": "#CCCCCC"
-  },
-  "21": {
-    "name": "Mithril",
-    "tier": 3,
-    "amount": 4,
-    "input": "ingotMithril",
-    "output": {
-      "name": "gregtech:gt.metaitem.01",
-      "amount": 4,
-      "meta": 11331
-    },
-    "color": "#92A4D0"
-  },
-  "22": {
-    "name": "Osmium",
-    "tier": 3,
-    "amount": 4,
-    "input": "ingotOsmium",
-    "output": {
-      "name": "gregtech:gt.metaitem.01",
-      "amount": 4,
-      "meta": 11083
-    },
-    "color": "#443CBE"
   },
   "23": {
     "name": "Ender",
@@ -371,18 +191,6 @@
     },
     "color": "#E9FF54"
   },
-  "31": {
-    "name": "Redstone",
-    "tier": 3,
-    "amount": 4,
-    "input": "dustRedstone",
-    "output": {
-      "name": "minecraft:redstone",
-      "amount": 8,
-      "meta": 0
-    },
-    "color": "#9F0D00"
-  },
   "32": {
     "name": "Sulfur",
     "tier": 3,
@@ -394,18 +202,6 @@
       "meta": 16
     },
     "color": "#D4BE55"
-  },
-  "33": {
-    "name": "Lapis",
-    "tier": 3,
-    "amount": 4,
-    "input": "gemLapis",
-    "output": {
-      "name": "minecraft:dye",
-      "amount": 8,
-      "meta": 4
-    },
-    "color": "#3F47CE"
   },
   "34": {
     "name": "Quartz",
@@ -430,90 +226,6 @@
       "meta": 8516
     },
     "color": "#A8CCD0"
-  },
-  "36": {
-    "name": "Ruby",
-    "tier": 3,
-    "amount": 4,
-    "input": "gemRuby",
-    "output": {
-      "name": "biomesoplenty:gem",
-      "amount": 8,
-      "meta": 1
-    },
-    "color": "#D43037"
-  },
-  "37": {
-    "name": "Peridot",
-    "tier": 3,
-    "amount": 4,
-    "input": "gemPeridot",
-    "output": {
-      "name": "biomesoplenty:gem",
-      "amount": 8,
-      "meta": 2
-    },
-    "color": "#82D46C"
-  },
-  "38": {
-    "name": "Topaz",
-    "tier": 3,
-    "amount": 4,
-    "input": "gemTopaz",
-    "output": {
-      "name": "biomesoplenty:gem",
-      "amount": 8,
-      "meta": 3
-    },
-    "color": "#D48F65"
-  },
-  "39": {
-    "name": "Tanzanite",
-    "tier": 3,
-    "amount": 4,
-    "input": "gemTanzanite",
-    "output": {
-      "name": "biomesoplenty:gem",
-      "amount": 8,
-      "meta": 4
-    },
-    "color": "#2A0760"
-  },
-  "40": {
-    "name": "Malachite",
-    "tier": 3,
-    "amount": 4,
-    "input": "gemMalachite",
-    "output": {
-      "name": "biomesoplenty:gem",
-      "amount": 8,
-      "meta": 5
-    },
-    "color": "#3BFFE2"
-  },
-  "41": {
-    "name": "Sapphire",
-    "tier": 3,
-    "amount": 4,
-    "input": "gemSapphire",
-    "output": {
-      "name": "biomesoplenty:gem",
-      "amount": 8,
-      "meta": 6
-    },
-    "color": "#586AD4"
-  },
-  "42": {
-    "name": "Amber",
-    "tier": 3,
-    "amount": 4,
-    "input": "gemAmber",
-    "output": {
-      "name": "biomesoplenty:gem",
-      "amount": 8,
-      "meta": 7
-    },
-    "color": "#D4793C"
   },
   "43": {
     "name": "Apatite",
@@ -562,42 +274,6 @@
       "meta": 0
     },
     "color": "#57F26F"
-  },
-  "47": {
-    "name": "Platinum",
-    "tier": 4,
-    "amount": 2,
-    "input": "ingotPlatinum",
-    "output": {
-      "name": "gregtech:gt.metaitem.01",
-      "amount": 1,
-      "meta": 11085
-    },
-    "color": "#1ED0F3"
-  },
-  "48": {
-    "name": "Titanium",
-    "tier": 4,
-    "amount": 2,
-    "input": "ingotTitanium",
-    "output": {
-      "name": "libvulpes:productingot",
-      "amount": 1,
-      "meta": 7
-    },
-    "color": "#D4A5B6"
-  },
-  "49": {
-    "name": "Desh",
-    "tier": 4,
-    "amount": 2,
-    "input": "ingotDesh",
-    "output": {
-      "name": "gregtech:gt.metaitem.01",
-      "amount": 1,
-      "meta": 11884
-    },
-    "color": "#272728"
   },
   "50": {
     "name": "Cobalt",
