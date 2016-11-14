@@ -2,8 +2,55 @@
 
   // New entities are added, one already in _Core will have their values replaced with those in this file
   "costMultiplier": {
-  }
+    "Villager" : "20"
+  },
 
   // Adding a blackList section will completely replace the one in the core file.
 
+  "blackList": [
+    "VillagerGolem",
+    "Cyberzombie",
+    "Botania.botania:pinkWither",
+    "Botania.botania:doppleganger",
+    "Botania.botania:pixie",
+    "BloodMagic.CorruptedChicken",
+    "BloodMagic.CorruptedSheep",
+    "BloodMagic.CorruptedSpider",
+    "BloodMagic.CorruptedZombie",
+    "BloodMagic.Mimic",
+    "BloodMagic.SentientSpecter",
+    "Giant",
+    "Mekanism.Robit",
+    "WitherBoss",
+    "forestry.butterflyGE",
+    "randomthings.spirit",
+    "roots.entityHomingProjectile",
+    "roots.entityFrostShard",
+    "roots.entitySpriteProjectile",
+    "roots.entitySpritePlacator",
+    "roots.entitySpellProjectile",
+    "roots.sprite",
+    "roots.greaterSprite",
+    "roots.spriteGuardian",
+    "roots.spriteling",
+    "arsmagica2.ThrownSickle",
+    "arsmagica2.Whirlwind",
+    "arsmagica2.LifeGuardian",
+    "arsmagica2.LightningGuardian",
+    "arsmagica2.EnderGuardian",
+    "arsmagica2.ThrownRock",
+    "arsmagica2.ShadowHelper",
+    "arsmagica2.NatureGuardian",
+    "arsmagica2.AirSled",
+    "arsmagica2.FireGuardian",
+    "arsmagica2.EarthGuardian",
+    "arsmagica2.AirGuardian",
+    "arsmagica2.WaterGuardian",
+    "arsmagica2.RiftStorage",
+    "arsmagica2.ArcaneGuardian",
+    "arsmagica2.WinterGuardianArm",
+    "arsmagica2.WinterGuardian",
+    "arsmagica2.Flicker",
+    "draconicevolution.ChaosGuardian"
+  ]
 }
