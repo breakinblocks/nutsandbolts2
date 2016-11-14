@@ -233,6 +233,12 @@
       "handlerType": "rightclick",
       "matchDamage": false,
       "matchNBT": false
+    },
+    {
+      "item": "draconicevolution:info_tablet",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
     }
   ],
   "freeBooks": [
@@ -252,6 +258,7 @@
     "vc:guidebook_main",
     "vc:guidebook_controls",
     "vc:guidebook_paint",
-    "vc:guidebook_socket"
+    "vc:guidebook_socket",
+    "draconicevolution:info_tablet"
   ]
 }
