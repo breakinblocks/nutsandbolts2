@@ -55,7 +55,7 @@
       "matchNBT": false
     },
     {
-      "item": "rftools:rfToolsManualItem",
+      "item": "rftools:rftools_manual",
       "handlerType": "rightclick",
       "matchDamage": false,
       "matchNBT": false
@@ -161,7 +161,104 @@
       "handlerType": "customwood",
       "matchDamage": false,
       "matchNBT": false
+    },
+	{
+      "item": "theoneprobe:probenote",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "environmentaltech:digital_guide",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "extrautils2:book",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "guideapi:ItemGuideBook",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "immersiveengineering:tool 3",
+      "handlerType": "rightclick",
+      "matchDamage": true,
+      "matchNBT": false
+    },
+	{
+      "item": "rftoolscontrol:rftoolscontrol_manual",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "rftoolsdim:rftoolsdim_manual",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "roots:runedTablet",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "vc:guidebook_main",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "vc:guidebook_controls",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "vc:guidebook_paint",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "vc:guidebook_socket",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+    {
+      "item": "draconicevolution:info_tablet",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
     }
   ],
-  "freeBooks": []
+  "freeBooks": [
+    "Botania:lexicon",
+    "theoneprobe:probenote",
+    "deepresonance:dr_manual",
+    "environmentaltech:digital_guide",
+    "extrautils2:book",
+    "guideapi:ItemGuideBook",
+    "immersiveengineering:tool 3",
+    "opencomputers:tool 4",
+    "rftools:rftools_manual",
+    "rftoolscontrol:rftoolscontrol_manual",
+    "rftoolsdim:rftoolsdim_manual",
+    "roots:runedTablet",
+    "tconstruct:book",
+    "vc:guidebook_main",
+    "vc:guidebook_controls",
+    "vc:guidebook_paint",
+    "vc:guidebook_socket",
+    "draconicevolution:info_tablet"
+  ]
 }
