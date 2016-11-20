@@ -125,7 +125,6 @@ key_key.clipboardPaste:47:CONTROL
 key_key.placeItem:25:NONE
 key_key.toolConfig:0:NONE
 key_key.toolProfileChange:19:NONE
-key_invtweaks.key.sort:31:NONE
 key_Mekanism Item Mode Switch:19:NONE
 key_Mekanism Armor Mode Switch:46:NONE
 key_Mekanism Voice:0:NONE
