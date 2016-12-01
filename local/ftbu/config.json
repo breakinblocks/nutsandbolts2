@@ -27,16 +27,16 @@
   },
   "commands": {
     "chunks": true,
-    "trash_can": true,
-    "js": true,
-    "warp": true,
-    "tpl": true,
+    "trash_can": false,
+    "js": false,
+    "warp": false,
+    "tpl": false,
     "inv": true,
-    "back": true,
+    "back": false,
     "server_info": true,
-    "spawn": true,
-    "home": true,
-    "kickme": true
+    "spawn": false,
+    "home": false,
+    "kickme": false
   },
   "general": {
     "auto_restart": false,
