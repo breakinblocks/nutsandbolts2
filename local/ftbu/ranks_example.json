@@ -1,0 +1,46 @@
+{
+  "default_rank": "player",
+  "ranks": {
+    "player": {
+      "parent": "",
+      "config": {
+        "display": {
+          "badge": "",
+          "color": "white",
+          "prefix": ""
+        },
+        "ftbu": {
+          "chunkloader": {
+            "offline_timer": 24.0,
+            "type": "offline"
+          },
+          "claims": {
+            "forced_explosions": "-"
+          },
+          "homes": {
+            "max": 1
+          }
+        }
+      }
+    },
+    "op": {
+      "parent": "",
+      "permissions": [
+        "+*"
+      ],
+      "config": {
+        "display": {
+          "color": "green"
+        },
+        "ftbu": {
+          "chunkloader": {
+            "offline_timer": -1.0
+          },
+          "homes": {
+            "max": 100
+          }
+        }
+      }
+    }
+  }
+}

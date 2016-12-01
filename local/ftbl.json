@@ -1,0 +1,8 @@
+{
+  "command": {
+    "use_ftb_prefix": true
+  },
+  "teams": {
+    "autocreate_on_login": true
+  }
+}
