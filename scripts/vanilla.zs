@@ -125,3 +125,7 @@ recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>],
 recipes.addShaped(<minecraft:elytra>, [[null, <enderio:itemGliderWing>, <minecraft:end_rod>], [<ore:bEnderAirBottle>, <ic2:misc_resource:1>, <enderio:itemGliderWing>], [<minecraft:end_rod>, <ore:bEnderAirBottle>, null]]);
 
 
+//===================================================
+// Furnace Recipes
+//===================================================
+furnace.remove(<*>, <bigreactors:dustMetals>);

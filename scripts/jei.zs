@@ -7,5 +7,4 @@ mods.jei.JEI.hide(<mekanism:MultipartTransmitter:1>);
 mods.jei.JEI.hide(<mekanism:MultipartTransmitter>);
 mods.jei.JEI.hide(<grapplemod:longfallboots>);
 mods.jei.JEI.hide(<appliedenergistics2:facade>);
-mods.jei.JEI.hide(<appliedenergistics2:vibration_chamber>);
 mods.jei.JEI.hide(<storagedrawers:compDrawers>);
