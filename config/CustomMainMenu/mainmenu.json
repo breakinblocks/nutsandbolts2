@@ -1,156 +1,114 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
+	"images": {
+        "black_bar": {
+            "alignment": "top_right",
+            "height": 2000,
+            "image": "nutsandbolts:menu/transparent-black-50.png",
+            "posX": -130,
+            "posY": 0,
+            "width": 100
+        },
+        "nab_logo": {
+            "alignment": "center",
+            "height": 300,
+            "image": "nutsandbolts:menu/nab-logo.png",
+            "posX": -200,
+            "posY": -150,
+            "width": 300
         }
     },
-    
-    "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
+    "buttons": {
+        "multiplayer": {
+            "action": {
+                "gui": "multiplayer",
+                "type": "openGui"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -125,
+            "posY": -25,
+            "text": "menu.multiplayer",
+            "width": 90
         },
-        
-        "multiplayer":
-        {
-            "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
-            }
+        "singleplayer": {
+            "action": {
+                "gui": "singleplayer",
+                "type": "openGui"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -125,
+            "posY": -50,
+            "text": "menu.singleplayer",
+            "width": 90
         },
-        
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
+        "mods": {
+            "action": {
+                "gui": "mods",
+                "type": "openGui"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -125,
+            "posY": 0,
+			"hoverText" : "Dragons!",
+            "text": "Mods",
+            "width": 90
         },
-            
-        "options":
-        {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
+        "quit": {
+            "action": {
+                "type": "quit"
+            },
+            "alignment": "right_center",
+            "height": 20,
+            "posX": -125,
+            "posY": 50,
+			"hoverText" : "Are you sure?",
+            "text": "menu.quit",
+            "width": 90
         },
-        
-        "quit":
-        {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
+        "options": {
+            "action": {
+                "gui": "options",
+                "type": "openGui"
+            },
+            "alignment": "bottom_right",
+            "height": 14,
+            "imageHeight": 64,
+            "imageWidth": 64,
+            "posX": -22,
+            "posY": -35,
+            "text": "",
+            "texture": "nutsandbolts:menu/options-button.png",
+            "width": 14
         }
     },
-    
-    "labels":
-    {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_right"
+    "other": {
+        "background": {
+            "image": "nutsandbolts:menu/background.png",
+            "mode": "fill"
         },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
+        "splash-text": {
+            "alignment": "center",
+            "color": -256,
+            "posX": -90,
+            "posY": -85
         }
     },
-    
-    "other":
-    {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
+    "texts": {
+        "mojang": {
+            "alignment": "bottom_left",
+            "color": -1,
+            "posX": 2,
+            "posY": -10,
+            "text": ""
         },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+        "nab": {
+            "alignment": "bottom_right",
+            "color": -1,
+            "posX": -105,
+            "posY": -10,
+            "text": "\u00a7bNuts and Bolts 2\u00a7ev1.0"
         }
     }
 }
