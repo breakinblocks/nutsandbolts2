@@ -1,0 +1,493 @@
+{
+  "name": "Futuristic Age",
+  "description": "In a galaxy far far away, in a future not long from now. A young explorer stumbled onto some new... Dragons??",
+  "quests": [
+    {
+      "uuid": "ab8ffe3d-c28a-43e6-ad19-a27424b9faaf",
+      "name": "Digital Storage",
+      "description": "01000100 01101001 01100111 01101001 01110100 01100001 01101100 00100000 01010011 01110100 01101111 01110010 01100001 01100111 01100101 00100001 ",
+      "x": 216,
+      "y": 17,
+      "icon": {
+        "id": "appliedenergistics2:storage_cell_64k"
+      },
+      "prerequisites": [
+        "8300029c-f278-4192-ae10-a5b2fba2b00b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:storage_cell_64k"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:storage_cell_64k"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "48831374-c22f-4291-84b3-475d5e0ac5df",
+      "name": "Mining from the Void",
+      "description": "Don\u0027t fall",
+      "x": 28,
+      "y": 141,
+      "icon": {
+        "id": "environmentaltech:controller_void_ore_miner_4"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "environmentaltech:controller_void_ore_miner_4"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "environmentaltech:basalt_structure",
+          "damage": 3,
+          "amount": 16
+        },
+        {
+          "id": "environmentaltech:alabaster_structure",
+          "damage": 3,
+          "amount": 16
+        },
+        {
+          "id": "environmentaltech:hardened_stone_structure",
+          "damage": 3,
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e612fb0b-32ae-4591-946d-3e94ef2fdbd0",
+      "name": "Dragon Armor",
+      "x": 79,
+      "y": 15,
+      "icon": {
+        "id": "draconicevolution:draconic_helm",
+        "nbt": "{Energy:16000000}"
+      },
+      "prerequisites": [
+        "27c395cc-1a9d-4bac-a114-839e76b9a60e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "draconicevolution:draconic_helm"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "draconicevolution:draconic_chest"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "draconicevolution:draconic_legs"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "draconicevolution:draconic_boots"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "draconicevolution:awakened_core",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7062a70f-1ed6-46f6-8b7a-7801c5dd556b",
+      "name": "Dragon ...Axe?",
+      "description": "Dragons don\u0027t need axes.",
+      "x": 19,
+      "y": 61,
+      "icon": {
+        "id": "draconicevolution:draconic_axe"
+      },
+      "prerequisites": [
+        "27c395cc-1a9d-4bac-a114-839e76b9a60e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "draconicevolution:draconic_axe"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "draconicevolution:draconic_ingot",
+          "amount": 2
+        },
+        {
+          "id": "tconstruct:broad_axe_head",
+          "nbt": "{Material:\"cobalt\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "36c13a04-27f9-415c-8987-0b528d1f15d6",
+      "name": "Dragon ....Hoe?",
+      "description": "It\u0027s a real profession!",
+      "x": 48,
+      "y": 61,
+      "icon": {
+        "id": "draconicevolution:draconic_hoe",
+        "nbt": "{Energy:16000000}"
+      },
+      "prerequisites": [
+        "27c395cc-1a9d-4bac-a114-839e76b9a60e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "draconicevolution:draconic_hoe"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "draconicevolution:draconic_ingot",
+          "amount": 2
+        },
+        {
+          "id": "resourcefulcrops:ItemSeed",
+          "damage": 15
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b3ad2cb7-1f24-44fd-9e50-5cb09d86412d",
+      "name": "Dragon Sword",
+      "x": 91,
+      "y": 35,
+      "icon": {
+        "id": "draconicevolution:draconic_sword"
+      },
+      "prerequisites": [
+        "27c395cc-1a9d-4bac-a114-839e76b9a60e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "draconicevolution:draconic_sword"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "draconicevolution:awakened_core"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8300029c-f278-4192-ae10-a5b2fba2b00b",
+      "name": "Moar channels!",
+      "description": "I heard you wanted to automate everything?",
+      "x": 175,
+      "y": 16,
+      "icon": {
+        "id": "appliedenergistics2:controller"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:controller"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:part",
+          "damage": 460,
+          "amount": 6
+        },
+        {
+          "id": "appliedenergistics2:part",
+          "damage": 56,
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "27c395cc-1a9d-4bac-a114-839e76b9a60e",
+      "name": "Fusion Crafting",
+      "description": "Fusion crafting!?!?",
+      "x": 21,
+      "y": 16,
+      "icon": {
+        "id": "draconicevolution:fusion_crafting_core"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "draconicevolution:fusion_crafting_core"
+              }
+            },
+            {
+              "item": {
+                "id": "draconicevolution:crafting_pedestal"
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "draconicevolution:crafting_pedestal",
+          "damage": 1,
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ef33654d-f239-48a4-84d7-a34e8b4a8220",
+      "name": "Dragon ...Shovel?",
+      "description": "Dragons don\u0027t need shovels.",
+      "x": 33,
+      "y": 86,
+      "icon": {
+        "id": "draconicevolution:draconic_shovel"
+      },
+      "prerequisites": [
+        "27c395cc-1a9d-4bac-a114-839e76b9a60e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "draconicevolution:draconic_shovel"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "draconicevolution:draconic_ingot",
+          "amount": 2
+        },
+        {
+          "id": "ironbackpacks:diamondBackpackStorageEmphasis",
+          "nbt": "{SortType:\"id\",MostSigUUID:1478355541642858306L,LeastSigUUID:-4653677772321891748L,Items:[0:{Slot:0b,id:\"botania:altGrass\",Count:64b,Damage:0s},1:{Slot:1b,id:\"botania:altGrass\",Count:64b,Damage:2s},2:{Slot:2b,id:\"botania:altGrass\",Count:64b,Damage:1s},3:{Slot:3b,id:\"botania:altGrass\",Count:64b,Damage:3s},4:{Slot:4b,id:\"botania:altGrass\",Count:64b,Damage:4s},5:{Slot:5b,id:\"botania:altGrass\",Count:64b,Damage:5s},6:{Slot:6b,id:\"natura:colored_grass\",Count:64b,Damage:0s},7:{Slot:7b,id:\"natura:colored_grass\",Count:64b,Damage:1s},8:{Slot:8b,id:\"natura:colored_grass\",Count:64b,Damage:2s},9:{Slot:9b,id:\"randomthings:coloredGrass\",Count:64b,Damage:15s},10:{Slot:10b,id:\"randomthings:coloredGrass\",Count:64b,Damage:4s},11:{Slot:11b,id:\"randomthings:coloredGrass\",Count:64b,Damage:3s},12:{Slot:12b,id:\"randomthings:coloredGrass\",Count:64b,Damage:2s},13:{Slot:13b,id:\"randomthings:coloredGrass\",Count:64b,Damage:1s},14:{Slot:14b,id:\"randomthings:coloredGrass\",Count:64b,Damage:0s},15:{Slot:15b,id:\"randomthings:coloredGrass\",Count:64b,Damage:6s},16:{Slot:16b,id:\"randomthings:coloredGrass\",Count:64b,Damage:7s},17:{Slot:17b,id:\"randomthings:coloredGrass\",Count:64b,Damage:8s},18:{Slot:18b,id:\"randomthings:coloredGrass\",Count:64b,Damage:9s},19:{Slot:19b,id:\"randomthings:coloredGrass\",Count:64b,Damage:10s},20:{Slot:20b,id:\"randomthings:coloredGrass\",Count:64b,Damage:11s},21:{Slot:21b,id:\"randomthings:coloredGrass\",Count:64b,Damage:12s},22:{Slot:22b,id:\"randomthings:coloredGrass\",Count:64b,Damage:13s},23:{Slot:23b,id:\"randomthings:coloredGrass\",Count:64b,Damage:14s},24:{Slot:24b,id:\"randomthings:coloredGrass\",Count:64b,Damage:5s}]}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "12b4534c-1fd0-442c-885f-ade9e736a788",
+      "name": "Dragon ...Bow?",
+      "description": "Dragons don\u0027t need bows.",
+      "x": 103,
+      "y": 55,
+      "icon": {
+        "id": "draconicevolution:draconic_bow"
+      },
+      "prerequisites": [
+        "27c395cc-1a9d-4bac-a114-839e76b9a60e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "draconicevolution:draconic_bow"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb6c0381-dfbf-4a21-8695-5fd3e0796f4b",
+      "name": "Auto Crafting!",
+      "description": "Autocraft everything. Do it.",
+      "x": 216,
+      "y": 59,
+      "icon": {
+        "id": "appliedenergistics2:crafting_storage_64k"
+      },
+      "prerequisites": [
+        "8300029c-f278-4192-ae10-a5b2fba2b00b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:crafting_storage_64k"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:crafting_storage_64k"
+        },
+        {
+          "id": "appliedenergistics2:crafting_accelerator",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "883475ec-a57c-44b9-aa64-259e64569b85",
+      "name": "Dragon ...Pickaxe?",
+      "description": "Dragons don\u0027t need pickaxes.",
+      "x": 62,
+      "y": 87,
+      "icon": {
+        "id": "draconicevolution:draconic_pick"
+      },
+      "prerequisites": [
+        "27c395cc-1a9d-4bac-a114-839e76b9a60e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "draconicevolution:draconic_pick"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "draconicevolution:draconic_ingot",
+          "amount": 2
+        },
+        {
+          "id": "railcraft:ore",
+          "damage": 3,
+          "amount": 5
+        },
+        {
+          "id": "railcraft:ore",
+          "damage": 2,
+          "amount": 5
+        },
+        {
+          "id": "railcraft:ore",
+          "damage": 4,
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "61cfa37d-efd1-4fc7-86b2-31a67a061e6c",
+      "name": "Going wireless",
+      "x": 175,
+      "y": 59,
+      "icon": {
+        "id": "ae2stuff:Wireless"
+      },
+      "prerequisites": [
+        "8300029c-f278-4192-ae10-a5b2fba2b00b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ae2stuff:Wireless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ae2stuff:WirelessKit"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ae2stuff:Wireless",
+          "amount": 3
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
