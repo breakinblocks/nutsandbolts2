@@ -53,9 +53,6 @@ recipes.addShapeless(<minecraft:planks:1> * 2, [<minecraft:log:1>]);
 
 //Vanilla Recipe Removals
 recipes.remove(<minecraft:piston>);
-recipes.remove(<minecraft:iron_bars>);
-recipes.remove(<minecraft:iron_bars> * 16);
-recipes.remove(<minecraft:hopper>);
 recipes.remove(<minecraft:nether_wart_block>);
 recipes.remove(<minecraft:coal_block>);
 recipes.remove(<minecraft:quartz_block>);
@@ -97,23 +94,25 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <ore:itemFl
 
 // ================================================================================
 //#Vanilla Shaped Recipes
+recipes.addShaped(<minecraft:iron_helmet>, [[<ore:plateIron>, <minecraft:chainmail_helmet>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:iron_boots>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <minecraft:chainmail_boots>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:iron_chestplate>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <minecraft:chainmail_chestplate>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:iron_leggings>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <minecraft:chainmail_leggings>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>]]);
 recipes.addShaped(<minecraft:piston>, [[<ore:plankTreatedWood>, <immersiveengineering:treatedWood>, <ore:plankTreatedWood>], [<ore:cobblestone>, <cookingplus:ironsheet>, <ore:cobblestone>], [<minecraft:cobblestone>, <ore:torchRedstoneActive>, <ore:cobblestone>]]);
-recipes.addShaped(<minecraft:iron_bars> * 4, [[<railcraft:rail>, <railcraft:rail>, <railcraft:rail>], [<railcraft:rail>, <ore:toolCrowbar>.giveBack(), <railcraft:rail>], [<railcraft:rail>, <railcraft:rail>, <railcraft:rail>]]);
-recipes.addShaped(<minecraft:hopper>, [[<ic2:plate:3>, null, <ore:plateIron>], [<ic2:plate:3>, <ore:chest>, <ore:plateIron>], [null, <ic2:plate:3>, null]]);
-recipes.addShaped(<minecraft:diamond_boots>, [[<mekanism:CompressedDiamond>, <chiselsandbits:bitsaw_diamond>.giveBack(), <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, <minecraft:iron_boots>, <mekanism:CompressedDiamond>]]);
-recipes.addShaped(<minecraft:diamond_leggings>, [[<mekanism:CompressedDiamond>, <chiselsandbits:bitsaw_diamond>.giveBack(), <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, <minecraft:iron_leggings>, <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, null, <mekanism:CompressedDiamond>]]);
-recipes.addShaped(<minecraft:diamond_chestplate>, [[<mekanism:CompressedDiamond>, <chiselsandbits:bitsaw_diamond>.giveBack(), <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, <minecraft:iron_chestplate>, <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, <mekanism:CompressedDiamond>, <mekanism:CompressedDiamond>]]);
-recipes.addShaped(<minecraft:diamond_helmet>, [[<mekanism:CompressedDiamond>, <mekanism:CompressedDiamond>, <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, <minecraft:iron_helmet>, <mekanism:CompressedDiamond>], [null, <chiselsandbits:bitsaw_diamond>.giveBack(), null]]);
-recipes.addShaped(<minecraft:chainmail_boots>, [[<railcraft:rail>, <railcraft:tool_crowbar_iron>.giveBack(), <railcraft:rail>], [<railcraft:rail>, <minecraft:leather_boots>, <railcraft:rail>]]);
-recipes.addShaped(<minecraft:chainmail_leggings>, [[<railcraft:rail>, <railcraft:tool_crowbar_iron>.giveBack(), <railcraft:rail>], [<railcraft:rail>, <minecraft:leather_leggings>, <railcraft:rail>], [<railcraft:rail>, null, <railcraft:rail>]]);
-recipes.addShaped(<minecraft:chainmail_chestplate>, [[<railcraft:rail>, <railcraft:tool_crowbar_iron>.giveBack(), <railcraft:rail>], [<railcraft:rail>, <minecraft:leather_chestplate>, <railcraft:rail>], [<railcraft:rail>, <railcraft:rail>, <railcraft:rail>]]);
-recipes.addShaped(<minecraft:chainmail_helmet>, [[<railcraft:rail>, <railcraft:tool_crowbar_iron>.giveBack(), <railcraft:rail>], [<railcraft:rail>, <minecraft:leather_helmet>, <railcraft:rail>]]);
-recipes.addShaped(<minecraft:leather_boots>, [[<ore:leather>, null, <ore:leather>], [<minecraft:leather>, <ore:itemFlint>.giveBack(), <ore:leather>]]);
-recipes.addShaped(<minecraft:leather_chestplate>, [[<minecraft:leather>, <minecraft:flint>.giveBack(), <minecraft:leather>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, <ore:leather>, <minecraft:leather>]]);
-recipes.addShaped(<minecraft:leather_leggings>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, <minecraft:flint>.giveBack(), <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>]]);
-recipes.addShaped(<minecraft:leather_helmet>, [[<minecraft:leather>, <minecraft:leather>, <ore:leather>], [<ore:leather>, <minecraft:flint>.giveBack(), <ore:leather>]]);
+recipes.addShaped(<minecraft:diamond_boots>, [[<mekanism:CompressedDiamond>, <chiselsandbits:bitsaw_diamond>, <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, <minecraft:iron_boots>, <mekanism:CompressedDiamond>]]);
+recipes.addShaped(<minecraft:diamond_leggings>, [[<mekanism:CompressedDiamond>, <chiselsandbits:bitsaw_diamond>, <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, <minecraft:iron_leggings>, <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, null, <mekanism:CompressedDiamond>]]);
+recipes.addShaped(<minecraft:diamond_chestplate>, [[<mekanism:CompressedDiamond>, <chiselsandbits:bitsaw_diamond>, <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, <minecraft:iron_chestplate>, <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, <mekanism:CompressedDiamond>, <mekanism:CompressedDiamond>]]);
+recipes.addShaped(<minecraft:diamond_helmet>, [[<mekanism:CompressedDiamond>, <mekanism:CompressedDiamond>, <mekanism:CompressedDiamond>], [<mekanism:CompressedDiamond>, <minecraft:iron_helmet>, <mekanism:CompressedDiamond>], [null, <chiselsandbits:bitsaw_diamond>, null]]);
+recipes.addShaped(<minecraft:chainmail_boots>, [[<railcraft:rail>, null, <railcraft:rail>], [<railcraft:rail>, <minecraft:leather_boots>, <railcraft:rail>]]);
+recipes.addShaped(<minecraft:chainmail_leggings>, [[<railcraft:rail>, null, <railcraft:rail>], [<railcraft:rail>, <minecraft:leather_leggings>, <railcraft:rail>], [<railcraft:rail>, null, <railcraft:rail>]]);
+recipes.addShaped(<minecraft:chainmail_chestplate>, [[<railcraft:rail>, null, <railcraft:rail>], [<railcraft:rail>, <minecraft:leather_chestplate>, <railcraft:rail>], [<railcraft:rail>, <railcraft:rail>, <railcraft:rail>]]);
+recipes.addShaped(<minecraft:chainmail_helmet>, [[<railcraft:rail>, null, <railcraft:rail>], [<railcraft:rail>, <minecraft:leather_helmet>, <railcraft:rail>]]);
+recipes.addShaped(<minecraft:leather_boots>, [[<ore:leather>, null, <ore:leather>], [<minecraft:leather>, <ore:itemFlint>, <ore:leather>]]);
+recipes.addShaped(<minecraft:leather_chestplate>, [[<minecraft:leather>, <minecraft:flint>, <minecraft:leather>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, <ore:leather>, <minecraft:leather>]]);
+recipes.addShaped(<minecraft:leather_leggings>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, <minecraft:flint>, <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>]]);
+recipes.addShaped(<minecraft:leather_helmet>, [[<minecraft:leather>, <minecraft:leather>, <ore:leather>], [<ore:leather>, <minecraft:flint>, <ore:leather>]]);
 recipes.addShaped(<minecraft:furnace>, [[<extrautils2:CompressedCobblestone>, <extrautils2:CompressedCobblestone>, <extrautils2:CompressedCobblestone>], [<extrautils2:CompressedCobblestone>, null, <extrautils2:CompressedCobblestone>], [<ore:itemClay>, <ore:sand>, <ore:itemClay>]]);
-recipes.addShaped(<minecraft:bookshelf>, [[<botania:livingwood:1>, <botania:livingwood:1>, <botania:livingwood:1>], [<enchiridion:book>, <enchiridion:book>, <enchiridion:book>], [<botania:livingwood:1>, <botania:livingwood:1>, <botania:livingwood:1>]]);
+recipes.addShaped(<minecraft:bookshelf>, [[<botania:livingwood:1>, <botania:livingwood:1>, <botania:livingwood:1>], [<minecraft:book>, <minecraft:book>, <minecraft:book>], [<botania:livingwood:1>, <botania:livingwood:1>, <botania:livingwood:1>]]);
 recipes.addShaped(<minecraft:beacon>, [[<ore:blockGlassHardened>, <botania:lens:22>, <ore:blockGlassHardened>], [<ore:blockGlassHardened>, <ore:netherStar>, <ore:blockGlassHardened>], [<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>]]);
 recipes.addShaped(<minecraft:beacon>, [[<ore:blockGlassHardened>, <botania:lens:22>, <ore:blockGlassHardened>], [<ore:blockGlassHardened>, <ore:netherStar>, <ore:blockGlassHardened>], [<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>]]);
 recipes.addShaped(<minecraft:brewing_stand>, [[<railcraft:rail>, <extrautils2:EnderShard>, <railcraft:rail>], [null, <ore:rodBlaze>, null], [<immersiveengineering:stoneDecorationSlab>, <immersiveengineering:stoneDecorationSlab>, <immersiveengineering:stoneDecorationSlab>]]);
