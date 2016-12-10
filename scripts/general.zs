@@ -1,5 +1,4 @@
 //Removals
-recipes.remove(<minecraft:minecart>);
 recipes.remove(<opencomputers:material:30> * 6);
 recipes.remove(<ic2:component_heat_vent>);
 recipes.remove(<environmentaltech:controller_solar_1>);

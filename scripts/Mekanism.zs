@@ -145,4 +145,3 @@ recipes.addShaped(<mekanism:GasTank>.withTag({tier: 3}), [[<ore:alloyUltimate>, 
 recipes.addShaped(<mekanism:GasTank>.withTag({tier: 2}), [[<ore:alloyElite>, <mekanism:CompressedDiamond>, <ore:alloyElite>], [<mekanism:CompressedDiamond>, <mekanism:GasTank>, <mekanism:CompressedDiamond>], [<ore:alloyElite>, <mekanism:CompressedDiamond>, <ore:alloyElite>]]);
 recipes.addShaped(<mekanism:GasTank>.withTag({tier: 1}), [[<ore:itemEnrichedAlloy>, <ore:itemCompressedCarbon>, <ore:itemEnrichedAlloy>], [<ore:itemCompressedCarbon>, <mekanism:GasTank>, <ore:itemCompressedCarbon>], [<ore:itemEnrichedAlloy>, <ore:itemCompressedCarbon>, <ore:itemEnrichedAlloy>]]);
 recipes.addShaped(<mekanism:GasTank>.withTag({tier: 0}), [[<mekanism:CompressedRedstone>,<mekanism:Ingot:1>, <mekanism:CompressedRedstone>], [<mekanism:Ingot:1>, <mekanism:MachineBlock2:11>.withTag({tier: 0}), <mekanism:Ingot:1>], [<mekanism:CompressedRedstone>, <mekanism:Ingot:1>, <mekanism:CompressedRedstone>]]);
-
