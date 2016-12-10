@@ -12,6 +12,9 @@ recipes.remove(<extrautils2:AngelRing:2>);
 recipes.remove(<baublesstuff:Upgrade_Stone>);
 recipes.remove(<baublesstuff:UpgradeExtractor>);
 recipes.remove(<p455w0rdsthings:carbon_jetpack>);
+recipes.remove(<baublesstuff:Ring_Magnet>);
+recipes.remove(<baublesstuff:Ring_NotLMagnet>);
+
 
 recipes.addShaped(<baublesstuff:Belt_Core>, [[<natura:materials:6>, <botania:manaResource:18>, <natura:materials:6>], [<botania:manaResource:18>, <botania:travelBelt>, <botania:manaResource:18>], [null, <natura:materials:6>, null]]);
 recipes.addShaped(<baublesstuff:Pendant_Core>, [[<ore:feather>, <botania:manaResource:18>, <ore:feather>], [<botania:manaResource:18>, <botania:bloodPendant>, <botania:manaResource:18>], [null, <minecraft:feather>, null]]);

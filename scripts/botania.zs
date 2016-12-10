@@ -37,6 +37,8 @@ mods.botania.ManaInfusion.addInfusion(<botania:manaResource>, <ore:ingotSteel>, 
 
 //Mana Powder requires vinteum dust
 mods.botania.ManaInfusion.removeRecipe(<botania:manaResource:23>);
+mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
+mods.botania.ManaInfusion.addInfusion(<botania:storage>,<ore:blockSteel>,25000);
 mods.botania.ManaInfusion.addInfusion(<botania:manaResource:23> * 4,<arsmagica2:item_ore>,3000);
 mods.botania.ManaInfusion.addInfusion(<arsmagica2:item_ore:8>,<minecraft:porkchop>,3500);
 
@@ -44,7 +46,7 @@ mods.botania.ManaInfusion.addInfusion(<arsmagica2:item_ore:8>,<minecraft:porkcho
 
 //Alchemy Catalyst
 mods.botania.ManaInfusion.addAlchemy(<ic2:misc_resource:3> * 64,<ic2:fluid_cell>.withTag({fluid: {FluidName: "ic2uu_matter", Amount: 1000}}), 50000);
-
+mods.botania.ManaInfusion.addAlchemy(<minecraft:prismarine_shard>,<minecraft:dye:4>, 1250);
 
 
 //Runic Altar

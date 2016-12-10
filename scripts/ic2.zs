@@ -33,13 +33,17 @@ mods.ic2.Compressor.addRecipe(<enderio:blockIngotStorage:3>,<enderio:itemAlloy:3
 mods.ic2.Compressor.addRecipe(<enderio:blockIngotStorage:2>,<enderio:itemAlloy:2> * 9);
 mods.ic2.Compressor.addRecipe(<enderio:blockIngotStorage:1>,<enderio:itemAlloy:1> * 9);
 mods.ic2.Compressor.addRecipe(<mekanism:BioFuel> * 32,<ic2:crafting:21>);
+mods.ic2.Compressor.addRecipe(<ic2:crafting:19>, <translocator:diamondNugget> * 9);
+mods.ic2.Compressor.addRecipe(<immersiveengineering:material:18>, <immersiveengineering:material:17> * 8);
 
 //Macerator
 mods.ic2.Macerator.addRecipe(<cookingplus:flour>, <minecraft:wheat>);
 mods.ic2.Macerator.addRecipe(<railcraft:dust:3>, <minecraft:coal:1>);
 mods.ic2.Macerator.addRecipe(<ic2:crushed:6> * 8, <bigreactors:brOre>);
-
-
+mods.ic2.Macerator.addRecipe(<immersiveengineering:metal:13> * 2,<immersiveengineering:ore:4>);
+mods.ic2.Macerator.addRecipe(<tconstruct:shard>.withTag({Material: "cobalt"}) * 4,<ore:oreCobalt>);
+mods.ic2.Macerator.addRecipe(<tconstruct:shard>.withTag({Material: "ardite"}) * 4,<ore:oreArdite>);
+mods.ic2.Macerator.addRecipe(<immersiveengineering:material:17>,<ore:fuelCoke>);
 
 //UU Matter Recipes
 recipes.addShaped(<ic2:dust:4> * 10, [[null, <ic2:misc_resource:3>], [<ic2:misc_resource:3>, <ic2:misc_resource:3>]]);
@@ -74,3 +78,4 @@ recipes.addShaped(<minecraft:grass> * 16, [[<ic2:misc_resource:3>], [<ic2:misc_r
 recipes.addShaped(<minecraft:snow> * 16, [[<ic2:misc_resource:3>, <ic2:misc_resource:3>]]);
 recipes.addShaped(<minecraft:stone> * 16, [[<ic2:misc_resource:3>]]);
 recipes.addShaped(<minecraft:log> * 8, [[<ic2:misc_resource:3>]]);
+recipes.addShaped(<draconicevolution:draconium_dust> * 16, [[null, <ic2:misc_resource:3>], [<ic2:misc_resource:3>, <minecraft:cobblestone>, <ic2:misc_resource:3>], [null,<ic2:misc_resource:3>]]);
