@@ -1,0 +1,344 @@
+{
+  "ore": [
+    {
+      "name": "IronCluster",
+      "type": "cluster",
+      "blocks": {
+        "minecraft:iron_ore" : 1
+      },
+      "genTries": 1,
+      "blockCount": 80,
+      "minHeight": 34,
+      "maxHeight": 56,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },
+    {
+      "name": "copperCluster",
+      "type": "cluster",
+      "blocks": {
+        "mekanism:OreBlock:1" : 1
+      },
+      "genTries": 1,
+      "blockCount": 60,
+      "minHeight": 50,
+      "maxHeight": 60,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },
+    {
+      "name": "tinCluster",
+      "type": "cluster",
+      "blocks": {
+        "ic2:resource:3" : 1
+      },
+      "genTries": 1,
+      "blockCount": 40,
+      "minHeight": 50,
+      "maxHeight": 60,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },
+    {
+      "name": "osmiumCluster",
+      "type": "cluster",
+      "blocks": {
+        "mekanism:OreBlock" : 1
+      },
+      "genTries": 1,
+      "blockCount": 20,
+      "minHeight": 5,
+      "maxHeight": 24,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },
+    {
+      "name": "redstoneCluster",
+      "type": "cluster",
+      "blocks": {
+        "minecraft:redstone_ore" : 1
+      },
+      "genTries": 1,
+      "blockCount": 20,
+      "minHeight": 5,
+      "maxHeight": 16,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },				
+    {
+      "name": "silverCluster",
+      "type": "cluster",
+      "blocks": {
+        "railcraft:ore:14" : 1
+      },
+      "genTries": 1,
+      "blockCount": 22,
+      "minHeight": 22,
+      "maxHeight": 34,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },		
+    {
+      "name": "quartz",
+      "type": "cluster",
+      "blocks": {
+        "appliedenergistics2:quartz_ore" : 1
+      },
+      "genTries": 1,
+      "blockCount": 26,
+      "minHeight": 36,
+      "maxHeight": 54,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },		
+    {
+      "name": "leadCluster",
+      "type": "cluster",
+      "blocks": {
+        "railcraft:ore:13" : 1
+      },
+      "genTries": 1,
+      "blockCount": 28,
+      "minHeight": 22,
+      "maxHeight": 34,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },			
+    {
+      "name": "gaianiteCluster",
+      "type": "cluster",
+      "blocks": {
+        "resourcefulcrops:BlockROre" : 1
+      },
+      "genTries": 1,
+      "blockCount": 28,
+      "minHeight": 8,
+      "maxHeight": 16,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },					
+	
+	
+	    {
+      "name": "uraniumCluster",
+      "type": "cluster",
+      "blocks": {
+        "ic2:resource:4" : 1
+      },
+      "genTries": 1,
+      "blockCount": 14,
+      "minHeight": 4,
+      "maxHeight": 11,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },		
+	    {
+      "name": "yelloriteCluster",
+      "type": "cluster",
+      "blocks": {
+        "bigreactors:brOre" : 1
+      },
+      "genTries": 1,
+      "blockCount": 14,
+      "minHeight": 4,
+      "maxHeight": 11,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },		
+
+	
+	    {
+      "name": "bauxiteCluster",
+      "type": "cluster",
+      "blocks": {
+        "immersiveengineering:ore:1" : 1
+      },
+      "genTries": 1,
+      "blockCount": 12,
+      "minHeight": 44,
+      "maxHeight": 62,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },		
+	{
+      "name": "lapislazuliCluster",
+      "type": "cluster",
+      "blocks": {
+        "minecraft:lapis_ore" : 1
+      },
+      "genTries": 1,
+      "blockCount": 8,
+      "minHeight": 5,
+      "maxHeight": 26,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    },		
+	{
+      "name": "diamondCluster",
+      "type": "cluster",
+      "blocks": {
+        "minecraft:diamond_ore" : 1
+      },
+      "genTries": 1,
+      "blockCount": 4,
+      "minHeight": 4,
+      "maxHeight": 16,
+      "params": {
+        "sparse": false
+      },
+      "replaceable": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:gravel"
+      ],
+      "chunkChance": 100,
+      "biomeRestriction": "none",
+      "biomes": [],
+      "dimensionsRestriction": "blacklist",
+      "dimensions": [-1,1]
+    }			
+  ]
+}

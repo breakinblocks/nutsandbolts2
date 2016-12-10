@@ -45,7 +45,6 @@
 
   "blackList": [
     "VillagerGolem",
-    "Villager",
-    "Cyberzombie"
+    "Villager"
   ]
 }
