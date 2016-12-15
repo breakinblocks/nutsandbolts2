@@ -16,7 +16,7 @@ BloodMagic-1.9.4-2.1.0-69.jar
 Bloodmoon-MC1.10.2-1.5.jar
 Bookshelf-1.10.2-1.4.3.339.jar
 Botania r1.9-339.jar
-BrandonsCore-1.10.2-2.1.1.22-universal-Custom.jar
+BrandonsCore-1.10.2-2.1.1.61-universal.jar
 Chameleon-1.10-2.2.0.jar
 Chisel-MC1.10.2-0.0.7.7.jar
 chiselsandbits-12.8.jar
@@ -28,20 +28,20 @@ CosmeticArmorReworked-1.10.2-v2a.jar
 covers-0.4.1.14-mc1.10.2.jar
 CraftTweaker-1.10.2-3.0.15.jar
 CustomMainMenu-MC1.10.2-2.0.2.jar
-cyberware-1.9.4-1.10.2-beta-0.2.4.jar
+cyberware-1.9.4-1.10.2-beta-0.2.5.jar
 DarkUtilities-1.10.2-1.1.6.99.jar
 deepresonance-1.10-1.3.1.jar
 DefaultOptions_1.10.2-6.1.5.jar
 Ding-1.10.2-1.0.0.jar
-Draconic-Evolution-1.10.2-2.0.4.38-universal-CUSTOM.jar
+Draconic-Evolution-1.10.2-2.0.3.137-universal.jar
 DrawersBits-1.10.2-0.35.jar
 DynamicSurroundingsUnofficial-1.10.2-3.0.6.1BETA.jar
 ElecCore-1.10.2-1.6.360.jar
 ElevatorMod[V.1.2.0][MC.1.10.2].jar
 embers-0.016.jar
 Enchiridion-1.10.2-3.1.12.jar
-EnderCore-1.10.2-0.4.1.60-beta.jar
-EnderIO-1.10.2-3.0.1.139_beta.jar
+EnderCore-1.10.2-0.4.1.61-beta.jar
+EnderIO-1.10.2-3.0.1.141_beta.jar
 EnderStorage-1.10.2-2.1.5.84-universal.jar
 EnderZoo-1.10-1.2.3.43.jar
 environmentaltech-1.10.2-0.10.5h.jar
@@ -78,9 +78,12 @@ JustEnoughResources-1.10.2-0.5.8.98.jar
 LunatriusCore-1.10.2-1.1.2.38-universal.jar
 Mantle-1.10.2-1.1.2.jar
 mcjtylib-1.10-2.2.0.jar
-MekanismAll-1.10.2-9.2.1.NAB2.jar
+Mekanism-1.10.2-9.2.1.295.jar
+MekanismGenerators-1.10.2-9.2.1.295.jar
+MekanismTools-1.10.2-9.2.1.295.jar
 MineTweakerRecipeMaker-1.10.2-1.2.1-custom.jar
 missing_pieces-1.10.2-4.1.1.jar
+MmmMmmMmmMmm-1.11.jar
 MobGrindingUtils-0.1.8.8.jar
 modlist.txt
 modnametooltip_1.10.2-1.6.0.jar
@@ -95,7 +98,6 @@ NetherMetals_1.9-1.1.2.jar
 notenoughwands-1.10-1.4.0.jar
 OpenComputers-MC1.10.2-1.6.0.4.jar
 OpenFM-1.9.4-0.1.0.15.jar
-p455w0rdsthings-1.10.2-1.2.9.jar
 pressure-1.3.1.20-mc1.10.2.jar
 Psi-r1.0-42.jar
 QuantumStorage-1.10.2-3.2.7.jar
@@ -105,7 +107,6 @@ RandomThings-MC1.10.2-3.7.7.jar
 rangedpumps-0.3.jar
 RebornCore-1.10.2-2.8.1.64-universal.jar
 RecurrentComplex-1.2.4.jar
-redstonepaste-mc1.9.4-1.7.4.jar
 ResourcefulCrops-1.9.4-1.3.3-55.jar
 ResourceLoader-MC1.9.4-1.5.1.jar
 rftools-1.10-5.62.jar
@@ -117,11 +118,11 @@ RTG-1.10.2-4.1.1.7.jar
 Signals-1.10.2-0.5.0-universal.jar
 Stackie-1.10.2-1.6.0.44-universal.jar
 StacksOnStacks2-1.1.4.jar
+StevesFactoryManager-1.10.2-1.0.11.jar
 StorageDrawers-1.10.2-3.5.6.jar
 Streams-1.9.4-0.3-NAB2.jar
 SuperCircuitMaker-1.0.4.jar
 TConstruct-1.10.2-2.6.0.jar
-Tesla-1.10.2-1.2.1.49.jar
 theoneprobe-1.10-1.3.3.jar
 TinkerToolLeveling-1.10.2-1.0.1.jar
 TombManyGraves-1.10.2-2.1.13.jar
@@ -129,7 +130,7 @@ topaddons-1.10.2-0.9.0.jar
 Translocators-1.10.2-2.1.3.34-universal.jar
 TrashSlot_1.10.2-6.3.6.jar
 valkyrielib-1.10.2-0.10.5e.jar
-ViesCraft-3.2.0a-mc1.10.2.jar
+ViesCraft-4.0.1a-mc1.10.2.jar
 vorbisspi-1.0.3-1.jar
 woot-1.10.2-1.2.1.jar
 worldedit-forge-mc1.10.2-6.1.4-dist.jar
