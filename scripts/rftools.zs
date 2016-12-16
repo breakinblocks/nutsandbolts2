@@ -32,7 +32,8 @@ recipes.removeShaped(<rftoolscontrol:craftingstation>, [[<ore:barsIron>, <rftool
 
 
 //Additions
-recipes.addShaped(<rftools:machine_frame>, [[<ore:plateSteel>, <ore:gearRedstone>, <ore:plateSteel>], [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}), <forestry:thermionicTubes:11>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte})], [<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>]]);
+recipes.addShaped(<rftools:machine_frame>, [[<ore:plateSteel>, null, <ore:plateSteel>], [<ore:itemEnrichedAlloy>, <forestry:thermionicTubes:11>, <ore:itemEnrichedAlloy>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
+recipes.addShaped(<rftools:machine_frame>, [[<ore:plateSteel>, <ore:gearRedstone>, <ore:plateSteel>], [<ic2:cable:2>.onlyWithTag({type: 2 as byte, insulation: 2 as byte}), <forestry:thermionicTubes:11>, <ic2:cable:2>.onlyWithTag({type: 2 as byte, insulation: 2 as byte})], [<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>]]);
 recipes.addShaped(<rftools:matter_receiver>, [[<ore:blockRedstone>, <ic2:plate:7>, <ore:blockRedstone>], [<ore:pearlFluix>, <rftools:machine_frame>, <ore:pearlFluix>], [<ore:plateSteel>, <mekanism:TeleportationCore>, <ore:plateSteel>]]);
 recipes.addShaped(<rftools:matter_transmitter>, [[<ore:blockRedstone>, <mekanism:TeleportationCore>, <ore:blockRedstone>], [<ore:pearlFluix>, <rftools:machine_frame>, <ore:pearlFluix>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<rftools:network_monitor>, [[<ore:alloyBasic>, <ore:paper>, <ore:alloyBasic>], [<ic2:casing:5>, <ic2:frequency_transmitter>, <ic2:casing:5>], [<ore:alloyBasic>, <ore:paper>, <ore:alloyBasic>]]);
@@ -56,4 +57,4 @@ recipes.addShaped(<rftools:charged_porter>, [[null, <enderio:itemFrankenSkull:3>
 recipes.addShaped(<rftools:remote_storage>, [[<appliedenergistics2:material:11>, <botania:enderHand>, <appliedenergistics2:material:11>], [<ore:circuitAdvanced>, <rftools:machine_frame>, <ore:circuitAdvanced>], [<appliedenergistics2:material:11>, <ore:gemDiamond>, <appliedenergistics2:material:11>]]);
 recipes.addShaped(<rftools:dimensional_shard> * 8, [[<ore:quartzBlaze>, <minecraft:prismarine_shard>, <ore:quartzBlaze>], [<minecraft:prismarine_shard>, <ore:manaPearl>, <minecraft:prismarine_shard>], [<ore:quartzBlaze>, <minecraft:prismarine_shard>, <ore:quartzBlaze>]]);
 recipes.addShaped(<rftools:machine_base>, [[<cookingplus:goldsheet>, <ore:gemRedstone>, <cookingplus:goldsheet>], [<ore:ingotSteel>, <rscircuits:resource:1>, <ore:ingotSteel>]]);
-recipes.addShaped(<rftools:shape_card:2>, [[<ore:eyeofredstone>, <ic2:iridium_drill:26>, <ore:eyeofredstone>], [<ic2:mining_laser:26>, <rftools:shape_card>, <ic2:mining_laser:26>], [<enderio:itemBasicCapacitor:2>, <draconicevolution:draconic_energy_core>, <enderio:itemBasicCapacitor:2>]]);
+recipes.addShaped(<rftools:shape_card:2>, [[<ore:eyeofredstone>, <immersiveengineering:drill>, <ore:eyeofredstone>], [<ic2:mining_laser:26>, <rftools:shape_card>, <ic2:mining_laser:26>], [<enderio:itemBasicCapacitor:2>, <cookingplus:laserdronebayblock>, <enderio:itemBasicCapacitor:2>]]);

@@ -50,4 +50,4 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:prismarine_shard>,<minecraft:dye
 
 
 //Runic Altar
-mods.botania.RuneAltar.addRecipe(<extrautils2:Drum:4>, [<appliedenergistics2:crafting_storage_64k>, <botania:rune:10>,<arsmagica2:mana_potion_bundle:771>,<extrautils2:Klein>,<ic2:fluid_cell>.withTag({fluid: {FluidName: "fusionfueldt", Amount: 1000}}),<extrautils2:Drum:1>.withTag({Fluid: {FluidName: "ic2uu_matter", Amount: 256000}})], 75000);
+mods.botania.RuneAltar.addRecipe(<pressure:CreativeSource>, [<appliedenergistics2:crafting_storage_64k>, <botania:rune:10>, <arsmagica2:mana_potion_bundle:771>, <extrautils2:Klein>, <ic2:fluid_cell>.withTag({fluid: {FluidName: "fusionfueldt", Amount: 1000}}), <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core> ], 75000);

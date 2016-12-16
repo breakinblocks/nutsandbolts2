@@ -11,7 +11,6 @@ recipes.remove(<extrautils2:AngelRing:3>);
 recipes.remove(<extrautils2:AngelRing:2>);
 recipes.remove(<baublesstuff:Upgrade_Stone>);
 recipes.remove(<baublesstuff:UpgradeExtractor>);
-recipes.remove(<p455w0rdsthings:carbon_jetpack>);
 recipes.remove(<baublesstuff:Ring_Magnet>);
 recipes.remove(<baublesstuff:Ring_NotLMagnet>);
 
@@ -32,4 +31,3 @@ recipes.addShaped(<extrautils2:AngelRing:2>, [[<minecraft:dye:9>, <extrautils2:A
 recipes.addShaped(<extrautils2:AngelRing>, [[<ore:runeAirB>, <arsmagica2:flicker_jar:5>, <arsmagica2:essence:5>], [<extrautils2:IneffableGlass:2>, <bloodmagic:ItemSigilAir>, <extrautils2:IneffableGlass:2>], [<extrautils2:IneffableGlass:2>, <draconicevolution:draconic_core>, <extrautils2:IneffableGlass:2>]]);
 recipes.addShaped(<baublesstuff:Upgrade_Stone>, [[<botania:livingrock>, <botania:manaResource:7>, <botania:livingrock>], [<enderio:itemMaterial:5>, <arsmagica2:essence:10>, <enderio:itemMaterial:5>], [<botania:livingrock>, <botania:manaResource:7>, <botania:livingrock>]]);
 recipes.addShaped(<baublesstuff:UpgradeExtractor>, [[<ore:livingrock>, <ore:gemPrismarine>, <ore:livingrock>], [<ore:ingotTerrasteel>, <baublesstuff:Upgrade_Stone>, <ore:ingotTerrasteel>], [<ore:livingrock>, <ore:gemPrismarine>, <ore:livingrock>]]);
-recipes.addShaped(<p455w0rdsthings:carbon_jetpack>, [[null, <gravisuite:ultimateLappack:26>, null], [<gravisuite:crafting:3>, <p455w0rdsthings:carbon_harness>, <gravisuite:crafting:3>], [<ic2:crafting:3>, <arsmagica2:air_sled>, <ic2:crafting:3>]]);
