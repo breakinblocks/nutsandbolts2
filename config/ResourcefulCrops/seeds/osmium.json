@@ -1,0 +1,25 @@
+{
+  "name": "osmium",
+  "tier": 2,
+  "craftAmount": 4,
+  "color": "#443CBE",
+  "inputOre": "ingotOsmium",
+  "outputs": [
+    {
+      "item": {
+        "id": {
+          "domain": "mekanism",
+          "path": "Ingot"
+        },
+        "amount": 4,
+        "meta": 1
+      },
+      "shape": "DEFAULT"
+    }
+  ],
+  "growthRequirement": {
+    "minLight": 7,
+    "maxLight": 15,
+    "requiredState": null
+  }
+}

@@ -1,0 +1,78 @@
+[
+    {
+        "mode": "ADD",
+        "result": "[draconicevolution:energy_storage_core]",
+        "catalyst": "[draconicevolution:draconium_capacitor]",
+        "energy": 1000000,
+        "tier": 0,
+        "ingredients": [
+            "[botania:rune]:11",
+            "[ic2:te]:75",
+            "[deepresonance:spent_filter]",
+            "[ic2:crafting]:4",
+            "[ic2:te]:39",
+            "[enderio:blockCapBank]:3"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[extrautils2:PassiveGenerator]:6",
+        "catalyst": "[extrautils2:PassiveGenerator]:8",
+        "energy": 5000000,
+        "tier": 2,
+        "ingredients": [
+            "[draconicevolution:dragon_heart]",
+            "[draconicevolution:dragon_heart]",
+            "[draconicevolution:dragon_heart]",
+            "[ic2:misc_resource]:3",
+            "[botania:manaResource]:14",
+            "[ic2:misc_resource]:3"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[rftools:powercell_creative]",
+        "catalyst": "[draconicevolution:energy_storage_core]",
+        "energy": 5000000,
+        "tier": 2,
+        "ingredients": [
+            "[ic2:nuclear]:3",
+            "[ic2:nuclear]:3",
+            "[ic2:nuclear]:3",
+            "[compactsolars:compact_solar_block]:2",
+            "[enderio:blockSolarPanel]:2",
+            "[extrautils2:PowerBattery]"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[appliedenergistics2:creative_energy_cell]",
+        "catalyst": "[appliedenergistics2:dense_energy_cell]",
+        "energy": 5000000,
+        "tier": 2,
+        "ingredients": [
+            "[draconicevolution:energy_storage_core]",
+            "[ic2:iridium_reflector]",
+            "[arsmagica2:flicker_jar]:6",
+            "[bigreactors:reactorController]",
+            "[gravisuite:crafting]:5",
+            "[ic2:misc_resource]:3"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "[cyberware:creativeBattery]",
+        "catalyst": "[cyberware:denseBattery]",
+        "energy": 5000000,
+        "tier": 2,
+        "ingredients": [
+            "[compactsolars:compact_solar_block]:2",
+            "[bloodmagic:ItemSlate]:3",
+            "[gravisuite:crafting]:5",
+            "[botania:manaResource]:5"
+        ]
+    }
+]
+
+
+

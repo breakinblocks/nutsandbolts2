@@ -1,0 +1,25 @@
+{
+  "name": "certus",
+  "tier": 2,
+  "craftAmount": 4,
+  "color": "#A8CCD0",
+  "inputOre": "crystalCertusQuartz",
+  "outputs": [
+    {
+      "item": {
+        "id": {
+          "domain": "appliedenergistics2",
+          "path": "material"
+        },
+        "amount": 4,
+        "meta": 0
+      },
+      "shape": "DEFAULT"
+    }
+  ],
+  "growthRequirement": {
+    "minLight": 7,
+    "maxLight": 15,
+    "requiredState": null
+  }
+}

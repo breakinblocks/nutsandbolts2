@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:cobblestone|0",
+      "emc": 0
+    },
+    {
+      "item": "chisel:cobblestoneextra|9",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cobblestone_wall|0",
+      "emc": 0
+    },
+    {
+      "item": "chisel:cobblestoneextra|8",
+      "emc": 0
+    },
+    {
+      "item": "astralsorcery:BlockMarble|0",
+      "emc": 1
+    }
+  ]
+}

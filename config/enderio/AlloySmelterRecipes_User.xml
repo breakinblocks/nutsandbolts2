@@ -27,5 +27,44 @@
 -->
 
 <AlloySmelterRecipes>
+  <recipeGroup name="NabTweaks" >
+    <recipe name="Inscriber Engineering Press" energyCost="150000" >
+      <input>
+        <itemStack oreDictionary="oc:materialCircuitBoardRaw" />
+        <itemStack oreDictionary="craftingInudstrialDiamond" />
+      </input>
+      <output>
+        <itemStack modID="appliedenergistics2" itemName="material" itemMeta="14" number="1" exp="0.05" />
+      </output>
+    </recipe>
+    <recipe name="Inscriber Calculation Press" energyCost="150000" >
+      <input>
+        <itemStack oreDictionary="oc:materialCircuitBoardRaw" />
+        <itemStack modID="appliedenergistics2" itemName="quartz_block" />
+      </input>
+      <output>
+        <itemStack modID="appliedenergistics2" itemName="material" itemMeta="13" number="1" exp="0.05" />
+      </output>
+    </recipe>
+    <recipe name="Inscriber Logic Press" energyCost="150000" >
+      <input>
+        <itemStack oreDictionary="oc:materialCircuitBoardRaw" />
+        <itemStack oreDictionary="cast" />
+      </input>
+      <output>
+        <itemStack modID="appliedenergistics2" itemName="material" itemMeta="15" number="1" exp="0.05" />
+      </output>
+    </recipe>
+    <recipe name="Inscriber Silicon Press" energyCost="150000" >
+      <input>
+        <itemStack oreDictionary="oc:materialCircuitBoardRaw" />
+        <itemStack oreDictionary="dustSiliconDioxide" />
+      </input>
+      <output>
+        <itemStack modID="appliedenergistics2" itemName="material" itemMeta="19" number="1" exp="0.05" />
+      </output>
+    </recipe>
+
+</recipeGroup>
 
 </AlloySmelterRecipes>

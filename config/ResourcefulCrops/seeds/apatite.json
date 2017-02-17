@@ -1,0 +1,25 @@
+{
+  "name": "apatite",
+  "tier": 2,
+  "craftAmount": 4,
+  "color": "#79BCD4",
+  "inputOre": "gemApatite",
+  "outputs": [
+    {
+      "item": {
+        "id": {
+          "domain": "forestry",
+          "path": "apatite"
+        },
+        "amount": 8,
+        "meta": 0
+      },
+      "shape": "DEFAULT"
+    }
+  ],
+  "growthRequirement": {
+    "minLight": 7,
+    "maxLight": 15,
+    "requiredState": null
+  }
+}
