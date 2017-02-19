@@ -9,8 +9,8 @@ Pack Goals:
 * help emphasize a play through that encourages the use of many mods
 * bring highly configured options, oregen, server and client settings to make the most of what each mod has to offer
 * continue to improve the pack with ongoing community involvement.
-* Balanced progression centered around gregtech
-* HQM Guided goals and objectives, completely optional
+* Balanced progression with an emphasis on infrastructure and cost vs utility.
+* Quest Guided goals and objectives, completely optional
 
 If you'd like to get involved feel free to join in here with pull requests or hop over to reddit.com/r/breakinblocks
 or join us directly on our discord! https://discord.gg/0gfDIprk6MU1KBBI
