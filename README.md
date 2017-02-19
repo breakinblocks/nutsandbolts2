@@ -4,7 +4,7 @@ This is an open world sandbox modpack developed purely with continued community 
 
 
 Pack Goals:
-* Offer an unrestrictive play of many of the most popular, as well as some lesser known mods.
+* Offer a progression oriented yet unrestrictive play of many of the most popular, as well as some lesser known mods.
 * minimize any recipe or design conflicts between mods
 * help emphasize a play through that encourages the use of many mods
 * bring highly configured options, oregen, server and client settings to make the most of what each mod has to offer
