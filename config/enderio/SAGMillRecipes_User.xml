@@ -97,5 +97,15 @@
 -->
 
 <SAGMillRecipes>
-
+  <recipeGroup name="Common Ores/Ingots/Blocks" >
+    <recipe name="AluminumOre" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="oreAluminum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustAluminum" number="2" />
+        <itemStack oreDictionary="dustTitanium" number="1" chance="0.15" />
+      </output>
+    </recipe>
+</recipeGroup>
 </SAGMillRecipes>

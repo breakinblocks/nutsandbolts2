@@ -31,7 +31,7 @@
     <recipe name="Inscriber Engineering Press" energyCost="150000" >
       <input>
         <itemStack oreDictionary="oc:materialCircuitBoardRaw" />
-        <itemStack oreDictionary="craftingInudstrialDiamond" />
+        <itemStack modID="ic2" itemName="crafting" itemMeta="19" />
       </input>
       <output>
         <itemStack modID="appliedenergistics2" itemName="material" itemMeta="14" number="1" exp="0.05" />
@@ -64,7 +64,17 @@
         <itemStack modID="appliedenergistics2" itemName="material" itemMeta="19" number="1" exp="0.05" />
       </output>
     </recipe>
-
+    <recipe name="Dawnstone Ingot" energyCost="50000" >
+      <input>
+        <itemStack oreDictionary="dustCopper" />
+        <itemStack oreDictionary="dustGold" />
+      </input>
+      <output>
+        <itemStack modID="embers" itemName="ingotDawnstone" number="1"  exp="0.05" />
+      </output>
+    </recipe>
 </recipeGroup>
+
+  <vanillaFurnaceRecipes enabled="false" />
 
 </AlloySmelterRecipes>

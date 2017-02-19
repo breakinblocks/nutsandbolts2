@@ -44,7 +44,7 @@ recipes.addShaped(<psi:cadBattery>, [[<ore:dustPsi>], [<ic2:re_battery:26>], [<i
 recipes.addShaped(<psi:cadSocket:4>, [[<rscircuits:resource:3>, <psi:material:1>, <ic2:casing:5>], [<psi:material:1>, <psi:material>, <psi:material:1>], [<ic2:casing:5>, <psi:material:1>, <rscircuits:resource:3>]]);
 recipes.addShaped(<psi:cadSocket:3>, [[<mekanism:MultipartTransmitter:17>, <psi:material:1>], [<psi:material:1>, <psi:material:2>]]);
 recipes.addShaped(<psi:cadSocket:2>, [[<rscircuits:resource:3>, <psi:material:1>, <psi:material:1>], [<psi:material:1>, <psi:material>, <ic2:casing:5>], [<psi:material:1>, <ic2:casing:5>, null]]);
-recipes.addShaped(<psi:cadSocket:1>, [[<railcraft:tool_signal_tuner>, <psi:material:1>], [<psi:material:1>, null]]);
+recipes.addShaped(<psi:cadSocket:1>, [[<extrautils2:decorativesolid:3>, <psi:material:1>], [<psi:material:1>, null]]);
 recipes.addShaped(<psi:cadSocket>, [[<ore:dustPsi>, <ic2:casing:5>], [<ic2:casing:5>, null]]);
 recipes.addShaped(<psi:cadCore:4>, [[<minecraft:redstone>, <psi:material:1>, <minecraft:redstone>], [<psi:material:2>, <psi:cadCore>, <psi:material:2>], [<minecraft:glowstone_dust>, <psi:material:1>, <minecraft:glowstone_dust>]]);
 recipes.addShaped(<psi:cadCore:3>, [[<minecraft:redstone>, <psi:material:2>, <minecraft:redstone>], [<psi:material:1>, <psi:cadCore>, <psi:material:1>], [<minecraft:redstone>, <psi:material:2>, <minecraft:redstone>]]);

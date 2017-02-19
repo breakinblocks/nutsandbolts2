@@ -1,21 +1,25 @@
 // ======================================================================================
 //#IC2
+
+//Plates
+mods.ic2.MetalFormer.addRollingRecipe(<embers:ingotDawnstone>, <embers:plateDawnstone>);
+
 //Compressor
 mods.ic2.Compressor.addRecipe(<mekanism:CompressedDiamond>, <ore:dustDiamond>);
-
+mods.ic2.Compressor.addRecipe(<deepresonance:resonating_ore>,<embers:crystalEmber> * 4);
 
 //Blocks
-mods.ic2.Compressor.addRecipe(<minecraft:diamond_block>, <minecraft:diamond> * 9);
-mods.ic2.Compressor.addRecipe(<minecraft:lapis_block>, <minecraft:dye:4> * 9);
+recipes.remove(<minecraft:coal_block>);
+recipes.remove(<minecraft:iron_block>);
+recipes.remove(<minecraft:gold_block>);
+recipes.remove(<minecraft:redstone_block>);
+
 mods.ic2.Compressor.addRecipe(<minecraft:iron_block>, <ore:ingotIron> * 9);
-mods.ic2.Compressor.addRecipe(<minecraft:emerald_block>, <minecraft:emerald> * 9);
-mods.ic2.Compressor.addRecipe(<minecraft:nether_wart_block>, <minecraft:nether_wart> * 9);
 mods.ic2.Compressor.addRecipe(<minecraft:coal_block>, <minecraft:coal> * 9);
 mods.ic2.Compressor.addRecipe(<mekanism:BasicBlock:3>, <minecraft:coal:1> * 9);
-mods.ic2.Compressor.addRecipe(<minecraft:quartz_block>, <minecraft:quartz> * 9);
 mods.ic2.Compressor.addRecipe(<minecraft:redstone_block>, <minecraft:redstone> * 9);
 mods.ic2.Compressor.addRecipe(<immersiveengineering:storage:3>, <ore:ingotSilver> *9);
-mods.ic2.Compressor.addRecipe(<bigreactors:blockMetals>, <bigreactors:ingotMetals> * 9);
+mods.ic2.Compressor.addRecipe(<bigreactors:blockmetals>, <bigreactors:ingotmetals> * 9);
 mods.ic2.Compressor.addRecipe(<mekanism:BasicBlock>, <mekanism:Ingot:1> * 9);
 mods.ic2.Compressor.addRecipe(<tconstruct:throwball:1>,<appliedenergistics2:tiny_tnt> * 3);
 mods.ic2.Compressor.addRecipe(<arsmagica2:block:1>,<arsmagica2:item_ore:2> * 9);
@@ -37,13 +41,12 @@ mods.ic2.Compressor.addRecipe(<ic2:crafting:19>, <translocator:diamondNugget> * 
 mods.ic2.Compressor.addRecipe(<immersiveengineering:material:18>, <immersiveengineering:material:17> * 8);
 
 //Macerator
-mods.ic2.Macerator.addRecipe(<cookingplus:flour>, <minecraft:wheat>);
-mods.ic2.Macerator.addRecipe(<railcraft:dust:3>, <minecraft:coal:1>);
-mods.ic2.Macerator.addRecipe(<ic2:crushed:6> * 8, <bigreactors:brOre>);
+mods.ic2.Macerator.addRecipe(<ic2:crushed:6> * 8, <bigreactors:brore>);
 mods.ic2.Macerator.addRecipe(<immersiveengineering:metal:13> * 2,<immersiveengineering:ore:4>);
 mods.ic2.Macerator.addRecipe(<tconstruct:shard>.withTag({Material: "cobalt"}) * 4,<ore:oreCobalt>);
 mods.ic2.Macerator.addRecipe(<tconstruct:shard>.withTag({Material: "ardite"}) * 4,<ore:oreArdite>);
 mods.ic2.Macerator.addRecipe(<immersiveengineering:material:17>,<ore:fuelCoke>);
+mods.ic2.Macerator.addRecipe(<embers:crystalEmber> * 4,<ore:oreResonating>);
 
 //UU Matter Recipes
 recipes.addShaped(<ic2:dust:4> * 10, [[null, <ic2:misc_resource:3>], [<ic2:misc_resource:3>, <ic2:misc_resource:3>]]);
@@ -79,3 +82,6 @@ recipes.addShaped(<minecraft:snow> * 16, [[<ic2:misc_resource:3>, <ic2:misc_reso
 recipes.addShaped(<minecraft:stone> * 16, [[<ic2:misc_resource:3>]]);
 recipes.addShaped(<minecraft:log> * 8, [[<ic2:misc_resource:3>]]);
 recipes.addShaped(<draconicevolution:draconium_dust> * 16, [[null, <ic2:misc_resource:3>], [<ic2:misc_resource:3>, <minecraft:cobblestone>, <ic2:misc_resource:3>], [null,<ic2:misc_resource:3>]]);
+
+recipes.addShapeless(<ic2:misc_resource:3> * 64, [<forge:bucketFilled>.withTag({FluidName: "ic2uu_matter", Amount: 1000})]);
+
