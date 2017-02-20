@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "passive": "true",
+    "dimension": 6,
+    "result": "deny"
+  }
+]
