@@ -284,6 +284,8 @@ recipes.addShapeless(<chisel:marbleextra:7>, [<ore:blockMarble>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ic2:scaffold:2> * 8, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<minecraft:iron_bars>, <ore:barsIron>, <ore:barsIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<extrautils2:machine>, [[<ic2:resource:11>, <ore:stickAluminum>, <ic2:resource:11>], [<ore:stickAluminum>, <deepresonance:resonating_plate>, <ore:stickAluminum>], [<ic2:resource:11>, <ore:stickAluminum>, <ic2:resource:11>]]);
 recipes.addShaped(<embers:tinkerHammer>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <forestry:oakStick>, <ore:ingotTin>], [null, <forestry:oakStick>, null]]);
 recipes.addShaped(<mekanismgenerators:Reactor>, [[<advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>], [<mekanismgenerators:Reactor:1>, <draconicevolution:awakened_core>, <mekanismgenerators:Reactor:1>], [<mekanismgenerators:Reactor:1>, <mekanismgenerators:Reactor:1>, <mekanismgenerators:Reactor:1>]]);
 recipes.addShaped(<mekanismgenerators:Reactor:1>, [[<ore:ingotTungsteel>, <mekanism:BasicBlock:8>, <ore:ingotTungsteel>], [<mekanism:BasicBlock:8>, <ore:ingotLudicrite>, <mekanism:BasicBlock:8>], [<ore:ingotTungsteel>, <mekanism:BasicBlock:8>, <ore:ingotTungsteel>]]);

@@ -24,4 +24,11 @@ mineral.addTooltip("Processed in the Mineral Analyzer");
 
 //Metal Alloyer
 mods.atmrockhounding.MetalAlloyer.addRecipe(<embers:ingotDawnstone>*2,<ore:dustCopper>,<ore:dustGold>);
-mods.atmrockhounding.MetalAlloyer.addRecipe(<bigreactors:ingotmetals>*9,<bigreactors:dustmetals>*4,<ore:dustThorium>);
+mods.atmrockhounding.MetalAlloyer.addRecipe(<bigreactors:ingotmetals>*9,<ore:dustYellorium>*4,<ore:dustThorium>);
+
+mods.atmrockhounding.MetalAlloyer.addRecipe(<immersiveengineering:metal:7>*2,<ore:dustGold>,<ore:dustSilver>);
+
+mods.atmrockhounding.MetalAlloyer.remove(<atmrockhounding:ingot:16>*9,null);
+mods.atmrockhounding.MetalAlloyer.addRecipe(<atmrockhounding:ingot:16>*9,<ore:dustSteel>*5,<ore:dustTungsten>*2,<ore:dustChromium>,<ore:dustCobalt>);
+mods.atmrockhounding.MetalAlloyer.addRecipe(<ic2:ingot:1>*4,<ore:dustCopper>*3,<ore:dustTin>);
+
