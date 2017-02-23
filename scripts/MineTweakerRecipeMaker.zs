@@ -12,6 +12,14 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<botania:alfheimPortal>);
+recipes.remove(<rftools:shape_card:2>);
+recipes.remove(<appliedenergistics2:charger>);
+recipes.remove(<rftools:powercell_simple>);
+recipes.remove(<actuallyadditions:itemMiningLens>);
+recipes.remove(<extrautils2:ingredients:8>);
+recipes.remove(<mekanism:MachineBlock:4>);
+recipes.remove(<mekanism:MachineBlock:4>);
 recipes.remove(<embers:tinkerHammer>);
 recipes.remove(<embers:tinkerHammer>);
 recipes.remove(<mekanismgenerators:Reactor>);
@@ -284,6 +292,18 @@ recipes.addShapeless(<chisel:marbleextra:7>, [<ore:blockMarble>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:bucket>, [[<ic2:ingot:6>, null, <ic2:ingot:6>], [<embers:brickCaminite>, null, <embers:brickCaminite>], [<ic2:ingot:6>, <embers:brickCaminite>, <ic2:ingot:6>]]);
+recipes.addShaped(<mekanismgenerators:Generator:7>, [[<advancedrocketry:productplate:1>, <ic2:crafting:34>, <ore:plateTitaniumIridium>], [<actuallyadditions:blockCrystalEmpowered>, <bigreactors:minerals>, <actuallyadditions:blockCrystalEmpowered>], [<advancedrocketry:productplate:1>, <ic2:crafting:34>, <ore:plateTitaniumIridium>]]);
+recipes.addShaped(<mekanismgenerators:TurbineBlade>, [[<ore:alloyUltimate>, <advanced_solar_panels:crafting:9>, <ore:alloyUltimate>], [<advanced_solar_panels:crafting:9>, <ic2:crafting:34>, <advanced_solar_panels:crafting:9>], [<ore:alloyUltimate>, <advanced_solar_panels:crafting:9>, <ore:alloyUltimate>]]);
+recipes.addShaped(<mekanismgenerators:Generator:10> * 2, [[<ore:ingotTungsteel>, <ore:ingotBlutonium>, <ore:ingotTungsteel>], [<actuallyadditions:blockCrystalEmpowered:2>, <bigreactors:minerals:1>, <actuallyadditions:blockCrystalEmpowered:2>], [<ore:ingotTungsteel>, <bigreactors:ingotmetals:3>, <ore:ingotTungsteel>]]);
+recipes.addShaped(<botania:alfheimPortal>, [[<ic2:resource:11>, <ore:ingotTerrasteel>, <ic2:resource:11>], [<arsmagica2:essence:8>, <roots:logWildwoodSymbolGlowing>, <arsmagica2:essence:8>], [<ic2:resource:11>, <ore:ingotTerrasteel>, <ic2:resource:11>]]);
+recipes.addShaped(<rftools:shape_card:2>, [[<ic2:crafting:19>, <advanced_solar_panels:crafting:7>, <ic2:crafting:19>], [<ic2:mining_laser:26>, <rftools:shape_card>, <ic2:mining_laser:26>], [<ic2:crafting:19>, <rftools:powercell>, <ore:gemDiamond>]]);
+recipes.addShaped(<appliedenergistics2:charger>, [[<ore:plateSteel>, <extrautils2:decorativeglass:5>, <ic2:cable:1>], [null, null, <ic2:cable:1>], [<ic2:plate:7>, <extrautils2:decorativeglass:5>, <ic2:cable:1>]]);
+recipes.addShaped(<rftools:powercell_simple>, [[<ore:blockRedstone>, <extrautils2:decorativeglass:5>, <ore:blockRedstone>], [<ic2:plate:3>, <appliedenergistics2:fluix_block>, <ic2:plate:3>], [<ore:blockRedstone>, <extrautils2:decorativeglass:5>, <ore:blockRedstone>]]);
+recipes.addShaped(<actuallyadditions:itemMiningLens>, [[<ore:ingotOsmiridium>, <ore:ingotTitaniumAluminide>, <ore:ingotOsmiridium>], [<extrautils2:ingredients:8>, <actuallyadditions:itemMisc:18>, <extrautils2:ingredients:8>], [<ore:ingotOsmiridium>, <ore:ingotTitaniumAluminide>, <ore:ingotOsmiridium>]]);
+recipes.addShaped(<extrautils2:ingredients:8>, [[<minecraft:diamond_pickaxe>, <ore:xuUpgradeBlank>, <minecraft:diamond_shovel>]]);
+recipes.addShaped(<extrautils2:quarry>, [[<atmrockhounding:ingot:16>, <ic2:charging_lapotron_crystal:1>, <ore:ingotOsmiridium>], [<ic2:mining_laser:26>, <ore:netherStar>, <ic2:mining_laser:26>], [<ore:ingotOsmiridium>, <enderio:blockCapBank:3>, <ore:ingotTungsteel>]]);
+recipes.addShaped(<mekanism:MachineBlock:4>, [[<ore:alloyUltimate>, <ore:circuitAdvanced>, <ore:alloyUltimate>], [<mekanism:MachineBlock:15>, <enderio:itemBasicCapacitor:2>, <mekanism:MachineBlock:15>], [<advanced_solar_panels:crafting:8>, <mekanism:MachineBlock:11>, <advanced_solar_panels:crafting:8>]]);
 recipes.addShaped(<ic2:scaffold:2> * 8, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<minecraft:iron_bars>, <ore:barsIron>, <ore:barsIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<extrautils2:machine>, [[<ic2:resource:11>, <ore:stickAluminum>, <ic2:resource:11>], [<ore:stickAluminum>, <deepresonance:resonating_plate>, <ore:stickAluminum>], [<ic2:resource:11>, <ore:stickAluminum>, <ic2:resource:11>]]);
 recipes.addShaped(<embers:tinkerHammer>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <forestry:oakStick>, <ore:ingotTin>], [null, <forestry:oakStick>, null]]);
@@ -510,7 +530,6 @@ recipes.addShaped(<botania:fertilizer> * 16, [[<minecraft:dye:15>, <embers:dustA
 recipes.addShaped(<embers:blockCaminiteBrick>, [[null, <embers:brickCaminite>, null], [<embers:brickCaminite>, <ore:blockSeared>, <embers:brickCaminite>], [null, <embers:brickCaminite>, null]]);
 recipes.addShaped(<immersiveengineering:metalDevice1:7>, [[<immersiveengineering:metalDecoration0:5>, <ore:ingotOsmiridium>, <immersiveengineering:metalDecoration0:5>], [<ore:blockDawnstone>, <ore:ingotOsmiridium>, <ore:blockDawnstone>], [<ore:gearSteel>, <immersiveengineering:drillhead>, <ore:gearSteel>]]);
 recipes.addShaped(<immersiveengineering:stoneDecoration> * 2, [[<actuallyadditions:itemMisc:10>, <ore:ingotBrickNether>, <actuallyadditions:itemMisc:10>], [<ore:ingotBrickNether>, <ore:ingotBrickSeared>, <ore:ingotBrickNether>], [<actuallyadditions:itemMisc:10>, <ore:ingotBrickNether>, <actuallyadditions:itemMisc:10>]]);
-recipes.addShaped(<forestry:sturdyMachine>, [[<ore:hardenedClay>, <forestry:gearTin>, <ore:hardenedClay>], [<forestry:gearCopper>, <minecraft:lava_bucket>, <forestry:gearCopper>], [<ore:hardenedClay>, <forestry:gearTin>, <ore:hardenedClay>]]);
 recipes.addShaped(<ic2:dust:6> * 9, [[<ore:dustDiamond>, <ore:dustGlowstone>, <ore:dustDiamond>], [<ore:dustRedstone>, <ore:quartzRed>, <ore:dustRedstone>], [<ore:dustRedstone>, <ore:dustDiamond>, <ore:dustRedstone>]]);
 recipes.addShaped(<botania:quartz:4> * 2, [[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], [<ore:dustRedstone>, <ore:crystalNetherQuartz>, <ore:dustRedstone>], [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]]);
 recipes.addShaped(<advancedrocketry:hotTurf>, [[<ic2:dust:8>, <minecraft:sand>, <ic2:dust:8>], [<minecraft:sand>, <mekanism:OtherDust:3>, <minecraft:sand>], [<ic2:dust:8>, <minecraft:sand>, <ic2:dust:8>]]);

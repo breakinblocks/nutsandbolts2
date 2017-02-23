@@ -37,7 +37,6 @@ mods.ic2.Compressor.addRecipe(<enderio:blockIngotStorage:3>,<enderio:itemAlloy:3
 mods.ic2.Compressor.addRecipe(<enderio:blockIngotStorage:2>,<enderio:itemAlloy:2> * 9);
 mods.ic2.Compressor.addRecipe(<enderio:blockIngotStorage:1>,<enderio:itemAlloy:1> * 9);
 mods.ic2.Compressor.addRecipe(<mekanism:BioFuel> * 32,<ic2:crafting:21>);
-mods.ic2.Compressor.addRecipe(<ic2:crafting:19>, <translocator:diamondNugget> * 9);
 mods.ic2.Compressor.addRecipe(<immersiveengineering:material:18>, <immersiveengineering:material:17> * 8);
 
 //Macerator
