@@ -18,6 +18,10 @@ recipes.remove(<bigreactors:reactorcasingcores>);
 recipes.remove(<bigreactors:blockmetals>);
 
 
+
+//Information
+<bigreactors:ingotmetals>.addTooltip("Must be alloyed with thorium in a Metal Alloyer or Alloy Smelter");
+
 //Additions
 recipes.addShaped(<bigreactors:reactorglass> * 2, [[<enderio:blockFusedQuartz:2>, <bigreactors:reactorcasing>, <enderio:blockFusedQuartz:2>]]);
 recipes.addShaped(<bigreactors:reactorcasing> * 4, [[<ore:plateSteel>, <ore:ingotGraphite>, <ore:plateSteel>], [<ore:ingotGraphite>, <bigreactors:reactorcasingcores>, <ore:ingotGraphite>], [<ore:plateSteel>, <ore:ingotGraphite>, <ore:plateSteel>]]);

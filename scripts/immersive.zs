@@ -1,7 +1,10 @@
 //Arc Furnace
 //OutputStack, InputStack, SlagOutput, Time in Ticks, Energy per Tick, AdditiveArray, RecipeTypeString //Either create your own NEI pages with custom strings or use original ones
+mods.immersiveengineering.ArcFurnace.removeRecipe(<bigreactors:ingotmetals>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<bigreactors:ingotmetals> * 2);
 mods.immersiveengineering.ArcFurnace.addRecipe(<plustic:osmiridiumingot>, <ore:dustOsmium>, <immersiveengineering:material:7>, 6400, 2500, [<ore:dustIridium>], "Purifying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<draconicevolution:draconium_ingot>, <ore:dustThorium>, <immersiveengineering:material:7>, 30000, 200, [<ore:dustIridium>], "Purifying");
+
 
 //Crusher
 //OutputStack1, InputStack, Energy, OutputStack2, OutputStack2Chance //Chance in Decimals
