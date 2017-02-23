@@ -81,7 +81,5 @@ recipes.addShaped(<minecraft:grass> * 16, [[<ic2:misc_resource:3>], [<ic2:misc_r
 recipes.addShaped(<minecraft:snow> * 16, [[<ic2:misc_resource:3>, <ic2:misc_resource:3>]]);
 recipes.addShaped(<minecraft:stone> * 16, [[<ic2:misc_resource:3>]]);
 recipes.addShaped(<minecraft:log> * 8, [[<ic2:misc_resource:3>]]);
-recipes.addShaped(<draconicevolution:draconium_dust> * 16, [[null, <ic2:misc_resource:3>], [<ic2:misc_resource:3>, <minecraft:cobblestone>, <ic2:misc_resource:3>], [null,<ic2:misc_resource:3>]]);
 
-recipes.addShapeless(<ic2:misc_resource:3> * 64, [<forge:bucketFilled>.withTag({FluidName: "ic2uu_matter", Amount: 1000})]);
 

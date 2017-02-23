@@ -66,4 +66,4 @@ recipes.addShaped(<psi:psimetalExosuitHelmet>, [[<ore:ingotPsi>, <psi:material:1
 recipes.addShaped(<psi:psimetalExosuitChestplate>, [[<ore:ingotPsi>, null, <ore:ingotPsi>], [<ore:gemPsi>, <minecraft:iron_chestplate>, <ore:gemPsi>], [<psi:material:1>, <ore:ingotPsi>, <psi:material:1>]]);
 recipes.addShaped(<psi:psimetalExosuitBoots>, [[<ore:ingotPsi>, <ore:ingotPsi>, <ore:ingotPsi>], [<ore:gemPsi>, <minecraft:iron_boots>, <ore:gemPsi>]]);
 recipes.addShaped(<psi:psimetalExosuitLeggings>, [[<ore:ingotPsi>, <ore:ingotPsi>, <ore:ingotPsi>], [<ore:gemPsi>, <minecraft:iron_leggings>, <ore:gemPsi>], [<ore:ingotPsi>, null, <ore:ingotPsi>]]);
-recipes.addShaped(<psi:cadAssembler>, [[<ore:nuggetTerrasteel>, null, <ore:nuggetTerrasteel>], [<ore:nuggetTerrasteel>, <ore:oc:pistonUpgrade>, <ore:nuggetTerrasteel>], [<ic2:casing:5>, <arsmagica2:greater_focus>, <ic2:casing:5>]]);
+recipes.addShaped(<psi:cadAssembler>, [[<ore:nuggetDawnstone>, null, <ore:nuggetDawnstone>], [<ore:nuggetDawnstone>, <ore:oc:pistonUpgrade>, <ore:nuggetDawnstone>], [<ic2:casing:5>, <arsmagica2:greater_focus>, <ic2:casing:5>]]);

@@ -94,7 +94,7 @@ recipes.addShaped(<minecraft:brewing_stand>, [[<minecraft:iron_bars>, <extrautil
 recipes.addShaped(<minecraft:dye:15>, [[<minecraft:bone>]]);
 recipes.addShaped(<minecraft:bow>, [[null, <ore:stickTreatedWood>, <ore:string>], [<ore:stickTreatedWood>, null, <ore:string>], [null, <ore:stickTreatedWood>, <ore:string>]]);
 recipes.addShaped(<minecraft:end_crystal>, [[<botania:elfGlass>, <botania:elfGlass>, <botania:elfGlass>], [<draconicevolution:infused_obsidian>, <ore:netherStar>, <draconicevolution:infused_obsidian>], [<botania:elfGlass>, <minecraft:ghast_tear>, <botania:elfGlass>]]);
-recipes.addShaped(<minecraft:cauldron>, [[<ic2:plate:3>, null, <ic2:plate:3>], [<ic2:plate:3>, null, <ic2:plate:3>], [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
+recipes.addShaped(<minecraft:cauldron>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>]]);
 recipes.addShaped(<minecraft:elytra>, [[null, <enderio:itemGliderWing>, <minecraft:end_rod>], [<ore:bEnderAirBottle>, <ic2:misc_resource:1>, <enderio:itemGliderWing>], [<minecraft:end_rod>, <ore:bEnderAirBottle>]]);
 

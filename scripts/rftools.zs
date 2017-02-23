@@ -20,7 +20,6 @@ recipes.remove(<rftools:advanced_charged_porter>);
 recipes.remove(<rftools:remote_storage>);
 recipes.remove(<rftools:coalgenerator>);
 recipes.remove(<rftools:machine_base>);
-recipes.remove(<rftools:machine_frame>);
 recipes.remove(<rftools:shape_card:2>);
 
 
@@ -30,8 +29,6 @@ recipes.remove(<rftools:shape_card:2>);
 
 
 //Additions
-recipes.addShaped(<rftools:machine_frame>, [[<ore:plateSteel>, null, <ore:plateSteel>], [<ore:itemEnrichedAlloy>, <forestry:thermionicTubes:11>, <ore:itemEnrichedAlloy>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
-recipes.addShaped(<rftools:machine_frame>, [[<ore:plateSteel>, <ore:gearRedstone>, <ore:plateSteel>], [<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}), <forestry:thermionicTubes:11>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte})], [<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>]]);
 recipes.addShaped(<rftools:matter_receiver>, [[<ore:blockRedstone>, <ic2:plate:7>, <ore:blockRedstone>], [<ore:pearlFluix>, <rftools:machine_frame>, <ore:pearlFluix>], [<ore:plateSteel>, <mekanism:TeleportationCore>, <ore:plateSteel>]]);
 recipes.addShaped(<rftools:matter_transmitter>, [[<ore:blockRedstone>, <mekanism:TeleportationCore>, <ore:blockRedstone>], [<ore:pearlFluix>, <rftools:machine_frame>, <ore:pearlFluix>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<rftools:network_monitor>, [[<ore:alloyBasic>, <ore:paper>, <ore:alloyBasic>], [<ic2:casing:5>, <ic2:frequency_transmitter>, <ic2:casing:5>], [<ore:alloyBasic>, <ore:paper>, <ore:alloyBasic>]]);
