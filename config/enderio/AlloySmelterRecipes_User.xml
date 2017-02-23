@@ -73,6 +73,15 @@
         <itemStack modID="embers" itemName="ingotDawnstone" number="1"  exp="0.05" />
       </output>
     </recipe>
+    <recipe name="Yellorium Ingots" energyCost="20000" >
+      <input>
+        <itemStack oreDictionary="dustYellorium" number="4" />
+        <itemStack oreDictionary="dustThorium" />
+      </input>
+      <output>
+        <itemStack modID="bigreactors" itemName="ingotmetals" number="9"  exp="0.15" />
+      </output>
+    </recipe>
 </recipeGroup>
 
   <vanillaFurnaceRecipes enabled="false" />
