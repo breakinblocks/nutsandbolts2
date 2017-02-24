@@ -1,4 +1,7 @@
 //Removals
+recipes.remove(<mekanismgenerators:TurbineBlade>);
+recipes.remove(<mekanismgenerators:Generator:10>);
+recipes.remove(<mekanismgenerators:Generator:7>);
 recipes.remove(<mekanism:MachineBlock:8>);
 recipes.remove(<mekanism:BasicBlock:1>);
 recipes.remove(<mekanism:BasicBlock:13>);
@@ -93,9 +96,25 @@ recipes.remove(<mekanism:MultipartTransmitter:3>);
 recipes.remove(<mekanism:MultipartTransmitter:2>);
 recipes.remove(<mekanism:MultipartTransmitter:1>);
 recipes.remove(<mekanism:MultipartTransmitter>);
+recipes.remove(<mekanism:MachineBlock:4>);
+recipes.remove(<mekanism:MachineBlock:4>);
+recipes.remove(<mekanismgenerators:Reactor>);
+recipes.remove(<mekanismgenerators:Reactor:1>);
+recipes.remove(<mekanism:MachineBlock2:10>);
+
 
 
 //Additions
+recipes.addShaped(<mekanism:MultipartTransmitter:3> * 8, [[<enderio:itemPowerConduit:2>, <enderio:itemPowerConduit:2>], [<ic2:misc_resource:3>, <ic2:misc_resource:3>], [<enderio:itemPowerConduit:2>, <enderio:itemPowerConduit:2>]]);
+recipes.addShaped(<mekanism:MachineBlock2:10>, [[<ore:ingotNichrome>, <actuallyadditions:itemCrystal:4>, <ore:ingotNichrome>], [<mekanism:ControlCircuit:1>, <mekanism:MachineBlock>, <mekanism:ControlCircuit:1>], [<extrautils2:drum:2>, <mekanism:BasicBlock:9>, <extrautils2:drum:2>]]);
+recipes.addShaped(<mekanism:Salt>, [[<minecraft:water_bucket>]]);
+recipes.addShaped(<mekanismgenerators:Reactor>, [[<advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:5>], [<mekanismgenerators:Reactor:1>, <draconicevolution:awakened_core>, <mekanismgenerators:Reactor:1>], [<mekanismgenerators:Reactor:1>, <mekanismgenerators:Reactor:1>, <mekanismgenerators:Reactor:1>]]);
+recipes.addShaped(<mekanismgenerators:Reactor:1>, [[<ore:ingotTungsteel>, <mekanism:BasicBlock:8>, <ore:ingotTungsteel>], [<mekanism:BasicBlock:8>, <ore:ingotLudicrite>, <mekanism:BasicBlock:8>], [<ore:ingotTungsteel>, <mekanism:BasicBlock:8>, <ore:ingotTungsteel>]]);
+recipes.addShaped(<mekanism:MachineBlock:4>, [[<ore:alloyUltimate>, <ore:circuitAdvanced>, <ore:alloyUltimate>], [<mekanism:MachineBlock:15>, <enderio:itemBasicCapacitor:2>, <mekanism:MachineBlock:15>], [<advanced_solar_panels:crafting:8>, <mekanism:MachineBlock:11>, <advanced_solar_panels:crafting:8>]]);
+recipes.addShaped(<mekanismgenerators:Generator:7>, [[<advancedrocketry:productplate:1>, <ic2:crafting:34>, <ore:plateTitaniumIridium>], [<actuallyadditions:blockCrystalEmpowered>, <bigreactors:minerals>, <actuallyadditions:blockCrystalEmpowered>], [<advancedrocketry:productplate:1>, <ic2:crafting:34>, <ore:plateTitaniumIridium>]]);
+recipes.addShaped(<mekanismgenerators:TurbineBlade>, [[<ore:alloyUltimate>, <advanced_solar_panels:crafting:9>, <ore:alloyUltimate>], [<advanced_solar_panels:crafting:9>, <ic2:crafting:34>, <advanced_solar_panels:crafting:9>], [<ore:alloyUltimate>, <advanced_solar_panels:crafting:9>, <ore:alloyUltimate>]]);
+recipes.addShaped(<mekanismgenerators:Generator:10> * 2, [[<ore:ingotTungsteel>, <ore:ingotBlutonium>, <ore:ingotTungsteel>], [<actuallyadditions:blockCrystalEmpowered:2>, <bigreactors:minerals:1>, <actuallyadditions:blockCrystalEmpowered:2>], [<ore:ingotTungsteel>, <bigreactors:ingotmetals:3>, <ore:ingotTungsteel>]]);
+
 recipes.addShaped(<mekanism:TeleportationCore>, [[<ore:ingotHastelloy>, <actuallyadditions:itemCrystal:4>, <ore:ingotHastelloy>], [<mekanism:AtomicAlloy>, <ore:gemDiamond>, <ore:alloyUltimate>], [<ore:ingotHastelloy>, <actuallyadditions:itemCrystal:4>, <ore:ingotHastelloy>]]);
 recipes.addShaped(<mekanism:TierInstaller:2>, [[<mekanism:TeleportationCore>, <plustic:osmiridiumingot>, <mekanism:TeleportationCore>], [<mekanism:Crystal:2>, <advanced_solar_panels:crafting:2>, <mekanism:Crystal:2>],[<mekanism:TeleportationCore>, <plustic:osmiridiumingot>, <mekanism:TeleportationCore>]]);
 recipes.addShaped(<mekanism:TierInstaller:1>, [[<mekanism:AtomicAlloy>, <plustic:osmiridiumingot>, <mekanism:AtomicAlloy>], [<mekanism:Shard:2>, <advanced_solar_panels:crafting>, <mekanism:Shard:2>], [<mekanism:AtomicAlloy>, <plustic:osmiridiumingot>, <mekanism:AtomicAlloy>]]);

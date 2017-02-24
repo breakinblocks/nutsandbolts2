@@ -35,3 +35,31 @@ mods.tconstruct.Casting.removeTableRecipe(<libvulpes:productnugget:7>);
 mods.tconstruct.Casting.removeTableRecipe(<libvulpes:productingot:7>);
 
 
+//Shape Removal
+recipes.remove(<tconstruct:seared_furnace_controller>);
+recipes.remove(<tconstruct:smeltery_controller>);
+recipes.remove(<tconstruct:materials:15>);
+recipes.remove(<tconstruct:slime_boots>);
+recipes.remove(<tconstruct:slimesling>);
+recipes.remove(<tconstruct:throwball:1>);
+recipes.remove(<tconstruct:piggybackpack>);
+recipes.remove(<tconstruct:piggybackpack>);
+recipes.remove(<tconstruct:pattern> * 4);
+recipes.remove(<tconstruct:metal>);
+recipes.remove(<tconstruct:metal:1>);
+recipes.remove(<tconstruct:metal:2>);
+recipes.remove(<tconstruct:metal:3>);
+recipes.remove(<tconstruct:metal:4>);
+recipes.remove(<tconstruct:metal:5>);
+recipes.remove(<tconstruct:toolforge>);
+
+//Shape additions
+recipes.addShaped(<tconstruct:seared_furnace_controller>, [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>], [<tconstruct:materials>, <ic2:te:46>, <tconstruct:materials>], [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
+recipes.addShaped(<tconstruct:smeltery_controller>, [[<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>], [<ore:ingotBrickSeared>, <tconstruct:seared_furnace_controller>, <ore:ingotBrickSeared>], [<ore:ingotBrickSeared>, <ore:blockFuelCoke>, <ore:ingotBrickSeared>]]);
+recipes.addShaped(<tconstruct:materials:15>, [[null, <forestry:craftingMaterial:2>, null], [<forestry:craftingMaterial:2>, <ore:wireElectrum>, <forestry:craftingMaterial:2>], [null, <forestry:craftingMaterial:2>, null]]);
+recipes.addShaped(<tconstruct:slime_boots>, [[<minecraft:feather>, <minecraft:slime>, <minecraft:feather>], [<ic2:crafting>, <minecraft:leather_boots>, <ic2:crafting>]]);
+recipes.addShaped(<tconstruct:slimesling>, [[<immersiveengineering:wirecoil:3>, <ore:blockSlime>, <immersiveengineering:wirecoil:3>], [<ore:itemRubber>, null, <ore:itemRubber>], [null, <ore:itemRubber>, null]]);
+recipes.addShaped(<tconstruct:piggybackpack>, [[null, <ore:stickTreatedWood>, null], [<ore:leather>, <enderzoo:enderFragment>, <ore:leather>], [null, <ore:stickTreatedWood>, null]]);
+recipes.addShaped(<tconstruct:pattern> * 2, [[<ore:paper>, <ore:stickTreatedWood>], [<ore:stickTreatedWood>, <ore:paper>]]);
+recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}), [[<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>], [<ore:plateDenseSteel>, <tconstruct:tooltables:3>, <ore:plateDenseSteel>],[<ore:blockAlubrass>, null, <ore:blockKnightslime>]]);
+recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}), [[<ore:ingotManasteel>, <ore:ingotManasteel>, <ore:ingotManasteel>], [<ore:plateDenseSteel>, <tconstruct:tooltables:3>, <ore:plateDenseSteel>], [<ore:blockKnightslime>, null, <ore:blockAlubrass>]]);

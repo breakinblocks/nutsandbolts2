@@ -1,3 +1,20 @@
+//Removals
+recipes.remove(<atmrockhounding:energizedFuelBlend> * 9);
+recipes.remove(<atmrockhounding:sodiumCompound> * 8);
+recipes.remove(<atmrockhounding:sulfurCompound> * 8);
+recipes.remove(<atmrockhounding:flask> * 4);
+
+
+
+//Additions
+recipes.addShapeless(<atmrockhounding:flask> * 8, [<minecraft:glass_bottle>]);
+recipes.addShaped(<atmrockhounding:energizedFuelBlend> * 64, [[<extrautils2:ingredients:4>, <ore:dustGlowstone>, <ore:coalPowered>], [<extrautils2:ingredients:4>, <embers:shardEmber>, <ore:coalPowered>], [<ore:coalPowered>, <ore:dustGlowstone>, <ore:coalPowered>]]);
+recipes.addShaped(<atmrockhounding:sodiumCompound> * 32, [[<atmrockhounding:flask>, <mekanism:Salt>], [<mekanism:Salt>, <mekanism:Salt>]]);
+recipes.addShaped(<atmrockhounding:sulfurCompound> * 32, [[<atmrockhounding:flask>, <ic2:dust:16>], [<ic2:dust:16>, <ic2:dust:16>]]);
+recipes.addShaped(<atmrockhounding:mineralOres> * 4, [[<morebees:grainMetallic>, <morebees:grainMetallic>, <morebees:grainMetallic>], [<morebees:grainMetallic>, <ore:ingotElvenElementium>, <morebees:grainMetallic>], [<morebees:grainMetallic>, <morebees:grainMetallic>, <morebees:grainMetallic>]]);
+
+
+
 //Information additions Credit to al132
 val uninspectedDict = <ore:oreUninspected>;
 uninspectedDict.add(<atmrockhounding:mineralOres>);

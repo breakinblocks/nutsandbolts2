@@ -1,0 +1,52 @@
+//removals
+recipes.remove(<enderio:blockIngotStorage:6>);
+recipes.remove(<enderio:blockIngotStorage:5>);
+recipes.remove(<enderio:blockIngotStorage:4>);
+recipes.remove(<enderio:blockIngotStorage:3>);
+recipes.remove(<enderio:blockIngotStorage:2>);
+recipes.remove(<enderio:blockIngotStorage:1>);
+recipes.remove(<enderio:blockIngotStorage:7>);
+recipes.remove(<enderio:blockIngotStorage>);
+recipes.remove(<enderio:blockTransceiver>);
+recipes.remove(<enderio:blockTravelAnchor>);
+recipes.remove(<enderio:itemFunctionUpgrade>);
+recipes.remove(<enderio:blockVat>);
+recipes.remove(<enderio:blockSliceAndSplice>);
+recipes.remove(<enderio:blockEnchanter>);
+recipes.remove(<enderio:blockAlloySmelter>);
+recipes.remove(<enderio:itemSoulVessel>);
+recipes.remove(<enderio:blockReservoir>);
+recipes.remove(<enderio:itemPowerConduit> * 8);
+recipes.remove(<enderio:itemMachinePart>);
+recipes.remove(<enderio:itemBasicCapacitor>);
+recipes.remove(<enderio:itemMaterial:2> * 8);
+recipes.remove(<enderio:blockStirlingGenerator>);
+recipes.remove(<enderio:itemBasicCapacitor:2>);
+recipes.remove(<enderio:blockInventoryPanel>);
+recipes.remove(<enderio:itemMachinePart:1>);
+recipes.remove(<enderio:itemBasicCapacitor:1>);
+recipes.remove(<enderio:itemYetaWrench>);
+recipes.remove(<enderio:itemMachinePart>);
+
+//Additions
+recipes.addShaped(<enderio:blockTravelAnchor>, [[<ore:itemPulsatingIronNugget>, <extrautils2:decorativeglass:5>, <ore:itemPulsatingIronNugget>], [<ore:itemPulsatingIronNugget>, <ore:manaPearl>, <ore:itemPulsatingIronNugget>], [<ic2:casing:5>, <ore:itemPulsatingIronNugget>, <ic2:casing:5>]]);
+recipes.addShaped(<enderio:itemFunctionUpgrade>, [[<ore:torchRedstoneActive>, <ore:pearlEnderEye>, <ore:torchRedstoneActive>], [<ore:itemConduitBinder>, <ore:gearStone>, <ore:itemConduitBinder>]]);
+recipes.addShaped(<enderio:blockEnchanter>, [[null, <arsmagica2:essence:1>, null], [<extrautils2:decorativesolidwood:1>, <enderio:itemXpTransfer>, <extrautils2:decorativesolidwood:1>], [<actuallyadditions:itemCrystalEmpowered:2>, <ore:blockBam>, <actuallyadditions:itemCrystalEmpowered:2>]]);
+recipes.addShaped(<enderio:blockTransceiver>, [[<ic2:crafting:3>, <enderio:itemBasicCapacitor:2>, <ic2:crafting:3>], [<enderstorage:enderStorage:1>, <mekanism:EnergyCube>.withTag({tier: 2}), <enderstorage:enderStorage>], [<ic2:crafting:3>, <ic2:misc_resource:2>, <ic2:crafting:3>]]);
+recipes.addShaped(<enderio:blockVat>, [[<ic2:casing:5>, <ore:blockChimerite>, <ic2:casing:5>], [<ore:blockGlass>, <enderio:blockTank>, <ore:blockGlass>], [<ic2:casing:5>, <minecraft:cauldron>, <ic2:casing:5>]]);
+recipes.addShaped(<enderio:blockSliceAndSplice>, [[<ore:ingotHOPGraphite>, <ore:itemSkull>, <ore:ingotHOPGraphite>], [<botania:manasteelShears>, <ore:itemMachineChassi>, <ic2:block_cutting_blade:2>], [<ore:ingotSoularium>, <ore:ingotSoularium>, <ore:ingotSoularium>]]);
+recipes.addShaped(<enderio:blockAlloySmelter>, [[null, <ore:itemMachineChassi>, null], [<ic2:te:46>, <ic2:nuclear>, <ic2:te:46>], [<tconstruct:fancy_frame:4>, <enderio:blockIngotStorage:1>, <tconstruct:fancy_frame:4>]]);
+recipes.addShaped(<enderio:itemSoulVessel>, [[null, <ore:ingotSoularium>, null], [<botania:elfGlass>, null, <botania:elfGlass>], [null, <botania:elfGlass>, null]]);
+recipes.addShaped(<enderio:blockReservoir>, [[<extrautils2:decorativeglass>, <minecraft:quartz>, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <minecraft:cauldron>, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>]]);
+recipes.addShaped(<enderio:itemPowerConduit> * 8, [[<extrautils2:decorativeglass>, <ore:gemRedstone>, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <ore:gemRedstone>, <extrautils2:decorativeglass>]]);
+recipes.addShaped(<enderio:itemMachinePart>, [[<mekanism:Ingot:4>, <enderio:itemBasicCapacitor>, <mekanism:Ingot:4>], [<minecraft:iron_bars>, <ic2:resource:13>, <ore:barsIron>], [<mekanism:Ingot:4>, <mekanism:Ingot:4>, <mekanism:Ingot:4>]]);
+recipes.addShaped(<enderio:itemBasicCapacitor>, [[null, <ore:gemRedstone>, <ore:nuggetElectrum>], [<ore:gemRedstone>, <ore:crystalDilithium>, <ore:gemRedstone>], [<ore:nuggetElectrum>, <ore:gemRedstone>, null]]);
+recipes.addShaped(<enderio:itemMaterial:2> * 8, [[<ore:dustCoal>, <ore:itemClay>, <ore:dustCoal>], [<ore:sand>, <mekanism:Polyethene>, <ore:sand>], [<ore:dustCoal>, <ore:itemClay>, <ore:dustCoal>]]);
+recipes.addShaped(<enderio:itemSoulVessel:1>.withTag({entityId: "MushroomCow"}), [[<minecraft:brown_mushroom>, <ore:egg>, <minecraft:brown_mushroom>], [<ore:egg>, <enderio:itemSoulVessel:1>.withTag({entityId: "Cow"}), <ore:egg>], [<minecraft:red_mushroom>, <minecraft:egg>, <minecraft:red_mushroom>]]);
+recipes.addShaped(<enderio:itemBasicCapacitor:1>, [[null, <ore:ingotEnergeticAlloy>, null], [<enderio:itemBasicCapacitor>, <ore:dustHOPGraphite>, <enderio:itemBasicCapacitor>], [null, <ore:ingotEnergeticAlloy>, null]]);
+recipes.addShaped(<enderio:blockStirlingGenerator>, [[<ore:itemPulsatingIronNugget>, <ore:itemPulsatingIronNugget>, <ore:itemPulsatingIronNugget>], [<ore:itemPulsatingIronNugget>, <extrautils2:machine>, 
+<ore:itemPulsatingIronNugget>], [<ore:stone>, <minecraft:cauldron>, <ore:stone>]]);
+recipes.addShaped(<enderio:itemMaterial:2>, [[<ore:dustObsidian>, <ore:itemRubber>, <ore:dustObsidian>], [<ore:itemRubber>, <advancedrocketry:hotTurf>, <ore:itemRubber>], [<ore:dustObsidian>, <ore:itemRubber>, <ore:dustObsidian>]]);
+recipes.addShaped(<enderio:blockInventoryPanel>, [[<ore:plateIron>, <rscircuits:resource:2>, <ore:plateIron>], [<arsmagica2:magic_wall>, <ore:itemPulsatingCrystal>, <arsmagica2:magic_wall>], [<ore:plateIron>, <rscircuits:resource:1>, <ore:plateIron>]]);
+recipes.addShaped(<enderio:itemMachinePart:1>, [[<ore:torchRedstoneActive>, <ore:cobblestone>, <ore:torchRedstoneActive>], [<ore:cobblestone>, null, <ore:cobblestone>], [<ore:torchRedstoneActive>, <ore:cobblestone>, <ore:torchRedstoneActive>]]);
+recipes.addShaped(<enderio:itemBasicCapacitor:2>, [[null, <ore:ingotVibrantAlloy>, null], [<actuallyadditions:itemCrystalEmpowered:4>, <enderio:itemBasicCapacitor:1>, <actuallyadditions:itemCrystalEmpowered:4>], [null, <ore:ingotVibrantAlloy>, null]]);

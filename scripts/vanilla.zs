@@ -61,6 +61,13 @@ recipes.remove(<minecraft:end_crystal>);
 recipes.remove(<minecraft:cauldron>);
 recipes.remove(<minecraft:bucket>);
 recipes.remove(<minecraft:flint_and_steel>);
+recipes.remove(<minecraft:enchanting_table>);
+recipes.remove(<minecraft:glass_bottle>);
+recipes.remove(<minecraft:glass_bottle> * 3);
+recipes.remove(<minecraft:clock>);
+recipes.remove(<minecraft:leather_boots>);
+recipes.remove(<minecraft:minecart>);
+recipes.remove(<minecraft:enchanting_table>);
 
 // ================================================================================
 //#Vanilla Shapeless
@@ -97,7 +104,16 @@ recipes.addShaped(<minecraft:end_crystal>, [[<botania:elfGlass>, <botania:elfGla
 recipes.addShaped(<minecraft:cauldron>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>]]);
 recipes.addShaped(<minecraft:elytra>, [[null, <enderio:itemGliderWing>, <minecraft:end_rod>], [<ore:bEnderAirBottle>, <ic2:misc_resource:1>, <enderio:itemGliderWing>], [<minecraft:end_rod>, <ore:bEnderAirBottle>]]);
-
+recipes.addShaped(<minecraft:minecart> *2, [[<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<minecraft:enchanting_table>, [[null, <minecraft:writable_book>, null], [<extrautils2:decorativesolidwood:1>, <astralsorcery:ItemConstellationPaper>, <extrautils2:decorativesolidwood:1>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShaped(<minecraft:bucket>, [[<embers:brickCaminite>, null, <embers:brickCaminite>], [<ic2:ingot:6>, null, <ic2:ingot:6>], [<embers:brickCaminite>, <ic2:ingot:6>, <embers:brickCaminite>]]);
+recipes.addShaped(<minecraft:enchanting_table>, [[<ore:gemDiamond>, <embers:aspectusDawnstone>, <ore:gemDiamond>], [<extrautils2:decorativesolidwood:1>, <botania:manaGlass>, <extrautils2:decorativesolidwood:1>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
+recipes.addShaped(<minecraft:iron_boots>, [[<ic2:plate:3>, null, <ore:plateIron>], [<ic2:plate:3>, <minecraft:chainmail_boots>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ic2:plate:3>]]);
+recipes.addShaped(<minecraft:iron_chestplate>, [[<ic2:plate:3>, null, <ore:plateIron>], [<ic2:plate:3>, <minecraft:chainmail_chestplate>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ic2:plate:3>]]);
+recipes.addShaped(<minecraft:iron_leggings>, [[<ic2:plate:3>, <ic2:plate:3>, <ore:plateIron>], [<ic2:plate:3>, <minecraft:chainmail_leggings>, <ore:plateIron>], [<ore:plateIron>, null, <ic2:plate:3>]]);
+recipes.addShaped(<minecraft:iron_helmet>, [[<ic2:plate:3>, <ic2:plate:3>, <ore:plateIron>], [<ic2:plate:3>, <minecraft:chainmail_helmet>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:glass_bottle>, [[<minecraft:glass>, null, <ore:blockGlassColorless>], [null, <minecraft:glass>, null]]);
+recipes.addShaped(<minecraft:fire_charge> * 3, [[null, <ore:gunpowder>, null], [<arsmagica2:rune:1>, <ic2:crafting:17>, <arsmagica2:rune:1>], [null, <arsmagica2:rune:1>, null]]);
 
 //===================================================
 // Furnace Recipes

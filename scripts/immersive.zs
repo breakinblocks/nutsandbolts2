@@ -17,3 +17,23 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<libvulpes:productingot:7>, <or
 mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:end_stone>, <ore:livingrock>, 100, <immersiveengineering:material:7>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<advancedrocketry:productingot>, <advancedrocketry:productdust>, 100, <immersiveengineering:material:7>);
 
+//Removals
+recipes.remove(<immersiveengineering:metalDecoration0:3>);
+recipes.remove(<immersiveengineering:metalDevice1:7>);
+recipes.remove(<immersiveengineering:stoneDecoration> * 2);
+recipes.remove(<immersiveengineering:tool>);
+recipes.remove(<immersiveengineering:stoneDecoration:1> * 2);
+recipes.remove(<immersiveengineering:metal:38>);
+recipes.remove(<immersiveengineering:metalDevice1:2>);
+recipes.remove(<immersiveengineering:storage:3>);
+recipes.remove(<immersiveengineering:storage:2>);
+recipes.remove(<immersiveengineering:storage>);
+
+
+//Additions
+recipes.addShaped(<immersiveengineering:metalDecoration0:3>, [[<ore:plateDawnstone>, <ore:quartzRed>, <ore:plateDawnstone>], [<ore:quartzRed>, <immersiveengineering:material:9>, <ore:quartzRed>], [<ore:plateDawnstone>, <ore:quartzRed>, <ore:plateDawnstone>]]);
+recipes.addShaped(<immersiveengineering:metalDevice1:7>, [[<immersiveengineering:metalDecoration0:5>, <ore:ingotOsmiridium>, <immersiveengineering:metalDecoration0:5>], [<ore:blockDawnstone>, <ore:ingotOsmiridium>, <ore:blockDawnstone>], [<ore:gearSteel>, <immersiveengineering:drillhead>, <ore:gearSteel>]]);
+recipes.addShaped(<immersiveengineering:stoneDecoration> * 2, [[<actuallyadditions:itemMisc:10>, <ore:ingotBrickNether>, <actuallyadditions:itemMisc:10>], [<ore:ingotBrickNether>, <ore:ingotBrickSeared>, <ore:ingotBrickNether>], [<actuallyadditions:itemMisc:10>, <ore:ingotBrickNether>, <actuallyadditions:itemMisc:10>]]);
+recipes.addShaped(<immersiveengineering:ore:4>, [[<ore:oreZinc>]]);
+recipes.addShaped(<immersiveengineering:metalDecoration0:3>, [[<ore:plateDawnstone>, <ore:quartzRed>, <ore:plateDawnstone>], [<ore:quartzRed>, <immersiveengineering:material:9>, <ore:quartzRed>], [<ore:plateDawnstone>, <ore:quartzRed>, <ore:plateDawnstone>]]);
+recipes.addShaped(<immersiveengineering:metalDevice1:7>, [[<immersiveengineering:metalDecoration0:5>, <ore:ingotOsmiridium>, <immersiveengineering:metalDecoration0:5>], [<ore:blockDawnstone>, <ore:ingotOsmiridium>, <ore:blockDawnstone>], [<ore:gearSteel>, <immersiveengineering:drillhead>, <ore:gearSteel>]]);

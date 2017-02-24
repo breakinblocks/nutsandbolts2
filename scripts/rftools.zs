@@ -19,6 +19,14 @@ recipes.remove(<rftools:advanced_charged_porter>);
 recipes.remove(<rftools:remote_storage>);
 recipes.remove(<rftools:coalgenerator>);
 recipes.remove(<rftools:machine_base>);
+recipes.remove(<rftools:shape_card:2>);
+recipes.remove(<rftools:powercell_simple>);
+recipes.remove(<rftools:storage_module:2>);
+recipes.remove(<rftools:storage_module>);
+recipes.remove(<rftools:storage_module:1>);
+recipes.remove(<rftools:storage_module>);
+recipes.remove(<rftools:machine_frame>);
+
 
 
 
@@ -27,6 +35,7 @@ recipes.remove(<rftools:machine_base>);
 
 
 //Additions
+recipes.addShaped(<rftools:creative_screen>, [[<ic2:misc_resource:3>, <rftools:screen>, <ic2:misc_resource:3>]]);
 recipes.addShaped(<rftools:matter_receiver>, [[<ore:blockRedstone>, <ic2:plate:7>, <ore:blockRedstone>], [<ore:pearlFluix>, <rftools:machine_frame>, <ore:pearlFluix>], [<ore:plateSteel>, <mekanism:TeleportationCore>, <ore:plateSteel>]]);
 recipes.addShaped(<rftools:matter_transmitter>, [[<ore:blockRedstone>, <mekanism:TeleportationCore>, <ore:blockRedstone>], [<ore:pearlFluix>, <rftools:machine_frame>, <ore:pearlFluix>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<rftools:network_monitor>, [[<ore:alloyBasic>, <ore:paper>, <ore:alloyBasic>], [<ic2:casing:5>, <ic2:frequency_transmitter>, <ic2:casing:5>], [<ore:alloyBasic>, <ore:paper>, <ore:alloyBasic>]]);
@@ -48,3 +57,10 @@ recipes.addShaped(<rftools:charged_porter>, [[null, <enderio:itemFrankenSkull:3>
 recipes.addShaped(<rftools:remote_storage>, [[<appliedenergistics2:material:11>, <botania:enderHand>, <appliedenergistics2:material:11>], [<ore:circuitAdvanced>, <rftools:machine_frame>, <ore:circuitAdvanced>], [<appliedenergistics2:material:11>, <ore:gemDiamond>, <appliedenergistics2:material:11>]]);
 recipes.addShaped(<rftools:dimensional_shard> * 8, [[<ore:quartzBlaze>, <minecraft:prismarine_shard>, <ore:quartzBlaze>], [<minecraft:prismarine_shard>, <ore:manaPearl>, <minecraft:prismarine_shard>], [<ore:quartzBlaze>, <minecraft:prismarine_shard>, <ore:quartzBlaze>]]);
 recipes.addShaped(<rftools:machine_base>, [[<ic2:casing:2>, <ore:gemRedstone>, <ic2:casing:2>], [<ore:ingotSteel>, <rscircuits:resource:1>, <ore:ingotSteel>]]);
+recipes.addShaped(<rftools:shape_card:2>, [[<ic2:crafting:19>, <advanced_solar_panels:crafting:7>, <ic2:crafting:19>], [<ic2:mining_laser:26>, <rftools:shape_card>, <ic2:mining_laser:26>], [<ic2:crafting:19>, <rftools:powercell>, <ore:gemDiamond>]]);
+recipes.addShaped(<rftools:powercell_simple>, [[<ore:blockRedstone>, <extrautils2:decorativeglass:5>, <ore:blockRedstone>], [<ic2:plate:3>, <appliedenergistics2:fluix_block>, <ic2:plate:3>], [<ore:blockRedstone>, <extrautils2:decorativeglass:5>, <ore:blockRedstone>]]);
+recipes.addShaped(<rftools:machine_frame>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateTitanium>, <ore:blockRedstone>, <ore:plateTitanium>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<rftools:storage_module>, [[null, <ore:quartzRed>, null], [<ore:plateGold>, <minecraft:iron_block>, <ore:plateGold>], [null, <ore:quartzRed>, null]]);
+recipes.addShaped(<rftools:storage_module:1>, [[null, <ore:quartzBlaze>, null], [<ore:sheetTitanium>, <rftools:storage_module>, <ore:sheetTitanium>], [null, <ore:quartzBlaze>, null]]);
+recipes.addShaped(<rftools:storage_module:2>, [[null, <ore:quartzSunny>, null], [<ore:ingotRosegold>, <rftools:storage_module:1>, <ore:ingotRosegold>], [null, <ore:quartzSunny>, null]]);
+recipes.addShaped(<rftools:machine_frame>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateTitanium>, <mekanism:CompressedRedstone>, <ore:plateTitanium>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
