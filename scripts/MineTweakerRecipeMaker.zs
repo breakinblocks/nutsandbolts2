@@ -12,6 +12,9 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<mekanismgenerators:TurbineBlade>);
+recipes.remove(<mekanismgenerators:Generator:10>);
+recipes.remove(<mekanismgenerators:Generator:7>);
 recipes.remove(<botania:alfheimPortal>);
 recipes.remove(<rftools:shape_card:2>);
 recipes.remove(<appliedenergistics2:charger>);
@@ -292,7 +295,8 @@ recipes.addShapeless(<chisel:marbleextra:7>, [<ore:blockMarble>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<minecraft:bucket>, [[<ic2:ingot:6>, null, <ic2:ingot:6>], [<embers:brickCaminite>, null, <embers:brickCaminite>], [<ic2:ingot:6>, <embers:brickCaminite>, <ic2:ingot:6>]]);
+recipes.addShaped(<rice:rice_crafting_table>, [[<bloodmagic:BlockDemonExtra:10>, <ore:blockManyullyn>, <bloodmagic:BlockDemonExtra:10>], [<minecraft:purpur_block>, <astralsorcery:BlockAltar>, <minecraft:purpur_block>], [<minecraft:purpur_block>, null, <minecraft:purpur_block>]]);
+recipes.addShaped(<minecraft:bucket>, [[<embers:brickCaminite>, null, <embers:brickCaminite>], [<ic2:ingot:6>, null, <ic2:ingot:6>], [<embers:brickCaminite>, <ic2:ingot:6>, <embers:brickCaminite>]]);
 recipes.addShaped(<mekanismgenerators:Generator:7>, [[<advancedrocketry:productplate:1>, <ic2:crafting:34>, <ore:plateTitaniumIridium>], [<actuallyadditions:blockCrystalEmpowered>, <bigreactors:minerals>, <actuallyadditions:blockCrystalEmpowered>], [<advancedrocketry:productplate:1>, <ic2:crafting:34>, <ore:plateTitaniumIridium>]]);
 recipes.addShaped(<mekanismgenerators:TurbineBlade>, [[<ore:alloyUltimate>, <advanced_solar_panels:crafting:9>, <ore:alloyUltimate>], [<advanced_solar_panels:crafting:9>, <ic2:crafting:34>, <advanced_solar_panels:crafting:9>], [<ore:alloyUltimate>, <advanced_solar_panels:crafting:9>, <ore:alloyUltimate>]]);
 recipes.addShaped(<mekanismgenerators:Generator:10> * 2, [[<ore:ingotTungsteel>, <ore:ingotBlutonium>, <ore:ingotTungsteel>], [<actuallyadditions:blockCrystalEmpowered:2>, <bigreactors:minerals:1>, <actuallyadditions:blockCrystalEmpowered:2>], [<ore:ingotTungsteel>, <bigreactors:ingotmetals:3>, <ore:ingotTungsteel>]]);
