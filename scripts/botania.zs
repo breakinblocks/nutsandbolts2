@@ -4,7 +4,7 @@ val Salt = <mekanism:SaltBlock:150>;
 val wWood = <arsmagica2:witchwood_planks>;
 val lWood = <botania:livingwood:150>;
 val Sand = <minecraft:sand>;
-val Diorite = <quark:world_stone_bricks:1>;
+val Marble = <ore:blockMarble>;
 val Star = <astralsorcery:BlockCustomOre:1>;
 val Mineral = <atmrockhounding:mineralOres:150>;
 val dWood = <botania:dreamwood>;
@@ -14,7 +14,7 @@ mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
 mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
 mods.botania.PureDaisy.removeRecipe(<minecraft:sand>);
 
-mods.botania.PureDaisy.addRecipe(Diorite,lStone);
+mods.botania.PureDaisy.addRecipe(Marble,lStone);
 mods.botania.PureDaisy.addRecipe(wWood,lWood);
 mods.botania.PureDaisy.addRecipe(Sand,Salt);
 
@@ -62,7 +62,7 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:prismarine_shard>,<minecraft:dye
 //mods.botania.ElvenTrade.removeRecipe(<botania:dreamwood>);
 //OutputStack, InputArray
 //mods.botania.ElvenTrade.addRecipe([dWood],[wild]);
-
+mods.botania.ElvenTrade.addRecipe([<draconicevolution:draconium_ingot>],[<draconicevolution:draconium_dust>]);
 
 //Removals
 recipes.remove(<botania:quartz:4>);
@@ -77,6 +77,9 @@ recipes.remove(<botania:spreader>);
 recipes.remove(<botania:pool>);
 recipes.remove(<botania:blazeBlock>);
 recipes.remove(<botania:runeAltar>);
+recipes.remove(<botania:alchemyCatalyst>);
+recipes.remove(<botania:terraPlate>);
+recipes.remove(<botania:conjurationCatalyst>);
 
 //Shaped
 recipes.addShaped(<botania:alfheimPortal>, [[<ic2:resource:11>, <ore:ingotTerrasteel>, <ic2:resource:11>], [<arsmagica2:essence:8>, <roots:logWildwoodSymbolGlowing>, <arsmagica2:essence:8>], [<ic2:resource:11>, <ore:ingotTerrasteel>, <ic2:resource:11>]]);
@@ -86,7 +89,11 @@ recipes.addShaped(<botania:rfGenerator>, [[<ore:ingotOsmiridium>, <forestry:ther
 recipes.addShaped(<botania:overgrowthSeed>, [[<roots:otherworldLeaf>, <actuallyadditions:itemCrystalEmpowered:4>, <roots:otherworldLeaf>], [<arsmagica2:essence:1>, <botania:grassSeeds>, <arsmagica2:essence:1>], [<roots:otherworldLeaf>, <actuallyadditions:itemCrystalEmpowered:4>, <roots:otherworldLeaf>]]);
 recipes.addShaped(<botania:quartz:2>, [[<ore:itemBlazePowder>, <ore:itemBlazePowder>, <ore:itemBlazePowder>], [<ore:itemBlazePowder>, <ore:gemQuartz>, <ore:itemBlazePowder>], [<ore:itemBlazePowder>, <ore:itemBlazePowder>, <ore:itemBlazePowder>]]);
 recipes.addShaped(<botania:manaResource:9>, [[null, <minecraft:dragon_breath>, null], [<minecraft:dragon_breath>, <ore:blockDiamond>, <minecraft:dragon_breath>], [null, <minecraft:dragon_breath>, null]]);
-recipes.addShaped(<botania:spreader>, [[<botania:livingwood:1>, <botania:livingwood:1>, <ore:plankTreatedWood>], [<extrautils2:ingredients:9>, <immersiveengineering:material:9>, null], [<botania:livingwood:1>, <botania:livingwood:1>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:livingwood>, <arsmagica2:mana_focus>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
 recipes.addShaped(<botania:pool> * 2, [[<ore:livingrock>, <arsmagica2:mana_focus>, <ore:livingrock>], [<ore:livingrock>, <ore:blockChimerite>, <ore:livingrock>]]);
 recipes.addShaped(<botania:runeAltar>, [[<minecraft:emerald>, <darkutils:material:1>, <minecraft:emerald>], [<bloodmagic:ItemSlate:1>, <roots:otherworldLeaf>, <bloodmagic:ItemSlate:1>], [<ore:livingrock>, <botania:livingrock0Slab>, <ore:livingrock>]]);
 recipes.addShaped(<botania:manaGlass>, [[null, <ore:blockGlassColorless>, null], [<ore:blockGlassColorless>, <ore:dustVinteum>, <ore:blockGlassColorless>], [null, <ore:blockGlassColorless>, null]]);
+recipes.addShaped(<botania:alchemyCatalyst>, [[<bloodmagic:BlockBloodRune>, <ore:ingotRosegold>, <bloodmagic:BlockBloodRune>], [<bloodmagic:ItemComponent:29>, <ore:manaPearl>, <bloodmagic:ItemComponent:29>],[<bloodmagic:BlockBloodRune>, <ore:ingotRosegold>, <bloodmagic:BlockBloodRune>]]);
+recipes.addShaped(<botania:terraPlate>, [[<minecraft:prismarine>, <minecraft:prismarine>, <minecraft:prismarine>], [<botania:rune:8>, <botania:storage>, <botania:rune:8>], [<bloodmagic:ItemComponent:4>, <arsmagica2:essence:1>,<bloodmagic:ItemComponent:4>]]);
+recipes.addShaped(<botania:conjurationCatalyst>, [[<roots:runeStoneSymbolGlowing>, <bloodmagic:ItemArcaneAshes>, <roots:runeStoneSymbolGlowing>], [<ore:ingotElvenElementium>, <botania:alchemyCatalyst>, <ore:ingotElvenElementium>], [<roots:runeStoneSymbolGlowing>, <ore:ingotElvenElementium>, <roots:runeStoneSymbolGlowing>]]);
+

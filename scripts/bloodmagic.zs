@@ -8,6 +8,14 @@ recipes.addShaped(<bloodmagic:BlockAltar>, [[null, <ore:blockSlime>, null], [<ex
 
 //InputStack, OutputStack, TierRequired, LPRequired, UsageRate, DrainRate, inputstack
 //mods.bloodmagic.Altar.addRecipe(<bloodmagic:ItemBloodOrb>, 1, 2000, 5, 5, [<minecraft:chorus_flower>]);
-mods.bloodmagic.Altar.addRecipe(<draconicevolution:draconium_dust>, 1, 10000, 20, 20, [<ic2:misc_resource:3>]);
+mods.bloodmagic.Altar.addRecipe(<draconicevolution:draconium_dust>, 1, 5000, 20, 20, [<ic2:misc_resource:3>]);
+mods.bloodmagic.Altar.addRecipe(<draconicevolution:draconium_dust>, 1, 10000, 20, 20, [<botania:manaResource:18>]);
 
+//Removals
+recipes.remove(<bloodmagic:BlockSoulForge>);
+recipes.removeShaped(<bloodmagic:BlockAlchemyTable>);
+
+//Additions
+recipes.addShaped(<bloodmagic:BlockSoulForge>, [[<ore:ingotTitaniumAluminide>, <arsmagica2:essence:3>, <ore:ingotTitaniumAluminide>], [<ore:ingotTitaniumAluminide>, <ore:runeFireB>, <ore:ingotTitaniumAluminide>],[<ore:ingotTitaniumAluminide>, <astralsorcery:BlockWell>, <ore:ingotTitaniumAluminide>]]);
+recipes.addShaped(<bloodmagic:BlockAlchemyTable>, [[<ore:ingotDemonicMetal>, <ore:ingotDemonicMetal>, <ore:ingotDemonicMetal>], [<roots:logWildwoodSymbolGlowing>, <botania:quartzTypeBlaze>, <roots:logWildwoodSymbolGlowing>], [<ore:ingotGreengold>, <bloodmagic:ItemSlate>, <ore:ingotGreengold>]]);
 

@@ -56,7 +56,6 @@ recipes.addShaped(<psi:cadAssembly:3>, [[<psi:cadAssembly:2>, <psi:material:3>, 
 recipes.addShaped(<psi:psimetalSword>, [[<psi:material:2>], [<ore:ingotPsi>], [<minecraft:diamond_sword>]]);
 recipes.addShaped(<psi:cadAssembly:2>, [[<psi:cadAssembly:1>, <ore:ingotPsi>, <ore:ingotPsi>], [<ore:ingotPsi>, null, null]]);
 recipes.addShaped(<psi:cadAssembly:2>, [[<psi:cadAssembly>, <ore:ingotPsi>, <ore:ingotPsi>], [<ore:ingotPsi>, null, null]]);
-recipes.addShaped(<psi:cadAssembly>, [[<bloodmagic:ItemSlate:2>, <ic2:casing:3>, <ic2:casing:3>], [<ic2:casing:3>, <arsmagica2:player_focus>, null]]);
 recipes.addShaped(<psi:cadAssembly:1>, [[<bloodmagic:ItemSlate:2>, <ic2:casing:2>, <ic2:casing:2>], [<ic2:casing:2>, <arsmagica2:player_focus>, null]]);
 recipes.addShaped(<psi:spellDrive>, [[<ore:ingotPsi>, <ic2:re_battery:26>, <ore:ingotPsi>], [null, <ore:oc:hdd3>, null], [null, <ore:ingotPsi>, null]]);
 recipes.addShaped(<psi:psimetalShovel>, [[<psi:material:2>, <psi:material:1>], [null, <ic2:crafting:30>], [null, <ic2:crafting:30>]]);
@@ -66,4 +65,6 @@ recipes.addShaped(<psi:psimetalExosuitHelmet>, [[<ore:ingotPsi>, <psi:material:1
 recipes.addShaped(<psi:psimetalExosuitChestplate>, [[<ore:ingotPsi>, null, <ore:ingotPsi>], [<ore:gemPsi>, <minecraft:iron_chestplate>, <ore:gemPsi>], [<psi:material:1>, <ore:ingotPsi>, <psi:material:1>]]);
 recipes.addShaped(<psi:psimetalExosuitBoots>, [[<ore:ingotPsi>, <ore:ingotPsi>, <ore:ingotPsi>], [<ore:gemPsi>, <minecraft:iron_boots>, <ore:gemPsi>]]);
 recipes.addShaped(<psi:psimetalExosuitLeggings>, [[<ore:ingotPsi>, <ore:ingotPsi>, <ore:ingotPsi>], [<ore:gemPsi>, <minecraft:iron_leggings>, <ore:gemPsi>], [<ore:ingotPsi>, null, <ore:ingotPsi>]]);
-recipes.addShaped(<psi:cadAssembler>, [[<ore:nuggetDawnstone>, null, <ore:nuggetDawnstone>], [<ore:nuggetDawnstone>, <ore:oc:pistonUpgrade>, <ore:nuggetDawnstone>], [<ic2:casing:5>, <arsmagica2:greater_focus>, <ic2:casing:5>]]);
+recipes.addShaped(<psi:cadAssembler>, [[<ore:ingotDawnstone>, null, <ore:ingotDawnstone>], [<ore:ingotDawnstone>, <ore:oc:pistonUpgrade>, <ore:nuggetDawnstone>], [<ore:ingotManasteel>, <arsmagica2:greater_focus>, <ore:ingotManasteel>]]);
+recipes.addShaped(<psi:cadAssembly>, [[<ore:manaDiamond>, <ore:ingotConductiveIron>, <ore:ingotConductiveIron>], [<ore:ingotConductiveIron>, <arsmagica2:player_focus>, null]]);
+

@@ -1,3 +1,5 @@
+
+
 //Removals
 recipes.remove(<forestry:resourceStorage:3>);
 recipes.remove(<forestry:resourceStorage:3>);
@@ -20,3 +22,6 @@ recipes.addShaped(<forestry:sturdyMachine>, [[<ore:hardenedClay>, <forestry:gear
  recipes.addShaped(<forestry:craftingMaterial:2> * 2, [[<minecraft:sugar>, <ore:fiberHemp>, <minecraft:sugar>], [<ore:fiberHemp>, <ore:manaString>, <ore:fiberHemp>], [<minecraft:sugar>, <ore:fiberHemp>, <minecraft:sugar>]]);
  recipes.addShaped(<forestry:thermionicTubes>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:blockRedstone>, <ore:blockCopper>, <ore:blockRedstone>], [<ore:blockCopper>, <ore:blockCopper>, <ore:blockCopper>]]);
  recipes.addShaped(<forestry:peat>, [[<tconstruct:materials:1>]]);
+
+
+

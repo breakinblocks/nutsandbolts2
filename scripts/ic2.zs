@@ -22,6 +22,7 @@ recipes.remove(<ic2:nano_leggings:26>);
 //Macerator
 mods.ic2.Macerator.addRecipe(<tconstruct:shard>.withTag({Material: "cobalt"}) * 4,<ore:oreCobalt>);
 mods.ic2.Macerator.addRecipe(<tconstruct:shard>.withTag({Material: "ardite"}) * 4,<ore:oreArdite>);
+mods.ic2.Macerator.addRecipe(<enderio:itemMaterial:3>, <minecraft:stone:3>);
 
 
 //UU Matter Recipes
@@ -81,3 +82,4 @@ recipes.addShaped(<ic2:crafting:16>, [[<bigreactors:ingotmetals:2>, <bigreactors
 recipes.addShaped(<ic2:forge_hammer>, [[<minecraft:iron_ingot>, <ore:ingotIron>, null], [<ore:ingotIron>, <immersiveengineering:material>, <immersiveengineering:material>], [<minecraft:iron_ingot>, <ore:ingotIron>, null]]);
 recipes.addShaped(<ic2:heat_vent>, [[<ore:barsIron>, <ore:plateIron>, <ore:barsIron>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:barsIron>, <ore:plateIron>, <ore:barsIron>]]);
 recipes.addShaped(<ic2:component_heat_vent>, [[<ore:plateTin>, <ore:barsIron>, <ore:plateTin>], [<ore:barsIron>, null, <ore:barsIron>], [<ore:plateTin>, <ore:barsIron>, <ore:plateTin>]]);
+recipes.addShapeless(<ic2:dust:15>, [<aroma1997sdimension:portalIgniter>.transformDamage(), <minecraft:stone>]);

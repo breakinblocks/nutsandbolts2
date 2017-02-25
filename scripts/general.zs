@@ -80,6 +80,12 @@ recipes.addShapeless(<astralsorcery:BlockMarble>, [<quark:marble>]);
 recipes.addShapeless(<quark:marble>, [<chisel:marbleextra:7>]);
 recipes.addShapeless(<chisel:marbleextra:7>, [<ore:blockMarble>]);
 recipes.addShapeless(<extrautils2:ingredients:9> * 2, [<ic2:plate:2>]);
+recipes.addShapeless(<mekanism:Dust:5>, [<ic2:crushed:4>]);
+recipes.addShapeless(<mekanism:Dust:6>, [<ic2:crushed:3>]);
+recipes.addShapeless(<mekanism:Dust>, [<ic2:crushed:2>]);
+recipes.addShapeless(<mekanism:Dust:1>, [<ic2:crushed:1>]);
+recipes.addShapeless(<mekanism:Dust:3>, [<ic2:crushed>]);
+recipes.addShapeless(<mekanism:Dust:4>, [<ore:crushedTin>]);
 
 
 //add Shaped
@@ -144,7 +150,6 @@ recipes.addShaped(<natura:materials:2>, [[<ore:listAllGrain>]]);
 recipes.addShaped(<pressure:WaterSource>, [[<enderio:blockReservoir>, <ore:xuUpgradeMining>, <enderio:blockReservoir>], [<immersiveengineering:material:9>, <astralsorcery:ItemCraftingComponent:4>, <immersiveengineering:material:9>], [<enderio:blockReservoir>, <rangedpumps:pump>, <enderio:blockReservoir>]]);
 recipes.addShaped(<opencomputers:assembler>, [[<ic2:casing:3>, <opencomputers:material:12>, <ic2:casing:3>], [<ic2:casing:3>, <extrautils2:crafter>, <ic2:casing:3>], [<ic2:casing:3>, <opencomputers:material:11>, <ic2:casing:3>]]);
 recipes.addShaped(<forge:bucketFilled>.withTag({FluidName: "creosote", Amount: 1000}), [[null, <minecraft:coal>, null], [<ore:itemCoal>, <forge:bucketFilled>.withTag({FluidName: "seed.oil", Amount: 1000}), <ore:itemCoal>], [null, <ore:itemCoal>, null]]);
- <advanced_solar_panels:crafting:6>, <gravisuite:crafting:1>], [<appliedenergistics2:quartz_vibrant_glass>, <gravisuite:crafting:1>, <appliedenergistics2:quartz_vibrant_glass>]]);
 recipes.addShaped(<gendustry:EnvProcessor>, [[null, <opencomputers:material:10>, null], [<embers:plateSilver>, <extrautils2:ingredients:9>, <embers:plateSilver>], [null, <minecraft:diamond>, null]]);
 recipes.addShaped(<gendustry:GeneticsProcessor>, [[null, <ore:oc:circuitChip2>, null], [<ic2:casing:2>, <ore:xuUpgradeBlank>, <ic2:casing:2>], [null, <ore:gemEmerald>, null]]);
 recipes.addShaped(<randomthings:itemCollector>, [[null, <ore:pearlFluix>, null], [null, <ore:stickWood>, null], [<ore:obsidian>, <ore:stickWood>, <ore:obsidian>]]);

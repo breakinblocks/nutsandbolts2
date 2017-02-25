@@ -30,9 +30,8 @@ recipes.remove(<arsmagica2:blank_rune> * 2);
 
 
 //Additions
-
+recipes.addShaped(<arsmagica2:lesser_focus>, [[<ore:ingotRosegold>, <botania:manaGlass>, <ore:ingotRosegold>]]);
 recipes.addShaped(<arsmagica2:spell_staff_magitech>, [[null, <ore:ingotGold>, <ore:gemBlueTopaz>], [<ore:ingotGold>, <ore:stickTreatedWood>, <ore:ingotGold>], [<ore:stickTreatedWood>, <ore:ingotGold>, null]]);
-recipes.addShaped(<arsmagica2:lesser_focus>, [[null, <immersiveengineering:material:21>, null], [<immersiveengineering:material:21>, <botania:manaGlass>, <immersiveengineering:material:21>], [null, <immersiveengineering:material:21>, null]]);
 recipes.addShaped(<arsmagica2:magitech_goggles>, [[<ore:dustVinteum>, <ore:gemBlueTopaz>, <ore:dustVinteum>], [<ore:gemChimerite>, <minecraft:leather_helmet>, <ore:gemChimerite>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
 recipes.addShaped(<arsmagica2:spell_book>, [[<ore:manaString>, <natura:materials:6>, <natura:materials:6>], [<ore:manaString>, <ore:paper>, <ore:paper>], [<ore:manaString>, <natura:materials:6>, <natura:materials:6>]]);
 recipes.addShaped(<arsmagica2:magic_broom>, [[null, <ore:stickTreatedWood>, null], [<ore:arcaneAsh>, <ore:stickTreatedWood>, <bloodmagic:ItemArcaneAshes>], [null, <minecraft:hay_block>, null]]);
@@ -48,7 +47,7 @@ recipes.addShaped(<arsmagica2:mana_cake> * 3, [[<ore:cropWheat>, <minecraft:suga
 recipes.addShaped(<arsmagica2:blank_rune> * 6, [[<ore:gemChimerite>, <ore:ingotDawnstone>, <ore:gemChimerite>], [<ore:gemBlueTopaz>, <roots:runeStoneSymbolGlowing>, <ore:gemBlueTopaz>],[<ore:gemChimerite>, <ore:ingotDawnstone>, <ore:gemChimerite>]]);
 recipes.addShaped(<arsmagica2:arcane_reconstructor>, [[<extrautils2:decorativesolid:3>, <extrautils2:opinium:2>, <extrautils2:decorativesolid:3>], [<forestry:craftingMaterial:1>, <actuallyadditions:blockCrystalEmpowered:1>, <forestry:craftingMaterial:1>], [<extrautils2:decorativesolid:3>, <extrautils2:simpledecorative:1>, <extrautils2:decorativesolid:3>]]);
 recipes.addShaped(<arsmagica2:essence_refiner>, [[<extrautils2:decorativeglass:5>, <integrateddynamics:crystalizedMenrilBlock>, <extrautils2:decorativeglass:5>], [<ore:ingotPsi>, <arsmagica2:deficit_crystal>, <ore:ingotPsi>], [<arsmagica2:witchwood_planks>, <arsmagica2:witchwood_planks>, <arsmagica2:witchwood_planks>]]);
-recipes.addShaped(<arsmagica2:item_ore:1>, [[<ore:dustPsi>, <ore:dustLunar>], [<ore:dustVinteum>, <arsmagica2:item_ore:6>]]);
+recipes.addShaped(<arsmagica2:item_ore:1>, [[<fluxnetworks:Flux>, <ore:dustLunar>], [<ore:dustVinteum>, <arsmagica2:item_ore:6>]]);
 recipes.addShaped(<arsmagica2:infinity_orb:2>, [[<arsmagica2:essence:10>, <bloodmagic:ItemBloodShard>, <arsmagica2:essence:10>], [<botania:manaResource:4>, <arsmagica2:infinity_orb:1>, <botania:manaResource:4>], [<bloodmagic:ItemBloodShard>, <arsmagica2:essence:10>, <bloodmagic:ItemBloodShard>]]);
 recipes.addShaped(<arsmagica2:infinity_orb:1>, [[<arsmagica2:essence:5>, <psi:material:2>, <arsmagica2:essence:5>], [<roots:otherworldLeaf>, <arsmagica2:infinity_orb>, <roots:otherworldLeaf>], [<psi:material:2>, <arsmagica2:essence:5>, <psi:material:2>]]);
 recipes.addShaped(<arsmagica2:infinity_orb>, [[<arsmagica2:essence:2>, <ore:dustPsi>, <arsmagica2:essence:2>], [<ore:manaDiamond>, <astralsorcery:ItemCraftingComponent>, <ore:manaDiamond>], [<ore:dustPsi>, <arsmagica2:essence:2>, <ore:dustPsi>]]);
