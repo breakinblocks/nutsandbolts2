@@ -38,9 +38,9 @@ recipes.removeShaped(<psi:cadCore:3>, [[<minecraft:redstone>]]);
 
 
 //Additions
-recipes.addShaped(<psi:cadBattery:2>, [[<psi:material:2>], [<psi:cadBattery:1>], [<ic2:casing:2>]]);
-recipes.addShaped(<psi:cadBattery:1>, [[<psi:material:1>], [<psi:cadBattery>], [<ic2:casing:2>]]);
-recipes.addShaped(<psi:cadBattery>, [[<ore:dustPsi>], [<ic2:re_battery:26>], [<ic2:casing:2>]]);
+recipes.addShaped(<psi:cadBattery:2>, [[<psi:material:2>], [<psi:cadBattery:1>], [<ore:ingotWhitegold>]]);
+recipes.addShaped(<psi:cadBattery:1>, [[<psi:material:1>], [<psi:cadBattery>], [<ore:ingotWhitegold>]]);
+recipes.addShaped(<psi:cadBattery>, [[<ore:dustPsi>], [<ic2:re_battery:26>], [<ore:ingotWhitegold>]]);
 recipes.addShaped(<psi:cadSocket:4>, [[<rscircuits:resource:3>, <psi:material:1>, <ic2:casing:5>], [<psi:material:1>, <psi:material>, <psi:material:1>], [<ic2:casing:5>, <psi:material:1>, <rscircuits:resource:3>]]);
 recipes.addShaped(<psi:cadSocket:3>, [[<mekanism:MultipartTransmitter:17>, <psi:material:1>], [<psi:material:1>, <psi:material:2>]]);
 recipes.addShaped(<psi:cadSocket:2>, [[<rscircuits:resource:3>, <psi:material:1>, <psi:material:1>], [<psi:material:1>, <psi:material>, <ic2:casing:5>], [<psi:material:1>, <ic2:casing:5>, null]]);
@@ -56,7 +56,7 @@ recipes.addShaped(<psi:cadAssembly:3>, [[<psi:cadAssembly:2>, <psi:material:3>, 
 recipes.addShaped(<psi:psimetalSword>, [[<psi:material:2>], [<ore:ingotPsi>], [<minecraft:diamond_sword>]]);
 recipes.addShaped(<psi:cadAssembly:2>, [[<psi:cadAssembly:1>, <ore:ingotPsi>, <ore:ingotPsi>], [<ore:ingotPsi>, null, null]]);
 recipes.addShaped(<psi:cadAssembly:2>, [[<psi:cadAssembly>, <ore:ingotPsi>, <ore:ingotPsi>], [<ore:ingotPsi>, null, null]]);
-recipes.addShaped(<psi:cadAssembly:1>, [[<bloodmagic:ItemSlate:2>, <ic2:casing:2>, <ic2:casing:2>], [<ic2:casing:2>, <arsmagica2:player_focus>, null]]);
+recipes.addShaped(<psi:cadAssembly:1>, [[<bloodmagic:ItemSlate:2>, <ore:ingotWhitegold>, <ore:ingotWhitegold>], [<ore:ingotWhitegold>, <arsmagica2:player_focus>, null]]);
 recipes.addShaped(<psi:spellDrive>, [[<ore:ingotPsi>, <ic2:re_battery:26>, <ore:ingotPsi>], [null, <ore:oc:hdd3>, null], [null, <ore:ingotPsi>, null]]);
 recipes.addShaped(<psi:psimetalShovel>, [[<psi:material:2>, <psi:material:1>], [null, <ic2:crafting:30>], [null, <ic2:crafting:30>]]);
 recipes.addShaped(<psi:psimetalAxe>, [[<psi:material:2>, <psi:material:1>], [<psi:material:1>, <ic2:crafting:30>], [null, <ic2:crafting:30>]]);

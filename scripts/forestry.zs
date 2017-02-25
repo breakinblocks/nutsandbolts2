@@ -1,3 +1,15 @@
+//Centrifuge
+//Array of Output + %, InputStack, Time in Ticks
+//mods.forestry.Centrifuge.addRecipe([<minecraft:leaves> % 200, <minecraft:stick> % 80, <Forestry:beeCombs> % 20], <minecraft:cobblestone>, 200);
+
+
+
+
+
+
+
+
+
 
 
 //Removals
