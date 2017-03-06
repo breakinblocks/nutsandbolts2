@@ -11,7 +11,7 @@ aluminum.remove(<libvulpes:ore0:9>);
 
 //Removals
 
-recipes.remove(<opencomputers:material:30> * 6);
+recipes.remove(<opencomputers:material:30>);
 recipes.remove(<quantumstorage:quantumdsu>);
 recipes.remove(<quantumstorage:quantumtank>);
 recipes.remove(<storagedrawers:compDrawers>);
@@ -31,7 +31,7 @@ recipes.remove(<deepresonance:laser>);
 recipes.remove(<deepresonance:tank>);
 recipes.remove(<deepresonance:machine_frame>);
 recipes.remove(<deepresonance:lens>);
-recipes.remove(<deepresonance:filter> * 8);
+recipes.remove(<deepresonance:filter>);
 recipes.remove(<enderstorage:enderStorage:1>);
 recipes.remove(<enderstorage:enderStorage>);
 recipes.remove(<gendustry:PowerModule>);
@@ -42,8 +42,8 @@ recipes.remove(<bloodmagic:BlockSoulForge>);
 recipes.remove(<bloodmagic:ItemSacrificialDagger>);
 recipes.remove(<bloodmagic:ItemSoulSnare>);
 recipes.remove(<opencomputers:material:2>);
-recipes.remove(<translocator:translocator:1> * 2);
-recipes.remove(<translocator:translocator> * 2);
+recipes.remove(<translocator:translocator:1>);
+recipes.remove(<translocator:translocator>);
 recipes.remove(<storagedrawers:controller>);
 recipes.remove(<randomthings:advancedItemCollector>);
 recipes.remove(<randomthings:itemCollector>);
@@ -68,12 +68,9 @@ recipes.remove(<gendustry:MutagenTank>);
 recipes.remove(<gendustry:IndustrialApiary>);
 recipes.remove(<embers:blockCaminiteBrick>);
 recipes.remove(<integrateddynamics:coalGenerator>);
+recipes.remove(<gendustry:PowerModule>);
 
 
-
-
-//Remove Shaped
-recipes.removeShaped(<gendustry:PowerModule>, [[<ore:gearBronze>, <rftools:infused_diamond>, <ore:gearBronze>], [<ore:craftingPiston>, <rftools:powercell_simple>, <ore:craftingPiston>], [<ore:gearBronze>, <enderio:itemBasicCapacitor:1>, <ore:gearBronze>]]);
 
 //add shapeless
 recipes.addShapeless(<astralsorcery:BlockMarble>, [<quark:marble>]);
@@ -94,7 +91,7 @@ recipes.addShaped(<fluxnetworks:FluxBlock>, [[<advanced_solar_panels:crafting:7>
 recipes.addShaped(<stevesfactorymanager:BlockCableName> * 8, [[<extrautils2:decorativeglass>, <ore:plateGold>, <extrautils2:decorativeglass>], [<mekanism:MultipartTransmitter:5>, <actuallyadditions:itemCrystal>, <mekanism:MultipartTransmitter:5>], [<extrautils2:decorativeglass>, <ore:plateGold>, <extrautils2:decorativeglass>]]);
 recipes.addShaped(<stevesfactorymanager:BlockMachineManagerName>, [[<actuallyadditions:itemCrystalEmpowered:2>, <ore:oc:apu1>, <actuallyadditions:itemCrystalEmpowered:2>], [<mekanism:ControlCircuit:1>, <ore:blockTungsteel>, <mekanism:ControlCircuit:1>], [<actuallyadditions:itemCrystalEmpowered:2>, <ore:oc:apu1>, <actuallyadditions:itemCrystalEmpowered:2>]]);
 recipes.addShaped(<deepresonance:energy_collector>, [[null, <botania:quartz:6>, null], [<botania:quartz:6>, <deepresonance:machine_frame>, <botania:quartz:6>], [<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>]]);
-recipes.addShaped(<deepresonance:generator>, [[<ore:obsidian>, <extrautils2:decorativeglass:5>, <ore:obsidian>], [<actuallyadditions:itemCrystalEmpowered>, <deepresonance:machine_frame>, <actuallyadditions:itemCrystalEmpowered>], [<ore:obsidian>, <extrautils2:decorativeglass:5>, <ore:obsidian>]]);
+recipes.addShaped(<deepresonance:generator>, [[<ore:obsidian>, <extrautils2:decorativeglass:5>, <ore:obsidian>], [<actuallyadditions:itemCrystal>, <deepresonance:machine_frame>, <actuallyadditions:itemCrystal>], [<ore:obsidian>, <extrautils2:decorativeglass:5>, <ore:obsidian>]]);
 recipes.addShaped(<deepresonance:lens>, [[<botania:manaGlass>, <atmrockhounding:ingot:9>, <botania:manaGlass>], [<atmrockhounding:ingot:9>, <ore:itemPulsatingCrystal>, <atmrockhounding:ingot:9>], [<botania:manaGlass>, <atmrockhounding:ingot:9>, <botania:manaGlass>]]);
 recipes.addShaped(<fluxnetworks:FluxStorage>, [[<fluxnetworks:FluxBlock>, <fluxnetworks:FluxBlock>, <fluxnetworks:FluxBlock>], [<advanced_solar_panels:crafting:6>, <mekanism:EnergyCube>, <advanced_solar_panels:crafting:6>], [<fluxnetworks:FluxBlock>, <fluxnetworks:FluxBlock>, <fluxnetworks:FluxBlock>]]);
 recipes.addShaped(<fluxnetworks:FluxController>, [[<fluxnetworks:FluxBlock>, <mekanism:MachineBlock2:13>, <fluxnetworks:FluxBlock>], [<appliedenergistics2:material:23>, <draconicevolution:dislocator>, <appliedenergistics2:material:23>], [<fluxnetworks:FluxBlock>, <ore:blockTungsteel>, <fluxnetworks:FluxBlock>]]);
@@ -138,19 +135,17 @@ recipes.addShaped(<translocator:translocator:1> * 2, [[<translocator:translocato
 recipes.addShaped(<translocator:translocator> * 2, [[<ore:alloyBasic>, <ore:manaPearl>, <ore:alloyBasic>], [<ore:ingotSteel>, <ore:craftingPiston>, <ore:ingotSteel>], [<ore:alloyBasic>, <tconstruct:fancy_frame:5>, <ore:alloyBasic>]]);
 recipes.addShaped(<storagedrawers:controller>, [[<quark:polished_stone>, <ore:materialEnderPearl>, <quark:polished_stone>], [<ore:gearRedstone>, <ic2:resource:12>, <ore:gearRedstone>], [<quark:polished_stone>, <ore:gemDiamond>, <quark:polished_stone>]]);
 recipes.addShaped(<immersiveengineering:stoneDecoration:1>, [[<rscircuits:resource:11>, <ore:plateIron>, <rscircuits:resource:11>], [<ore:plateIron>, <embers:blockCaminiteBrick>, <ore:plateIron>], [<rscircuits:resource:11>, <ore:plateIron>, <rscircuits:resource:11>]]);
+recipes.addShaped(<natura:materials:2>, [[<ore:dustWheat>]]);
+recipes.addShaped(<natura:materials:2>, [[<ore:listAllGrain>]]);
+recipes.addShaped(<pressure:WaterSource>, [[<enderio:blockReservoir>, <ore:xuUpgradeMining>, <enderio:blockReservoir>], [<immersiveengineering:material:9>, <astralsorcery:ItemCraftingComponent:4>, <immersiveengineering:material:9>], [<enderio:blockReservoir>, <rangedpumps:pump>, <enderio:blockReservoir>]]);
+recipes.addShaped(<opencomputers:assembler>, [[<ic2:casing:3>, <opencomputers:material:12>, <ic2:casing:3>], [<ic2:casing:3>, <extrautils2:crafter>, <ic2:casing:3>], [<ic2:casing:3>, <opencomputers:material:11>, <ic2:casing:3>]]);
 recipes.addShaped(<randomthings:advancedItemCollector>, [[null, <immersiveengineering:toolupgrade:6>, null], [<rscircuits:resource:3>, <randomthings:itemCollector>, <rscircuits:resource:3>]]);
 recipes.addShaped(<immersiveengineering:metalDevice1:2>, [[null, <ore:gemRedstone>, null], [<ic2:crafting:5>, <forestry:sturdyMachine>, <ic2:crafting:5>], [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);
 recipes.addShaped(<darkutils:fake_tnt>, [[<ore:compressed1xSand>, <ore:gunpowder>, <ore:compressed1xSand>], [<ore:gunpowder>, <mekanism:Polyethene>, <ore:gunpowder>], [<ore:compressed1xSand>, <ore:gunpowder>, <ore:compressed1xSand>]]);
 recipes.addShaped(<bloodmagic:BlockCrystal>, [[<arsmagica2:essence:3>, <bloodmagic:ItemDemonCrystal>, <arsmagica2:essence:2>], [<bloodmagic:ItemDemonCrystal>, <ore:netherStar>, <bloodmagic:ItemDemonCrystal>],[<arsmagica2:essence:5>, <bloodmagic:ItemDemonCrystal>, <arsmagica2:essence:4>]]);
 recipes.addShaped(<deepresonance:resonating_crystal>, [[null, <ic2:misc_resource:3>, null], [<ic2:misc_resource:3>, <ore:gemDiamond>, <ic2:misc_resource:3>], [null, <ic2:misc_resource:3>, null]]);
 recipes.addShaped(<immersiveengineering:metal:4>, [[<ore:ingotZinc>]]);
-recipes.addShaped(<natura:materials:2>, [[<ore:dustWheat>]]);
-recipes.addShaped(<natura:materials:2>, [[<ore:listAllGrain>]]);
-recipes.addShaped(<pressure:WaterSource>, [[<enderio:blockReservoir>, <ore:xuUpgradeMining>, <enderio:blockReservoir>], [<immersiveengineering:material:9>, <astralsorcery:ItemCraftingComponent:4>, <immersiveengineering:material:9>], [<enderio:blockReservoir>, <rangedpumps:pump>, <enderio:blockReservoir>]]);
-recipes.addShaped(<opencomputers:assembler>, [[<ic2:casing:3>, <opencomputers:material:12>, <ic2:casing:3>], [<ic2:casing:3>, <extrautils2:crafter>, <ic2:casing:3>], [<ic2:casing:3>, <opencomputers:material:11>, <ic2:casing:3>]]);
-recipes.addShaped(<forge:bucketFilled>.withTag({FluidName: "creosote", Amount: 1000}), [[null, <minecraft:coal>, null], [<ore:itemCoal>, <forge:bucketFilled>.withTag({FluidName: "seed.oil", Amount: 1000}), <ore:itemCoal>], [null, <ore:itemCoal>, null]]);
+recipes.addShaped(<forge:bucketFilled>.withTag({FluidName: "creosote", Amount: 1000}), [[null, <minecraft:coal>, null], [<ore:itemCoal>, <forge:bucketFilled>.withTag({FluidName: "seed.oil", Amount: 1000}).noReturn(), <ore:itemCoal>], [null, <ore:itemCoal>, null]]);
 recipes.addShaped(<gendustry:EnvProcessor>, [[null, <opencomputers:material:10>, null], [<embers:plateSilver>, <extrautils2:ingredients:9>, <embers:plateSilver>], [null, <minecraft:diamond>, null]]);
 recipes.addShaped(<gendustry:GeneticsProcessor>, [[null, <ore:oc:circuitChip2>, null], [<ore:plateGold>, <ore:xuUpgradeBlank>, <ic2:casing:2>], [null, <ore:gemEmerald>, null]]);
 recipes.addShaped(<randomthings:itemCollector>, [[null, <ore:pearlFluix>, null], [null, <ore:stickWood>, null], [<ore:obsidian>, <ore:stickWood>, <ore:obsidian>]]);
-
-

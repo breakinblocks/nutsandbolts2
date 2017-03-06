@@ -13,7 +13,6 @@ recipes.remove(<draconicevolution:fusion_crafting_core>);
 recipes.remove(<draconicevolution:crafting_pedestal>);
 recipes.remove(<draconicevolution:wyvern_core>);
 recipes.remove(<draconicevolution:draconic_core>);
-recipes.remove(<draconicevolution:energy_storage_core>);
 
 
 //additions

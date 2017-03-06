@@ -11,7 +11,7 @@ recipes.addShapeless(<atmrockhounding:flask> * 8, [<minecraft:glass_bottle>]);
 recipes.addShaped(<atmrockhounding:energizedFuelBlend> * 64, [[<extrautils2:ingredients:4>, <ore:dustGlowstone>, <ore:coalPowered>], [<extrautils2:ingredients:4>, <embers:shardEmber>, <ore:coalPowered>], [<ore:coalPowered>, <ore:dustGlowstone>, <ore:coalPowered>]]);
 recipes.addShaped(<atmrockhounding:sodiumCompound> * 32, [[<atmrockhounding:flask>, <mekanism:Salt>], [<mekanism:Salt>, <mekanism:Salt>]]);
 recipes.addShaped(<atmrockhounding:sulfurCompound> * 32, [[<atmrockhounding:flask>, <ic2:dust:16>], [<ic2:dust:16>, <ic2:dust:16>]]);
-recipes.addShaped(<atmrockhounding:mineralOres> * 4, [[<morebees:grainMetallic>, <morebees:grainMetallic>, <morebees:grainMetallic>], [<morebees:grainMetallic>, <ore:ingotElvenElementium>, <morebees:grainMetallic>], [<morebees:grainMetallic>, <morebees:grainMetallic>, <morebees:grainMetallic>]]);
+recipes.addShaped(<atmrockhounding:mineralOres> * 4, [[<morebees:grainMetallic>, <morebees:grainMetallic>, <morebees:grainMetallic>], [<morebees:grainMetallic>, <ore:nuggetTerrasteel>, <morebees:grainMetallic>], [<morebees:grainMetallic>, <morebees:grainMetallic>, <morebees:grainMetallic>]]);
 
 
 

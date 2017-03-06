@@ -106,9 +106,9 @@
         "nab": {
             "alignment": "bottom_right",
             "color": -1,
-            "posX": -105,
+            "posX": -150,
             "posY": -10,
-            "text": "\u00a7bNuts and Bolts 2\u00a7e v1.6"
+            "text": "\u00a7bNuts and Bolts: Torqued\u00a7e v1.6.3.6 "
         }
     }
 }

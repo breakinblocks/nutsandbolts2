@@ -48,7 +48,7 @@ mods.botania.ManaInfusion.addInfusion(<botania:manaGlass>, <arsmagica2:magic_wal
 
 
 mods.botania.ManaInfusion.addInfusion(<ic2:misc_resource:3> * 64, <forge:bucketFilled>.withTag({FluidName: "ic2uu_matter", Amount: 1000}), 20000);
-
+mods.botania.ManaInfusion.addInfusion(<botania:rune:8>, <arsmagica2:essence:1>, 25000);
 
 //Alchemy Catalyst
 mods.botania.ManaInfusion.addAlchemy(<minecraft:prismarine_shard>,<minecraft:dye:4>, 1250);
@@ -91,9 +91,10 @@ recipes.addShaped(<botania:quartz:2>, [[<ore:itemBlazePowder>, <ore:itemBlazePow
 recipes.addShaped(<botania:manaResource:9>, [[null, <minecraft:dragon_breath>, null], [<minecraft:dragon_breath>, <ore:blockDiamond>, <minecraft:dragon_breath>], [null, <minecraft:dragon_breath>, null]]);
 recipes.addShaped(<botania:spreader>, [[<ore:livingwood>, <ore:livingwood>, <ore:livingwood>], [<ore:livingwood>, <arsmagica2:mana_focus>, null], [<ore:livingwood>, <ore:livingwood>, <ore:livingwood>]]);
 recipes.addShaped(<botania:pool> * 2, [[<ore:livingrock>, <arsmagica2:mana_focus>, <ore:livingrock>], [<ore:livingrock>, <ore:blockChimerite>, <ore:livingrock>]]);
-recipes.addShaped(<botania:runeAltar>, [[<minecraft:emerald>, <darkutils:material:1>, <minecraft:emerald>], [<bloodmagic:ItemSlate:1>, <roots:otherworldLeaf>, <bloodmagic:ItemSlate:1>], [<ore:livingrock>, <botania:livingrock0Slab>, <ore:livingrock>]]);
+recipes.addShaped(<botania:runeAltar>, [[<minecraft:emerald>, <darkutils:material:1>, <minecraft:emerald>], [<bloodmagic:ItemSlate:1>, <astralsorcery:ItemCraftingComponent:1>, <bloodmagic:ItemSlate:1>], [<ore:livingrock>, <botania:livingrock0Slab>, <ore:livingrock>]]);
 recipes.addShaped(<botania:manaGlass>, [[null, <ore:blockGlassColorless>, null], [<ore:blockGlassColorless>, <ore:dustVinteum>, <ore:blockGlassColorless>], [null, <ore:blockGlassColorless>, null]]);
 recipes.addShaped(<botania:alchemyCatalyst>, [[<bloodmagic:BlockBloodRune>, <ore:ingotRosegold>, <bloodmagic:BlockBloodRune>], [<bloodmagic:ItemComponent:29>, <ore:manaPearl>, <bloodmagic:ItemComponent:29>],[<bloodmagic:BlockBloodRune>, <ore:ingotRosegold>, <bloodmagic:BlockBloodRune>]]);
 recipes.addShaped(<botania:terraPlate>, [[<minecraft:prismarine>, <minecraft:prismarine>, <minecraft:prismarine>], [<botania:rune:8>, <botania:storage>, <botania:rune:8>], [<bloodmagic:ItemComponent:4>, <arsmagica2:essence:1>,<bloodmagic:ItemComponent:4>]]);
 recipes.addShaped(<botania:conjurationCatalyst>, [[<roots:runeStoneSymbolGlowing>, <bloodmagic:ItemArcaneAshes>, <roots:runeStoneSymbolGlowing>], [<ore:ingotElvenElementium>, <botania:alchemyCatalyst>, <ore:ingotElvenElementium>], [<roots:runeStoneSymbolGlowing>, <ore:ingotElvenElementium>, <roots:runeStoneSymbolGlowing>]]);
+recipes.addShaped(<botania:thirdEye>, [[<minecraft:golden_carrot>, <arsmagica2:rune:3>, <minecraft:golden_carrot>], [<ore:blockQuartz>, <ore:pearlEnderEye>, <ore:blockQuartz>], [<minecraft:golden_carrot>, <ore:manaDiamond>,<minecraft:golden_carrot>]]);
 

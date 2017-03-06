@@ -1,6 +1,7 @@
 //Removals
 recipes.remove(<arsmagica2:spell_staff_magitech>);
 recipes.remove(<arsmagica2:lesser_focus>);
+recipes.remove(<arsmagica2:everstone>);
 recipes.remove(<arsmagica2:magitech_goggles>);
 recipes.remove(<arsmagica2:spell_book>);
 recipes.remove(<arsmagica2:magic_broom>);
@@ -26,7 +27,7 @@ recipes.remove(<arsmagica2:essence_refiner>);
 recipes.remove(<arsmagica2:item_ore:1>);
 recipes.remove(<arsmagica2:lectern>);
 recipes.remove(<arsmagica2:blank_rune> * 2);
-
+recipes.remove(<arsmagica2:flicker_focus:10>);
 
 
 //Additions
@@ -56,3 +57,9 @@ recipes.addShaped(<arsmagica2:chest_mage>, [[<minecraft:wool:12>, <arsmagica2:it
 recipes.addShaped(<arsmagica2:legs_mage>, [[<minecraft:wool:12>, <arsmagica2:item_ore:7>, <minecraft:wool:12>], [<minecraft:leather>, null, <minecraft:leather>], [<minecraft:wool:12>, null, <minecraft:wool:12>]]);
 recipes.addShaped(<arsmagica2:boots_mage>, [[<minecraft:wool:12>, <arsmagica2:item_ore:7>, <minecraft:wool:12>], [<minecraft:leather>, null, <minecraft:leather>]]);
 recipes.addShaped(<arsmagica2:helmet_mage>, [[<minecraft:wool:12>, <arsmagica2:item_ore:7>, <minecraft:wool:12>], [<minecraft:wool:12>, <minecraft:leather>, <minecraft:wool:12>]]);
+recipes.addShaped(<arsmagica2:everstone>, [[<ore:stone>, <ore:gemChimerite>, <ore:stone>], [<ore:gemBlueTopaz>, <roots:runeStone>, <ore:gemBlueTopaz>], [<ore:stone>, <ore:gemChimerite>, <ore:stone>]]);
+recipes.addShaped(<arsmagica2:crafting_altar>, [[<arsmagica2:magic_wall>, <ore:ingotDawnstone>, <arsmagica2:magic_wall>], [<ore:ingotDawnstone>, <arsmagica2:everstone>, <ore:ingotDawnstone>], [<arsmagica2:magic_wall>,<ore:ingotDawnstone>, <arsmagica2:magic_wall>]]);
+recipes.addShaped(<arsmagica2:flicker_focus:10>, [[<ore:compressed1xDirt>, <ore:compressed1xDirt>, <ore:compressed1xDirt>], [<arsmagica2:witchwood_sapling>, <arsmagica2:flicker_jar:4>, <arsmagica2:witchwood_sapling>], [<ore:obsidian>, <ore:arcaneAsh>, <ore:obsidian>]]);
+recipes.addShaped(<quark:biotite_ore>, [[<ore:endstone>, <ore:endstone>, <ore:endstone>], [<ore:endstone>, <ore:bEnderAirBottle>, <ore:endstone>], [<ore:endstone>, <ore:endstone>, <ore:endstone>]]);
+
+

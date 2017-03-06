@@ -39,17 +39,17 @@ mods.rice.ExtremeCrafting.addShaped(<extrautils2:itemcreativebuilderswand> * 1,
 [null,	null,	null,	null,	null,	null,	null,	null,	null]
 ]);
 
-mods.rice.ExtremeCrafting.addShaped(<ic2:advanced_solar_panels_te_machines:1> * 1,
+mods.rice.ExtremeCrafting.addShaped(<mekanism:EnergyCube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}) * 1,
 [
-[null,	null,	null,	null,	null,	null,	null,	null,	null],
-[null,	<gravisuite:crafting:1>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<gravisuite:crafting:1>,	null],
-[null,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	null],
-[null,	<ore:blockTungsteel>,	<draconicevolution:draconium_capacitor>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<draconicevolution:draconium_capacitor>,	<ore:blockTungsteel>,	null],
-[null,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	<ic2:lapotron_crystal:26>,	<mekanism:EnergyCube>,	<ic2:lapotron_crystal:26>,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	null],
-[null,	<ore:blockTungsteel>,	<draconicevolution:draconium_capacitor>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<draconicevolution:draconium_capacitor>,	<ore:blockTungsteel>,	null],
-[null,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	null],
-[null,	<gravisuite:crafting:1>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<gravisuite:crafting:1>,	null],
-[null,	null,	null,	null,	null,	null,	null,	null,	null]
+[<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0}),	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0})],
+[<draconicevolution:awakened_core>,	<gravisuite:crafting:1>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<gravisuite:crafting:1>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<draconicevolution:draconium_capacitor>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<draconicevolution:draconium_capacitor>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
+[<projecte:matter_block:1>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	<ic2:lapotron_crystal:26>,	<mekanism:BasicBlock2:4>.withTag({tier: 3}),	<ic2:lapotron_crystal:26>,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<projecte:matter_block:1>],
+[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<draconicevolution:draconium_capacitor>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<draconicevolution:draconium_capacitor>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<gravisuite:crafting:1>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<gravisuite:crafting:1>,	<draconicevolution:awakened_core>],
+[<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0}),	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0})]
 ]);
 
 mods.rice.ExtremeCrafting.addShaped(<tconstruct:materials:50> * 1,
