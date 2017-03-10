@@ -264,27 +264,13 @@
 				"cluster-size": 1
 			},
 			"cluster-count": {
-				"min": 3,
-				"max": 6
+				"min": 2,
+				"max": 3
 			},
 			"min-height": 4,
-			"max-height": 28,
+			"max-height": 38,
 			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"extreme_hills",
-							"smaller_extreme_hills",
-							"extreme_hills_with_trees",
-							"mutated_extreme_hills",
-							"mutated_extreme_hills_with_trees"
-						]
-					}
-				],
-			},
+			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -312,28 +298,5 @@
 					1
 				]
 			}
-		},
-		"quartz": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "quartz_ore",
-				"material": "netherrack",
-				"cluster-size": 14
-			},
-			"cluster-count": 16,
-			"min-height": 10,
-			"max-height": 118,
-			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "NETHER"
-					}
-				]
-			},
-			"dimension": "all"
 		}
-	}
 }

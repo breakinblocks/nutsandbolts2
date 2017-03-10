@@ -1,0 +1,26 @@
+{
+	"populate": {
+		"quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quartz_ore",
+				"material": "netherrack",
+				"cluster-size": 14
+			},
+			"cluster-count": 16,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}
