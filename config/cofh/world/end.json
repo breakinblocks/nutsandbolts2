@@ -1,10 +1,10 @@
 {
 	"populate": {
-	"nethercoal": {
+	"endcoal": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_coal_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_coal_ore",
+				"material": "end_stone",
 				"cluster-size": 14
 			},
 			"cluster-count": 16,
@@ -16,17 +16,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-	"netherdiamond": {
+	"enddiamond": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_diamond_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_diamond_ore",
+				"material": "end_stone",
 				"cluster-size": 2
 			},
 			"cluster-count": 4,
@@ -38,17 +38,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"netheremerald": {
+		"endemerald": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_emerald_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_emerald_ore",
+				"material": "end_stone",
 				"cluster-size": 2
 			},
 			"cluster-count": 3,
@@ -60,17 +60,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"nethergold": {
+		"endgold": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_gold_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_gold_ore",
+				"material": "end_stone",
 				"cluster-size": 8
 			},
 			"cluster-count": 6,
@@ -82,17 +82,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"nethruranium": {
+		"enduranium": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_uranium_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_uranium_ore",
+				"material": "end_stone",
 				"cluster-size": 6
 			},
 			"cluster-count": 4,
@@ -104,17 +104,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"netherredstone": {
+		"endredstone": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_redstone_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_redstone_ore",
+				"material": "end_stone",
 				"cluster-size": 12
 			},
 			"cluster-count": 4,
@@ -126,17 +126,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"netheriron": {
+		"endiron": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_iron_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_iron_ore",
+				"material": "end_stone",
 				"cluster-size": 14
 			},
 			"cluster-count": 2,
@@ -148,17 +148,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"netherlapis": {
+		"endlapis": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_lapis_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_lapis_ore",
+				"material": "end_stone",
 				"cluster-size": 10
 			},
 			"cluster-count": 2,
@@ -170,17 +170,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"nethernickel": {
+		"endnickel": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_nickel_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_nickel_ore",
+				"material": "end_stone",
 				"cluster-size": 6
 			},
 			"cluster-count": 6,
@@ -192,21 +192,21 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"netherlead": {
+		"endlead": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_lead_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_lead_ore",
+				"material": "end_stone",
 				"cluster-size": 4
 			},
 			"cluster-count": 9,
-			"min-height": 10,
+			"min-height": 25,
 			"max-height": 80,
 			"retrogen": false,
 			"biome": {
@@ -214,21 +214,21 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"nethertin": {
+		"endtin": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_tin_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_tin_ore",
+				"material": "end_stone",
 				"cluster-size": 7
 			},
 			"cluster-count": 4,
-			"min-height": 10,
+			"min-height": 35,
 			"max-height": 100,
 			"retrogen": false,
 			"biome": {
@@ -236,17 +236,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"nethercopper": {
+		"endcopper": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_copper_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_copper_ore",
+				"material": "end_stone",
 				"cluster-size": 11
 			},
 			"cluster-count": 3,
@@ -258,17 +258,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"netherplatinum": {
+		"endplatinum": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_platinum_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_platinum_ore",
+				"material": "end_stone",
 				"cluster-size": 4
 			},
 			"cluster-count": 3,
@@ -280,17 +280,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"nethertitanium": {
+		"endtitanium": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_titanium_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_titanium_ore",
+				"material": "end_stone",
 				"cluster-size": 4
 			},
 			"cluster-count": 1,
@@ -302,17 +302,17 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"netherosmium": {
+		"endosmium": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_osmium_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_osmium_ore",
+				"material": "end_stone",
 				"cluster-size": 6
 			},
 			"cluster-count": 4,
@@ -324,21 +324,87 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
 		},
-		"netheriridium": {
+	"endzinc": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "nethermetals:nether_iridium_ore",
-				"material": "netherrack",
+				"block": "endmetals:end_zinc_ore",
+				"material": "end_stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 2,
+			"min-height": 35,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+	"endmagnesium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "endmetals:end_magnesium_ore",
+				"material": "end_stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 2,
+			"min-height": 35,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		"endmanganese": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "endmetals:end_manganese_ore",
+				"material": "end_stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 2,
+			"min-height": 35,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		"endchromium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "endmetals:end_chromium_ore",
+				"material": "end_stone",
 				"cluster-size": 2
 			},
 			"cluster-count": 1,
-			"min-height": 90,
+			"min-height": 35,
 			"max-height": 118,
 			"retrogen": false,
 			"biome": {
@@ -346,21 +412,22 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
-		},	
-		"quartz": {
+		},
+		
+		"endtantalum": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "quartz_ore",
-				"material": "netherrack",
-				"cluster-size": 14
+				"block": "endmetals:end_tantalum_ore",
+				"material": "end_stone",
+				"cluster-size": 2
 			},
-			"cluster-count": 16,
-			"min-height": 10,
+			"cluster-count": 1,
+			"min-height": 35,
 			"max-height": 118,
 			"retrogen": false,
 			"biome": {
@@ -368,11 +435,79 @@
 				"value": [
 					{
 						"type": "dictionary",
-						"entry": "NETHER"
+						"entry": "END"
 					}
 				]
 			},
 			"dimension": "all"
-		}
+		},
+			"endtungsten": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "endmetals:end_tungsten_ore",
+				"material": "end_stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 1,
+			"min-height": 35,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+
+	"endsilver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "endmetals:end_silver_ore",
+				"material": "end_stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 2,
+			"min-height": 35,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+
+		"endiridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "endmetals:end_iridium_ore",
+				"material": "end_stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 1,
+			"min-height": 10,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		}	
 	}
 }

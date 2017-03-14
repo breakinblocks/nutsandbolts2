@@ -8,7 +8,7 @@
             "posY": 0,
             "width": 100
         },
-        "nab_logo": {
+		"nab_logo": {
             "alignment": "center",
             "height": 300,
             "image": "nutsandbolts:menu/nab-logo.png",
@@ -108,7 +108,7 @@
             "color": -1,
             "posX": -150,
             "posY": -10,
-            "text": "\u00a7bNuts and Bolts: Torqued\u00a7e v1.6.3.6 "
+            "text": "\u00a7bNuts and Bolts: Torqued\u00a7e v1.6.3.7"
         }
     }
 }

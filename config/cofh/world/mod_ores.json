@@ -1,0 +1,238 @@
+{
+	"populate": {
+			"blackQuartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+				"name": "actuallyadditions:blockMisc",
+				"metadata": 3
+				},
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 3,
+			"min-height": 8,
+			"max-height": 22,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"bauxite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": 
+					{
+						"name": "immersiveengineering:ore",
+						"metadata": 1,
+					},
+				"material": "stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 4,
+			"min-height": 44,
+			"max-height": 62,
+			"retrogen": "true",
+			"biomeRestriction": "none",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"osmium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": 
+					{
+						"name": "mekanism:OreBlock",
+						"metadata": 0,
+					},
+				"material": "stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 3,
+			"min-height": 1,
+			"max-height": 18,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"uranium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": 
+					{
+						"name": "ic2:resource",
+						"metadata": 4,
+					},
+				"material": "stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 5,
+			"min-height": 3,
+			"max-height": 15,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},		
+		"bandediron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+				"name": "rockhounding_oretiers:ironOres",
+				"metadata": 7
+				},
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 10,
+			"min-height": 60,
+			"max-height": 120,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"taconiteiron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+				"name": "rockhounding_oretiers:ironOres",
+				"metadata": 6
+				},
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 10,
+			"min-height": 60,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"taconiteiron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+				"name": "rockhounding_oretiers:ironOres",
+				"metadata": 4
+				},
+				"material": "stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 10,
+			"min-height": 50,
+			"max-height": 60,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"limonite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+				"name": "rockhounding_oretiers:ironOres",
+				"metadata": 3
+				},
+				"material": "stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 10,
+			"min-height": 40,
+			"max-height": 60,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"hematite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+				"name": "rockhounding_oretiers:ironOres",
+				"metadata": 1
+				},
+				"material": "stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 8,
+			"min-height": 30,
+			"max-height": 45,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"magnetite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+				"name": "rockhounding_oretiers:ironOres",
+				"metadata": 0
+				},
+				"material": "stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 2,
+			"min-height": 27,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}	
+}

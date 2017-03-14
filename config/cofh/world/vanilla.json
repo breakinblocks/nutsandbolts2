@@ -159,31 +159,11 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "stone",
-				"cluster-size": 17
+				"cluster-size": 10
 			},
-			"cluster-count": 20,
+			"cluster-count": 10,
 			"min-height": 0,
 			"max-height": 128,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"iron": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "iron_ore",
-				"material": "stone",
-				"cluster-size": 9
-			},
-			"cluster-count": 20,
-			"min-height": 0,
-			"max-height": 64,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -201,9 +181,9 @@
 				"material": "stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 2,
-			"min-height": 0,
-			"max-height": 32,
+			"cluster-count": 3,
+			"min-height": 9,
+			"max-height": 21,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -219,11 +199,11 @@
 			"generator": {
 				"block": "redstone_ore",
 				"material": "stone",
-				"cluster-size": 8
+				"cluster-size": 7
 			},
 			"cluster-count": 8,
-			"min-height": 0,
-			"max-height": 16,
+			"min-height": 7,
+			"max-height": 17,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -280,15 +260,15 @@
 			}
 		},
 		"lapis": {
-			"distribution": "gaussian",
+			"distribution": "uniform",
 			"generator": {
 				"block": "lapis_ore",
 				"material": "stone",
 				"cluster-size": 7
 			},
 			"cluster-count": 1,
-			"center-height": 16,
-			"spread": 16,
+			"min-height": 2,
+			"max-height": 27,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -299,4 +279,5 @@
 				]
 			}
 		}
+	}
 }
