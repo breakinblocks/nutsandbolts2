@@ -21,7 +21,7 @@ furnace.remove(<ore:ingotAluminum>);
 furnace.remove(<ore:ingotOsmium>);
 furnace.remove(<ore:ingotTitanium>);
 
-
+//output, input, xp
 furnace.addRecipe(<minecraft:iron_ingot>, <ore:crushedIron>, 4.5);
 furnace.addRecipe(<minecraft:gold_ingot>, <ore:crushedGold>, 4.5);
 furnace.addRecipe(<ic2:ingot:6>, <ore:crushedTin>, 4.5);
@@ -41,4 +41,37 @@ furnace.addRecipe(<mekanism:Ingot:1>, <ore:dustOsmium>, 4.5);
 furnace.addRecipe(<extrautils2:ingredients:11>, <ic2:misc_resource:2>, 4.5);
 furnace.addRecipe(<extrautils2:decorativesolid:2>, <botania:livingrock>, 7.5);
 furnace.addRecipe(<extrautils2:decorativesolid:2>, <ore:compressed2xCobblestone>, 7.5);
+furnace.addRecipe(<minecraft:iron_ore> * 2,<rockhounding_oretiers:ironOres:1>);
+furnace.addRecipe(<minecraft:iron_ore> * 2,<rockhounding_oretiers:ironOres:0>);
+furnace.addRecipe(<minecraft:iron_ore>,<rockhounding_oretiers:ironOres:3>);
+furnace.addRecipe(<minecraft:iron_ore>,<rockhounding_oretiers:ironOres:4>);
+
+
+//Nether ores
+furnace.addRecipe(<thermalfoundation:ore:5> *2,<nethermetals:nether_nickel_ore>);
+furnace.addRecipe(<thermalfoundation:ore:3> *2,<nethermetals:nether_lead_ore>);
+furnace.addRecipe(<thermalfoundation:ore> *2,<nethermetals:nether_copper_ore>);
+furnace.addRecipe(<thermalfoundation:ore:6> *2,<nethermetals:nether_platinum_ore>);
+furnace.addRecipe(<thermalfoundation:ore:1> *2,<nethermetals:nether_tin_ore>);
+furnace.addRecipe(<ic2:misc_resource:1>,<nethermetals:nether_iridium_ore>);
+furnace.addRecipe(<mekanism:OreBlock> *2,<nethermetals:nether_osmium_ore>);
+furnace.addRecipe(<libvulpes:ore0:8> *2,<nethermetals:nether_titanium_ore>);
+furnace.addRecipe(<ic2:resource:4> *2,<nethermetals:nether_uranium_ore>);
+
+//End Ores
+furnace.addRecipe(<ic2:misc_resource:1>,<endmetals:end_iridium_ore>);
+furnace.addRecipe(<thermalfoundation:ore:6> *2,<endmetals:end_platinum_ore>);
+furnace.addRecipe(<thermalfoundation:ore:2>*2,<endmetals:end_silver_ore>);
+furnace.addRecipe(<thermalfoundation:ore:1> *2,<endmetals:end_tin_ore>);
+furnace.addRecipe(<atmrockhounding:sulfideShards:9>*2,<endmetals:end_zinc_ore>);
+furnace.addRecipe(<immersiveengineering:ore:1>*2,<endmetals:end_aluminum_ore>);
+furnace.addRecipe(<thermalfoundation:ore:5> *2,<endmetals:end_nickel_ore>);
+furnace.addRecipe(<thermalfoundation:ore> *2,<endmetals:end_copper_ore>);
+furnace.addRecipe(<thermalfoundation:ore:3> *2,<endmetals:end_lead_ore>);
+furnace.addRecipe(<atmrockhounding:sulfideShards:8>*8,<endmetals:end_magnesium_ore>);
+furnace.addRecipe(<atmrockhounding:silicateShards:10>*4,<endmetals:end_manganese_ore>);
+furnace.addRecipe(<atmrockhounding:oxideShards>*3,<endmetals:end_chromium_ore>);
+furnace.addRecipe(<libvulpes:ore0:8> *2,<endmetals:end_titanium_ore>);
+furnace.addRecipe(<atmrockhounding:oxideShards>*2,<endmetals:end_tantalum_ore>);
+furnace.addRecipe(<atmrockhounding:oxideShards:16>*2,<endmetals:end_tungsten_ore>);
 

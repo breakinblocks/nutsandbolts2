@@ -11,7 +11,7 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<projecte:interdiction_torch> *
 
 //Tier2
 mods.astralsorcery.Altar.addAttunmentAltarRecipe(<torchmaster:mega_torch>, 500, 300, [
-<ore:torch>, <ore:torch>, <ore:torch>, <ore:manaDiamond>, <roots:logWildwoodSymbolGlowing>, <ore:manaDiamond>, <ore:ingotRosegold>, <roots:logWildwoodSymbolGlowing>, <ore:ingotRosegold>,
+<integrateddynamics:menrilTorch>,<integrateddynamics:menrilTorch>,<integrateddynamics:menrilTorch>, <ore:manaDiamond>, <roots:logWildwoodSymbolGlowing>, <ore:manaDiamond>, <ore:ingotRosegold>, <roots:logWildwoodSymbolGlowing>, <ore:ingotRosegold>,
 <botania:quartzTypeSunny>, <botania:quartzTypeSunny>, <botania:quartzTypeSunny>, <botania:quartzTypeSunny>]);
 
 //LightWell Recipes

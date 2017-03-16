@@ -24,6 +24,9 @@ recipes.remove(<pressure:pipe>);
 recipes.remove(<pressure:WaterSource>);
 recipes.remove(<pressure:Canister>);
 recipes.remove(<opencomputers:assembler>);
+recipes.remove(<redstonearsenal:material:96>);
+recipes.remove(<actuallyadditions:blockMisc:5>);
+recipes.remove(<torchmaster:mega_torch>);
 recipes.remove(<opencomputers:case2>);
 recipes.remove(<opencomputers:case3>);
 recipes.remove(<opencomputers:case1>);
@@ -107,7 +110,6 @@ recipes.addShaped(<embers:dustAsh>, [[null, <ore:dustCoal>, null], [<ore:dustCoa
 recipes.addShaped(<gendustry:MutagenTank>, [[<ore:plateTitaniumAluminide>, <advanced_solar_panels:crafting:6>, <ore:plateTitaniumAluminide>], [<ore:plateTitaniumAluminide>, <advanced_solar_panels:crafting:6>, <ore:plateTitaniumAluminide>], [<ore:plateTitaniumAluminide>, <advanced_solar_panels:crafting:6>, <ore:plateTitaniumAluminide>]]);
 recipes.addShaped(<gendustry:IndustrialApiary>, [[<ore:plateDawnstone>, <gendustry:BeeReceptacle>, <ore:plateDawnstone>], [<ore:gearBronze>, <forestry:apiary>, <ore:gearBronze>], [<ore:plateDawnstone>, <forestry:thermionicTubes:5>, <ore:plateDawnstone>]]);
 recipes.addShaped(<embers:blockCaminiteBrick>, [[null, <embers:brickCaminite>, null], [<embers:brickCaminite>, <ore:blockSeared>, <embers:brickCaminite>], [null, <embers:brickCaminite>, null]]);
-recipes.addShaped(<rice:rice_crafting_table>, [[<bloodmagic:BlockDemonExtra:10>, <ore:blockManyullyn>, <bloodmagic:BlockDemonExtra:10>], [<minecraft:purpur_block>, <astralsorcery:BlockAltar>, <minecraft:purpur_block>], [<minecraft:purpur_block>, null, <minecraft:purpur_block>]]);
 recipes.addShaped(<enderstorage:enderStorage:1> * 2, [[<ore:plateObsidian>, <botania:forestEye>, <ore:plateObsidian>], [<ic2:crafting:15>, <enderio:blockReservoir>, <ic2:crafting:15>], [<ore:plateObsidian>, <ore:blockWool>, <ore:plateObsidian>]]);
 recipes.addShaped(<enderstorage:enderStorage> * 2, [[<ic2:plate:6>, <botania:forestEye>, <ic2:plate:6>], [<ic2:crafting:15>, <ironchest:BlockIronChest:2>, <ic2:crafting:15>], [<ic2:plate:6>, <minecraft:wool>, <ic2:plate:6>]]);
 recipes.addShaped(<opencomputers:material:30>, [[<translocator:diamondNugget>]]);

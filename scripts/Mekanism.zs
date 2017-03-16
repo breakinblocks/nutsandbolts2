@@ -56,6 +56,7 @@ recipes.remove(<mekanismtools:BronzeAxe>);
 recipes.remove(<mekanismtools:BronzePickaxe>);
 recipes.remove(<mekanismtools:BronzePaxel>);
 recipes.remove(<mekanismtools:BronzeBoots>);
+recipes.remove(<mekanism:BasicBlock:10>);
 recipes.remove(<mekanismtools:BronzeLeggings>);
 recipes.remove(<mekanismtools:BronzeChestplate>);
 recipes.remove(<mekanismtools:OsmiumLeggings>);
@@ -105,6 +106,8 @@ recipes.remove(<mekanism:MachineBlock2:10>);
 
 
 //Additions
+recipes.addShaped(<minecraft:chest>, [[<ore:chest>]]);
+recipes.addShaped(<mekanism:BasicBlock:10> * 4, [[<ore:ingotSteel>, <ore:ingotOsmium>, <ore:ingotSteel>], [<ore:ingotOsmium>, <thermalfoundation:glass_alloy:6>, <ore:ingotOsmium>], [<ore:ingotSteel>, <ore:ingotOsmium>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:MultipartTransmitter:3> * 8, [[<enderio:itemPowerConduit:2>, <enderio:itemPowerConduit:2>], [<ic2:misc_resource:3>, <ic2:misc_resource:3>], [<enderio:itemPowerConduit:2>, <enderio:itemPowerConduit:2>]]);
 recipes.addShaped(<mekanism:MachineBlock2:10>, [[<ore:ingotNichrome>, <actuallyadditions:itemCrystal:4>, <ore:ingotNichrome>], [<mekanism:ControlCircuit:1>, <mekanism:MachineBlock>, <mekanism:ControlCircuit:1>], [<extrautils2:drum:2>, <mekanism:BasicBlock:9>, <extrautils2:drum:2>]]);
 recipes.addShaped(<mekanism:Salt>, [[<minecraft:water_bucket>]]);

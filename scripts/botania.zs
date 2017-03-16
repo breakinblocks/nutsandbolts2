@@ -21,6 +21,7 @@ mods.botania.PureDaisy.addRecipe(Sand,Salt);
 
 //Petal Apothecary
 mods.botania.Apothecary.removeRecipe(<botania:specialFlower>.withTag({type: "orechid"}));
+mods.botania.Apothecary.removeRecipe(<botania:specialFlower>.withTag({type: "clayconia"}));
 
 mods.botania.Apothecary.addRecipe(<arsmagica2:cerublossom>, [<ore:petalLightBlue>, <ore:petalLightBlue>, <ore:gemChimerite>, <minecraft:dye:15>]);
 mods.botania.Apothecary.addRecipe(<arsmagica2:wakebloom>, [<ore:petalPink>, <ore:petalPink>, <ore:gemChimerite>, <minecraft:dye:15>]);
@@ -28,6 +29,7 @@ mods.botania.Apothecary.addRecipe(<arsmagica2:aum>, [<ore:petalWhite>, <ore:peta
 mods.botania.Apothecary.addRecipe(<arsmagica2:tarma_root>, [<ore:petalBrown>, <ore:petalBrown>,  <ore:gemChimerite>, <minecraft:dye:15>]);
 mods.botania.Apothecary.addRecipe(<arsmagica2:desert_nova>, [<ore:petalRed>, <ore:petalRed>,  <ore:gemChimerite>, <minecraft:dye:15>]);
 mods.botania.Apothecary.addRecipe(<botania:specialFlower>.withTag({type: "orechid"}), [<ore:petalGray>,<ore:petalGray>,<ore:petalYellow>,<ore:petalGreen>,<ore:petalRed>,<arsmagica2:core:2>, <ore:elvenPixieDust>, <ore:runeGreedB>]);
+mods.botania.Apothecary.addRecipe(<botania:specialFlower>.withTag({type: "clayconia"}), [<ore:petalGray>,<botania:petal:8>,<botania:petal:8>,<botania:rune:2>,<harvestcraft:firmtofuItem>,<harvestcraft:firmtofuItem>]);
 
 //ManaSteel requires Steel
 mods.botania.ManaInfusion.removeRecipe(<botania:manaResource>);

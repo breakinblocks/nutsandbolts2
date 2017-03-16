@@ -4,6 +4,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<bigreactors:ingotmetals>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<bigreactors:ingotmetals> * 2);
 mods.immersiveengineering.ArcFurnace.addRecipe(<plustic:osmiridiumingot>, <ore:dustOsmium>, <immersiveengineering:material:7>, 6400, 2500, [<ore:dustIridium>], "Purifying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<draconicevolution:draconium_ingot>, <ore:dustThorium>, <immersiveengineering:material:7>, 30000, 200, [<ore:dustIridium>], "Purifying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<advancedrocketry:productingot:1>, <ore:ingotTitanium>, <immersiveengineering:material:7>, 3200, 1500, [<ore:dustIridium>], "Purifying");
 
 
 //Crusher
