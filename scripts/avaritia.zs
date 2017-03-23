@@ -25,7 +25,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<wct:infinity_booster_card> * 1,
 [null,	null,	null,	null,	null,	null,	null,	null,	null]
 ]);
 
-/*
+
 mods.avaritia.ExtremeCrafting.addShaped(<extrautils2:itemcreativebuilderswand> * 1,
 [
 [null,	null,	null,	null,	null,	null,	null,	null,	null],
@@ -160,4 +160,3 @@ mods.avaritia.ExtremeCrafting.addShaped(<draconicevolution:chaos_shard> * 1,
 [null,	null,	null,	null,	<projecte:item.pe_matter>,	null,	null,	null,	null],
 [null,	null,	null,	null,	null,	null,	null,	null,	null]
 ]);
-*/

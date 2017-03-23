@@ -10,7 +10,7 @@ val aluminum = <ore:oreAluminum>;
 aluminum.remove(<libvulpes:ore0:9>);
 
 //Removals
-
+recipes.remove(<minecraft:iron_door>);
 recipes.remove(<opencomputers:material:30>);
 recipes.remove(<quantumstorage:quantumdsu>);
 recipes.remove(<quantumstorage:quantumtank>);
@@ -89,6 +89,8 @@ recipes.addShapeless(<mekanism:Dust:4>, [<ore:crushedTin>]);
 
 
 //add Shaped
+recipes.addShaped(<thermalfoundation:coin:103>, [[<bbtweaks:breakbitworldbreaker>]]);
+recipes.addShaped(<minecraft:iron_door>, [[<ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<embers:tinkerHammer>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <forestry:oakStick>, <ore:ingotTin>], [null, <forestry:oakStick>, null]]);
 recipes.addShaped(<fluxnetworks:FluxBlock>, [[<advanced_solar_panels:crafting:7>, <fluxnetworks:FluxCore>, <advanced_solar_panels:crafting:7>], [<fluxnetworks:FluxCore>, <ore:dustLudicrite>, <fluxnetworks:FluxCore>], [<advanced_solar_panels:crafting:7>, <fluxnetworks:FluxCore>, <advanced_solar_panels:crafting:7>]]);
 recipes.addShaped(<stevesfactorymanager:BlockCableName> * 8, [[<extrautils2:decorativeglass>, <ore:plateGold>, <extrautils2:decorativeglass>], [<mekanism:MultipartTransmitter:5>, <actuallyadditions:itemCrystal>, <mekanism:MultipartTransmitter:5>], [<extrautils2:decorativeglass>, <ore:plateGold>, <extrautils2:decorativeglass>]]);
