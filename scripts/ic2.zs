@@ -83,3 +83,6 @@ recipes.addShaped(<ic2:forge_hammer>, [[<minecraft:iron_ingot>, <ore:ingotIron>,
 recipes.addShaped(<ic2:heat_vent>, [[<ore:barsIron>, <ore:plateIron>, <ore:barsIron>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:barsIron>, <ore:plateIron>, <ore:barsIron>]]);
 recipes.addShaped(<ic2:component_heat_vent>, [[<ore:plateTin>, <ore:barsIron>, <ore:plateTin>], [<ore:barsIron>, null, <ore:barsIron>], [<ore:plateTin>, <ore:barsIron>, <ore:plateTin>]]);
 recipes.addShapeless(<ic2:dust:15>, [<aroma1997sdimension:portalIgniter>.transformDamage(), <minecraft:stone>]);
+
+<ic2:crafting:25>.addTooltip("Right click water to create construction foam fluid");
+<ic2:resource:11>.addTooltip("Made by filling iron scaffolds with construction foam");
