@@ -103,6 +103,13 @@ recipes.remove(<mekanismgenerators:Reactor>);
 recipes.remove(<mekanismgenerators:Reactor:1>);
 recipes.remove(<mekanism:MachineBlock2:10>);
 
+//Shapeless
+recipes.addShapeless(<mekanism:Dust:5>, [<ic2:crushed:4>]);
+recipes.addShapeless(<mekanism:Dust:6>, [<ic2:crushed:3>]);
+recipes.addShapeless(<mekanism:Dust>, [<ic2:crushed:2>]);
+recipes.addShapeless(<mekanism:Dust:1>, [<ic2:crushed:1>]);
+recipes.addShapeless(<mekanism:Dust:3>, [<ic2:crushed>]);
+recipes.addShapeless(<mekanism:Dust:4>, [<ore:crushedTin>]);
 
 
 //Additions

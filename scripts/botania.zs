@@ -61,10 +61,39 @@ mods.botania.ManaInfusion.addAlchemy(<minecraft:prismarine_shard>,<minecraft:dye
 
 
 //Elven Trade - Maybe later, not currently working in modtweaker
-//mods.botania.ElvenTrade.removeRecipe(<botania:dreamwood>);
+mods.botania.ElvenTrade.removeRecipe(<botania:dreamwood>);
 //OutputStack, InputArray
-//mods.botania.ElvenTrade.addRecipe([dWood],[wild]);
-mods.botania.ElvenTrade.addRecipe([<draconicevolution:draconium_ingot>],[<draconicevolution:draconium_dust>]);
+mods.botania.ElvenTrade.addRecipe([dWood],[wild]);
+
+//Orechid
+# Orechid
+    mods.botania.Orechid.addOre(<ore:oreCoal>, 40);                   
+    mods.botania.Orechid.addOre(<ore:oreAnthracite>, 10);             
+    mods.botania.Orechid.addOre(<ore:oreBituminous>, 20);             
+    mods.botania.Orechid.addOre(<ore:oreLignite>, 60);                
+    mods.botania.Orechid.addOre(<ore:oreGoethite>, 12);              
+    mods.botania.Orechid.addOre(<ore:oreLimonite>, 15);              
+    mods.botania.Orechid.addOre(<ore:oreAluminum>,  8);                
+    mods.botania.Orechid.addOre(<ore:oreVinteum>, 10);                 
+    mods.botania.Orechid.addOre(<ore:oreChimerite>,  7);               
+    mods.botania.Orechid.addOre(<ore:oreBlueTopaz>,  7);               
+    mods.botania.Orechid.addOre(<ore:oreRuby>, 3);                     
+    mods.botania.Orechid.addOre(<ore:orePeridot>, 3);                  
+    mods.botania.Orechid.addOre(<ore:oreTopaz>, 3);                    
+    mods.botania.Orechid.addOre(<ore:oreTanzanite>, 3);                
+    mods.botania.Orechid.addOre(<ore:oreMalchite>, 3);                 
+    mods.botania.Orechid.addOre(<ore:oreSapphire>, 3);                 
+    mods.botania.Orechid.addOre(<ore:oreAmber>, 1);                    
+    mods.botania.Orechid.addOre(<ore:oreApatite>, 1);                  
+    mods.botania.Orechid.addOre(<ore:oreResonating>, 1);               
+    mods.botania.Orechid.addOre(<ore:oreIridium>, 1);                  
+    mods.botania.Orechid.addOre(<ore:oreDilithium>, 1);         
+    mods.botania.Orechid.addOre(<ore:oreRutile>, 1);                        
+	mods.botania.Orechid.addOre(<ore:mineralOres>, 10);
+	
+
+#Nether Orechid
+
 
 //Removals
 recipes.remove(<botania:quartz:4>);

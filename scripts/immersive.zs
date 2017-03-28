@@ -32,9 +32,12 @@ recipes.remove(<immersiveengineering:storage>);
 
 
 //Additions
+recipes.addShaped(<immersiveengineering:tool>, [[<ore:ingotIron>, null, <ore:fiberHemp>], [null, <ore:stickTreatedWood>, <ore:ingotIron>], [<ore:stickTreatedWood>, null, null]]);
 recipes.addShaped(<immersiveengineering:metalDecoration0:3>, [[<ore:plateDawnstone>, <ore:quartzRed>, <ore:plateDawnstone>], [<ore:quartzRed>, <immersiveengineering:material:9>, <ore:quartzRed>], [<ore:plateDawnstone>, <ore:quartzRed>, <ore:plateDawnstone>]]);
 recipes.addShaped(<immersiveengineering:metalDevice1:7>, [[<immersiveengineering:metalDecoration0:5>, <ore:ingotOsmiridium>, <immersiveengineering:metalDecoration0:5>], [<ore:blockDawnstone>, <ore:ingotOsmiridium>, <ore:blockDawnstone>], [<ore:gearSteel>, <immersiveengineering:drillhead>, <ore:gearSteel>]]);
 recipes.addShaped(<immersiveengineering:stoneDecoration> * 2, [[<actuallyadditions:itemMisc:10>, <ore:ingotBrickNether>, <actuallyadditions:itemMisc:10>], [<ore:ingotBrickNether>, <ore:ingotBrickSeared>, <ore:ingotBrickNether>], [<actuallyadditions:itemMisc:10>, <ore:ingotBrickNether>, <actuallyadditions:itemMisc:10>]]);
 recipes.addShaped(<immersiveengineering:ore:4>, [[<ore:oreZinc>]]);
 recipes.addShaped(<immersiveengineering:metalDecoration0:3>, [[<ore:plateDawnstone>, <ore:quartzRed>, <ore:plateDawnstone>], [<ore:quartzRed>, <immersiveengineering:material:9>, <ore:quartzRed>], [<ore:plateDawnstone>, <ore:quartzRed>, <ore:plateDawnstone>]]);
 recipes.addShaped(<immersiveengineering:metalDevice1:7>, [[<immersiveengineering:metalDecoration0:5>, <ore:ingotOsmiridium>, <immersiveengineering:metalDecoration0:5>], [<ore:blockDawnstone>, <ore:ingotOsmiridium>, <ore:blockDawnstone>], [<ore:gearSteel>, <immersiveengineering:drillhead>, <ore:gearSteel>]]);
+recipes.addShaped(<immersiveengineering:stoneDecoration:1>, [[<rscircuits:resource:11>, <ore:plateIron>, <rscircuits:resource:11>], [<ore:plateIron>, <embers:blockCaminiteBrick>, <ore:plateIron>], [<rscircuits:resource:11>, <ore:plateIron>, <rscircuits:resource:11>]]);
+recipes.addShaped(<immersiveengineering:metalDevice1:2>, [[null, <ore:gemRedstone>, null], [<ic2:crafting:5>, <forestry:sturdyMachine>, <ic2:crafting:5>], [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);

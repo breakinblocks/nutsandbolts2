@@ -30,6 +30,7 @@ recipes.remove(<psi:psimetalExosuitBoots>);
 recipes.remove(<psi:psimetalExosuitChestplate>);
 recipes.remove(<psi:psimetalExosuitHelmet>);
 recipes.remove(<psi:cadAssembler>);
+recipes.remove(<psi:programmer>);
 
 
 //Removal Shaped
@@ -38,6 +39,7 @@ recipes.removeShaped(<psi:cadCore:3>, [[<minecraft:redstone>]]);
 
 
 //Additions
+recipes.addShaped(<psi:programmer>, [[<ore:plateDawnstone>, <ore:dustPsi>, <ore:plateDawnstone>], [<ore:itemPulsatingCrystal>, <roots:standingStoneT2>, <ore:itemPulsatingCrystal>], [<ore:plateDawnstone>, null, <ore:plateDawnstone>]]);
 recipes.addShaped(<psi:cadBattery:2>, [[<psi:material:2>], [<psi:cadBattery:1>], [<ore:ingotWhitegold>]]);
 recipes.addShaped(<psi:cadBattery:1>, [[<psi:material:1>], [<psi:cadBattery>], [<ore:ingotWhitegold>]]);
 recipes.addShaped(<psi:cadBattery>, [[<ore:dustPsi>], [<ic2:re_battery:26>], [<ore:ingotWhitegold>]]);

@@ -18,21 +18,21 @@ mods.tconstruct.Smeltery.removeMelting(<advanced_solar_panels:crafting:10>);
 
 
 //InputStack, OutputFluid, TemperatureAmount, BlockRender
-mods.tconstruct.Smeltery.addMelting(<liquid:dawnstone> * 144, <embers:ingotDawnstone>, 200, <embers:blockDawnstone> );
-mods.tconstruct.Smeltery.addMelting(<liquid:dawnstone> * 1152, <embers:blockDawnstone>, 600, <embers:blockDawnstone> );
-mods.tconstruct.Smeltery.addMelting(<liquid:iridium> * 288, <ic2:misc_resource:1>, 900, <libvulpes:metal0:10> );
+mods.tconstruct.Smeltery.addMelting(<liquid:dawnstone> * 144, <embers:ingotDawnstone>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:dawnstone> * 1152, <embers:blockDawnstone>, 600);
+mods.tconstruct.Smeltery.addMelting(<liquid:iridium> * 288, <ic2:misc_resource:1>, 900 );
 
 //new Fuels
 mods.tconstruct.Smeltery.addFuel(<liquid:pyrotheum>);
 
-mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 144, <ore:crushedGold>, 200, <minecraft:gold_block>);
-mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <ore:crushedIron>, 200, <minecraft:iron_block>);
-mods.tconstruct.Smeltery.addMelting(<liquid:tin> * 144, <ore:crushedTin>, 200, <ic2:resource:9>);
-mods.tconstruct.Smeltery.addMelting(<liquid:copper> * 144, <ore:crushedCopper>, 200, <ic2:resource:6>);
-mods.tconstruct.Smeltery.addMelting(<liquid:silver> * 144, <ore:crushedSilver>, 200, <immersiveengineering:storage:3>);
-mods.tconstruct.Smeltery.addMelting(<liquid:lead> * 144, <ore:crushedLead>, 200, <ic2:resource:7>);
-mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 200, <rockhounding_oretiers:ironOres:6>, 200, <rockhounding_oretiers:ironOres:6>);
-mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 100, <rockhounding_oretiers:ironOres:7>, 100, <rockhounding_oretiers:ironOres:7>);
+mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 144, <ore:crushedGold>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <ore:crushedIron>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:tin> * 144, <ore:crushedTin>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:copper> * 144, <ore:crushedCopper>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:silver> * 144, <ore:crushedSilver>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:lead> * 144, <ore:crushedLead>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 200, <rockhounding_oretiers:ironOres:6>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 100, <rockhounding_oretiers:ironOres:7>, 100);
 
 //Removal Casting of certain metals
 mods.tconstruct.Casting.removeBasinRecipe(<libvulpes:metal0:7>);
