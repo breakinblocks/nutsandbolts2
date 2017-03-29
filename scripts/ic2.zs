@@ -17,6 +17,13 @@ recipes.remove(<ic2:nano_boots:26>);
 recipes.remove(<ic2:nano_chestplate:26>);
 recipes.remove(<ic2:nano_helmet:26>);
 recipes.remove(<ic2:nano_leggings:26>);
+recipes.remove(<ic2:bronze_hoe>);
+recipes.remove(<ic2:bronze_pickaxe>);
+recipes.remove(<ic2:bronze_shovel>);
+recipes.remove(<ic2:bronze_sword>);
+recipes.remove(<ic2:bronze_leggings>);
+recipes.remove(<ic2:bronze_helmet>);
+recipes.remove(<ic2:bronze_chestplate>);
 
 
 //Macerator

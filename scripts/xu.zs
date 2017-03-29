@@ -16,10 +16,12 @@ recipes.remove(<extrautils2:passivegenerator:3>);
 recipes.remove(<extrautils2:decorativesolid:2>);
 recipes.remove(<extrautils2:resonator>);
 
+recipes.removeShaped(<extrautils2:decorativesolid:2> * 4, [[<ore:bricksStone>, <minecraft:stonebrick>], [<ore:bricksStone>, <ore:bricksStone>]]);
 
 
 
 //Additions
+recipes.addShaped(<extrautils2:decorativesolid:2> * 8, [[null, <ic2:resource:11>, null], [<ic2:resource:11>, <forge:bucketFilled>.withTag({FluidName: "hydrochloric_acid", Amount: 1000}), <ic2:resource:11>], [null, <ic2:resource:11>, null]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}), [[<ore:ingotTungsteel>, <deepresonance:spent_filter>, <ore:ingotTungsteel>], [<mekanism:ControlCircuit:3>, <extrautils2:machine>, <mekanism:ControlCircuit:3>], [<ore:ingotTungsteel>, <actuallyadditions:blockCrystalEmpowered:5>, <ore:ingotTungsteel>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}), [[<ore:ingotYag>, <ore:netherStar>, <ore:ingotYag>], [<ore:netherStar>, <extrautils2:machine>, <ore:netherStar>], [<ore:ingotTerrasteel>, <ore:ingotTerrasteel>, <ore:ingotTerrasteel>]]);
 recipes.addShaped(<extrautils2:rainbowgenerator>, [[<extrautils2:opinium:5>, <extrautils2:rainbowgenerator:2>, <extrautils2:opinium:5>], [<ic2:nuclear:3>, <draconicevolution:awakened_core>, <ic2:nuclear:3>], [<astralsorcery:ItemCraftingComponent:1>, <extrautils2:rainbowgenerator:1>, <astralsorcery:ItemCraftingComponent:1>]]);
@@ -48,7 +50,6 @@ recipes.addShaped(<extrautils2:machine>, [[<ic2:resource:11>, <ore:stickAluminum
 recipes.addShaped(<extrautils2:drum:3>, [[<ore:blockDemonicMetal>, <ore:ingotOsmiridium>, <ore:blockDemonicMetal>], [<actuallyadditions:itemCrystalEmpowered:2>, <extrautils2:drum:2>, <actuallyadditions:itemCrystalEmpowered:2>], [<ore:blockDemonicMetal>, <ore:ingotOsmiridium>, <ore:blockDemonicMetal>]]);
 recipes.addShaped(<extrautils2:ingredients:1> * 4, [[null, <enderio:itemAlloy:3>, null], [<ore:ingotRedstoneAlloy>, null, <ore:ingotRedstoneAlloy>], [null, <ore:ingotRedstoneAlloy>, null]]);
 recipes.addShaped(<extrautils2:machine>, [[<ore:plateSteel>, <ore:ingotConductiveIron>, <ore:plateSteel>], [<ore:itemEnrichedAlloy>, null, <ore:itemEnrichedAlloy>], [<ore:plateSteel>, <ore:ingotConductiveIron>, <ore:plateSteel>]]);
-recipes.addShaped(<extrautils2:decorativesolid:2> * 4, [[<minecraft:stonebrick>, null, <minecraft:stonebrick>], [<minecraft:stonebrick>, null, <minecraft:stonebrick>]]);
 recipes.addShaped(<extrautils2:wateringcan:1000>, [[<ore:plateIron>, null, null], [<ore:plateIron>, <arsmagica2:essence:2>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 recipes.addShaped(<extrautils2:ingredients:5>, [[<ore:gemMoonstone>]]);
 recipes.addShaped(<extrautils2:ingredients:1>, [[null, <ore:torchRedstoneActive>, null], [<ore:torchRedstoneActive>, <ore:gearTin>, <ore:torchRedstoneActive>], [null, <ore:torchRedstoneActive>, null]]);
