@@ -1,7 +1,7 @@
 AAMineTweaks-1.0.jar
 ActuallyAdditions-1.10.2-r105.jar
 Advanced Solar Panels-4.0.4.jar
-AdvancedRocketry-1.10.2-1.1.1.jar
+AdvancedRocketry-1.10.2-1.1.3.jar
 ae2stuff-0.6.0.9-mc1.10.2.jar
 angelRingToBauble-1.10.2-0.2.3.16+d3100bf.jar
 Animus-2017-03-28.jar
@@ -14,7 +14,7 @@ Aroma1997s-Dimensional-World-1.9.4-1.2.0.6.jar
 ArsMagica2-1.10.2-1.5.0-18.jar
 astralsorcery-1.2.3-beta.jar
 ATMBlacklister-0.5.jar
-atmrockhounding-1.2.0.jar
+atmrockhounding-1.2.1.jar
 AutoRegLib-1.0-2.jar
 Avaritia-1.10.2-2.0.7.jar
 avaritiaadditions-1.3.jar
@@ -23,9 +23,9 @@ bbtweaks-2017-03-27.jar
 bdlib-1.12.4.24-mc1.10.2.jar
 BedBugs-1.10.2-1.1.6.jar
 BetterAchievements-1.10.2-0.3.3.10.jar
-BetterFps-1.3.2.jar
+BetterFps-1.4.3-1.10.jar
 BiomesOPlenty-1.10.2-5.0.0.2162-universal.jar
-BloodMagic-1.10.2-2.1.8-77.jar
+BloodMagic-1.10.2-2.1.9-78.jar
 Bookshelf-1.10.2-1.4.4.347.jar
 Botania r1.9-341.jar
 BrandonsCore-1.10.2-2.1.5.97-universal.jar
@@ -63,7 +63,7 @@ Enchiridion-1.10.2-3.1.17.jar
 EnderCore-1.10.2-0.4.1.65-beta.jar
 EnderIO-1.10.2-3.1.179.jar
 EnderStorage-1.10.2-2.2.1.103-universal.jar
-EnderZoo-1.10-1.2.3.43.jar
+EnderZoo-1.10-1.2.3.44.jar
 EndMetals_1.9-1.0.4.jar
 ExtraBitManipulation-1.10.2-2.3.3.jar
 extrautils2-1.10.2-1.3.3.jar
@@ -71,13 +71,13 @@ ExtremeReactors-1.10.2-0.4.5.27.jar
 ExtremeUraniumReactor-1.0.jar
 FastLeaveDecay-MC1.10.2-1.2.3.jar
 flatcoloredblocks-mc1.10-v4.4.jar
-FloodLights-1.9.4-1.2.7-145.jar
 FluxNetworks-1.10.2-1.2.0.jar
 foamfix-0.5.4-anarchy.jar
 forestry_1.10.2-5.2.17.368.jar
 Forgelin-1.4.1.jar
-FTBLib-1.10.2-3.4.5.jar
-FTBUtilities-1.10.2-3.4.4.jar
+FTBLib-1.10.2-3.5.0.jar
+FTBUtilities-1.10.2-3.5.0.jar
+FullscreenWindowed-1.10.2-1.5.0.jar
 gendustry-1.6.5.30-mc1.10.2.jar
 GeographiCraft-0.8.7.jar
 grapplemod-1.10-v9.jar
@@ -85,7 +85,7 @@ Gravitation Suite-3.0.1.jar
 Guide-API-1.10.2-2.0.3-46.jar
 HardcoreDarkness-MC1.9.4-1.8.jar
 HelpFixer-1.10.2-1.4.15.jar
-HQM-New Heights-1.10.2-5.1.0alpha3.jar
+HQM-New Heights-1.10.2-5.1.0alpha4.jar
 ImmersiveEngineering-0.10-57.jar
 incontrol-3.5.4.jar
 industrialcraft-2-2.6.188-ex110.jar
@@ -100,7 +100,7 @@ journeymap-1.10.2-5.4.6.jar
 justenoughdimensions-1.10.2-1.3.6.jar
 JustEnoughResources-1.10.2-0.5.9.3.jar
 LaunchGui-1.9.4-2.0.3-23-client.jar
-LibVulpes-1.10.2-0.2.0-universal.jar
+LibVulpes-1.10.2-0.2.1-universal.jar
 llibrary-1.7.4-1.10.2.jar
 LootTableTweaker-1.10.2-1.0.0.7.jar
 LunatriusCore-1.10.2-1.1.2.38-universal.jar
@@ -123,7 +123,7 @@ moreoverlays-1.10-mc1.10.2.jar
 Morph-o-Tool-1.0-12.jar
 mp3spi-1.9.5-1.jar
 MTLib-1.0.2.jar
-natura-1.10.2-4.1.0.29.jar
+natura-1.10.2-4.1.0.34.jar
 NaturesCompass-1.10.2-1.3.0.jar
 Neat 1.3-12.jar
 NetherMetals_1.9-1.1.2.jar
@@ -131,13 +131,14 @@ notenoughwands-1.1x-1.5.4.jar
 OpenComputers-MC1.10.2-1.6.2.7.jar
 OpenGlasses-1.4.jar
 OpenGlider-1.10.2-0.2.3.jar
+OptiFine_1.10.2_HD_U_D7.jar
 p455w0rdslib-1.10.2-1.0.13.jar
 Pam's HarvestCraft 1.9.4-1.10.2h.jar
 plustic-4.1.0.0.jar
 pressure-1.3.1.25-mc1.10.2.jar
 ProjectE-1.10.2-PE1.2.0.jar
 Psi-r1.0-42.jar
-QuantumStorage-1.10.2-3.3.1.jar
+QuantumStorage-1.10.2-3.3.2.jar
 Quark-r1.1-70.jar
 RandomThings-MC1.10.2-3.7.7.jar
 rangedpumps-0.3.jar
@@ -165,7 +166,7 @@ spontaneouscollection-0.0.2.jar
 Stackie-1.10.2-1.6.0.44-universal.jar
 StacksOnStacks2-1.1.4.jar
 StevesFactoryManager-1.10.2-1.0.12.jar
-StorageDrawers-1.10.2-3.6.3.jar
+StorageDrawers-1.10.2-3.7.0.jar
 SuperCircuitMaker-1.0.4.jar
 TConstruct-1.10.2-2.6.3.jar
 theoneprobe-1.1x-1.4.5.jar
@@ -178,7 +179,7 @@ torchmaster_1.10.2-1.2.0.18.jar
 Translocators-1.10.2-2.1.4.54-universal.jar
 TrashSlot_1.10.2-6.3.7.jar
 vorbisspi-1.0.3-1.jar
-WirelessCraftingTerminal-1.10.2-0.1.24.jar
+WirelessCraftingTerminal-1.10.2-0.1.25.jar
 woot-1.10.2-1.2.7.jar
 worldedit-forge-mc1.10.2-6.1.4-dist.jar
 Xtones-1.10.2-1.0.1-3.jar
