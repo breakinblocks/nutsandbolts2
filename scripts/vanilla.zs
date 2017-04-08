@@ -106,6 +106,7 @@ recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>],
 recipes.addShaped(<minecraft:elytra>, [[null, <enderio:itemGliderWing>, <minecraft:end_rod>], [<ore:bEnderAirBottle>, <ic2:misc_resource:1>, <enderio:itemGliderWing>], [<minecraft:end_rod>, <ore:bEnderAirBottle>]]);
 recipes.addShaped(<minecraft:minecart> *2, [[<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<minecraft:enchanting_table>, [[null, <minecraft:writable_book>, null], [<extrautils2:decorativesolidwood:1>, <astralsorcery:ItemConstellationPaper>, <extrautils2:decorativesolidwood:1>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShaped(<minecraft:clock>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:gemRedstone>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
 recipes.addShaped(<minecraft:bucket>, [[<embers:brickCaminite>, null, <embers:brickCaminite>], [<ic2:ingot:6>, null, <ic2:ingot:6>], [<embers:brickCaminite>, <ic2:ingot:6>, <embers:brickCaminite>]]);
 recipes.addShaped(<minecraft:enchanting_table>, [[<ore:gemDiamond>, <embers:aspectusDawnstone>, <ore:gemDiamond>], [<extrautils2:decorativesolidwood:1>, <botania:manaGlass>, <extrautils2:decorativesolidwood:1>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
 recipes.addShaped(<minecraft:iron_boots>, [[<ic2:plate:3>, null, <ore:plateIron>], [<ic2:plate:3>, <minecraft:chainmail_boots>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ic2:plate:3>]]);

@@ -1,3 +1,10 @@
+//Compressor
+mods.avaritiaadditions.Compressor.add(<avaritiaadditions:iron_singularity>, 10000, <minecraft:iron_ingot>);
+mods.avaritiaadditions.Compressor.add(<avaritiaadditions:quartz_singularity>, 10000, <minecraft:quartz>);
+mods.avaritiaadditions.Compressor.add(<avaritiaadditions:lapis_singularity>, 10000, <minecraft:dye:4>);
+mods.avaritiaadditions.Compressor.add(<avaritiaadditions:gold_singularity>, 10000, <minecraft:gold_ingot>);
+mods.avaritiaadditions.Compressor.add(<avaritiaadditions:redstone_singularity>, 10000, <minecraft:redstone>);
+
 //mods.avaritia.ExtremeCrafting.addShapeless(<> * 1, 
 //[
 //[null,	null,	null,	null,	null,	null,	null,	null,	null],
@@ -160,3 +167,59 @@ mods.avaritia.ExtremeCrafting.addShaped(<draconicevolution:chaos_shard> * 1,
 [null,	null,	null,	null,	<projecte:item.pe_matter>,	null,	null,	null,	null],
 [null,	null,	null,	null,	null,	null,	null,	null,	null]
 ]);
+
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_catalyst> * 1, 
+[
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, <avaritiaadditions:neutronium_ingot>, null, null, null, null], 
+[null, null, null, <draconicevolution:draconic_ingot>, <avaritiaadditions:gold_singularity>, <draconicevolution:draconic_ingot>, null, null, null], 
+[null, null, <avaritiaadditions:neutronium_ingot>, <avaritiaadditions:iron_singularity>, <avaritiaadditions:quartz_singularity>, <avaritiaadditions:lapis_singularity>, <avaritiaadditions:neutronium_ingot>, null, null], 
+[null, null, null, <draconicevolution:draconic_ingot>, <avaritiaadditions:redstone_singularity>, <draconicevolution:draconic_ingot>, null, null, null], 
+[null, null, null, null, <avaritiaadditions:neutronium_ingot>, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null] 
+]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_ingot> * 1, 
+[
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, <psi:material:1>, <atmrockhounding:ingot:12>, <atmrockhounding:ingot:3>, null, null, null], 
+[null, null, <plustic:osmiridiumingot>, <atmrockhounding:ingot:15>, <avaritiaadditions:infinity_catalyst>, <atmrockhounding:ingot:15>, <plustic:osmiridiumingot>, null, null], 
+[null, null, null, <atmrockhounding:ingot:3>, <atmrockhounding:ingot:12>, <psi:material:1>, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null] 
+]);
+
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_sword> * 1, 
+[ 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, <astralsorcery:ItemTunedCelestialCrystal>.withTag({astralsorcery: {constellationName: "astralsorcery.constellation.discidia"}}), null, null, null, null], 
+[null, null, null, null, <avaritiaadditions:infinity_ingot>, null, null, null, null], 
+[null, null, null, null, <avaritiaadditions:infinity_ingot>, null, null, null, null], 
+[null, null, null, <psi:psiDecorative:2>, <draconicevolution:draconic_sword>, <psi:psiDecorative:2>, null, null, null], 
+[null, null, null, null, <botania:manaResource:13>, null, null, null, null], 
+[null, null, null, null, <botania:manaResource:13>, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null], 
+[null, null, null, null, null, null, null, null, null] 
+]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_bow> * 1, [ [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, <botania:manaResource:16>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, <botania:manaResource:16>, <draconicevolution:draconic_bow>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, null, <botania:manaResource:16>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null] ]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_armor_feet> * 1, [ [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, <avaritiaadditions:infinity_ingot>, <draconicevolution:draconic_boots>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, <avaritiaadditions:infinity_ingot>, null, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null] ]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_armor_chest> * 1, [ [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, <avaritiaadditions:infinity_ingot>, <draconicevolution:draconic_chest>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, <avaritiaadditions:infinity_ingot>, <avaritiaadditions:infinity_ingot>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, <avaritiaadditions:infinity_ingot>, <avaritiaadditions:infinity_ingot>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null] ]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_armor_legs> * 1, [ [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, <avaritiaadditions:infinity_ingot>, <avaritiaadditions:infinity_ingot>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, <avaritiaadditions:infinity_ingot>, <draconicevolution:draconic_legs>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, <avaritiaadditions:infinity_ingot>, null, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null] ]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_armor_head> * 1, [ [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, <avaritiaadditions:infinity_ingot>, <avaritiaadditions:infinity_ingot>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, <avaritiaadditions:infinity_ingot>, <draconicevolution:draconic_helm>, <avaritiaadditions:infinity_ingot>, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null], [null, null, null, null, null, null, null, null, null] ]);
+
+recipes.addShaped(<avaritiaadditions:infinity_shovel>, [[<avaritiaadditions:infinity_ingot>, <projecte:item.pe_rm_shovel>, <avaritiaadditions:infinity_ingot>]]);
+recipes.addShaped(<avaritiaadditions:infinity_pickaxe>, [[<avaritiaadditions:infinity_ingot>, <projecte:item.pe_rm_pick>, <avaritiaadditions:infinity_ingot>]]);
+recipes.addShaped(<avaritiaadditions:infinity_axe>, [[<avaritiaadditions:infinity_ingot>, <projecte:item.pe_rm_axe>, <avaritiaadditions:infinity_ingot>]]);
+recipes.addShaped(<avaritiaadditions:collector>, [[<ore:plateTitaniumAluminide>, <extrautils2:passivegenerator>, <ore:plateTitaniumAluminide>], [<astralsorcery:ItemCraftingComponent:1>, <ic2:lapotron_crystal:26>, <astralsorcery:ItemCraftingComponent:1>], [<ore:plateTitaniumAluminide>, <extrautils2:passivegenerator:1>, <ore:plateTitaniumAluminide>]]);
+recipes.addShaped(<avaritiaadditions:neutronium_compressor>, [[<ore:ingotOsmiridium>, <ore:runeGluttonyB>, <ore:ingotOsmiridium>], [<ore:itemCompressedObsidian>, <draconicevolution:awakened_core>, <ore:itemCompressedObsidian>], [<ore:ingotOsmiridium>, <advanced_solar_panels:crafting:5>, <ore:ingotOsmiridium>]]);

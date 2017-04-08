@@ -74,4 +74,5 @@ furnace.addRecipe(<atmrockhounding:oxideShards>*3,<endmetals:end_chromium_ore>);
 furnace.addRecipe(<libvulpes:ore0:8> *2,<endmetals:end_titanium_ore>);
 furnace.addRecipe(<atmrockhounding:oxideShards>*2,<endmetals:end_tantalum_ore>);
 furnace.addRecipe(<atmrockhounding:oxideShards:16>*2,<endmetals:end_tungsten_ore>);
-
+furnace.addRecipe(<libvulpes:productingot:3>,<ore:dustClay>);
+furnace.addRecipe(<ic2:resource:4>*2,<endmetals:end_uranium_ore>);

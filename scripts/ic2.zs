@@ -5,7 +5,6 @@ recipes.remove(<ic2:resource:12>);
 recipes.remove(<ic2:te:43>);
 recipes.remove(<ic2:te:43>);
 recipes.remove(<ic2:te:4>);
-recipes.remove(<ic2:te:7>);
 recipes.remove(<ic2:te:3>);
 recipes.remove(<ic2:resource:9>);
 recipes.remove(<ic2:resource:7>);
@@ -71,9 +70,7 @@ recipes.addShaped(<ic2:scaffold:2> * 8, [[<ore:plateIron>, <ore:plateIron>, <ore
 recipes.addShaped(<ic2:uranium_fuel_rod>, [[<ic2:crafting:9>, <ic2:nuclear>]]);
 recipes.addShaped(<ic2:mox_fuel_rod>, [[<ic2:crafting:9>, <ore:moxFuel>]]);
 recipes.addShaped(<ic2:nuclear>, [[<ic2:uranium_fuel_rod>]]);
-recipes.addShaped(<ic2:te:4>, [[<ic2:casing>, <forge:bucketFilled>.withTag({FluidName: "lava", Amount: 1000}), <ic2:casing>], [<extrautils2:decorativeglass:3>, <ic2:te:3>, <extrautils2:decorativeglass:3>], [<ic2:casing>, <forge:bucketFilled>.withTag({FluidName: "lava", Amount: 1000}), <ic2:casing>]]);
-recipes.addShaped(<ic2:te:7>, [[<ic2:casing>, <forge:bucketFilled>.withTag({FluidName: "creosote", Amount: 1000}), <ic2:casing>], [<forge:bucketFilled>.withTag({FluidName: "creosote", Amount: 1000}), <ic2:te:3>, <forge:bucketFilled>.withTag({FluidName: "creosote", Amount: 1000})], [<ic2:casing>, <forge:bucketFilled>.withTag({FluidName: "creosote", Amount: 1000}), <ic2:casing>]]);
-recipes.addShaped(<minecraft:clock>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:gemRedstone>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
+recipes.addShaped(<ic2:te:4>, [[<ic2:casing>, <minecraft:lava_bucket>, <ic2:casing>], [<extrautils2:decorativeglass:3>, <ic2:te:3>, <extrautils2:decorativeglass:3>], [<ic2:casing>, <minecraft:lava_bucket>, <ic2:casing>]]);
 recipes.addShaped(<ic2:te:3>, [[null, <ic2:re_battery:26>, null], [<ore:plateIron>, <extrautils2:machine>, <ore:plateIron>]]);
 recipes.addShaped(<ic2:te:60>, [[null, <ironchest:BlockIronChest:2>, null], [<ore:circuitBasic>, <ic2:resource:12>, <ore:circuitBasic>], [<mekanismgenerators:ReactorGlass:1>, <ic2:mining_pipe>, <mekanismgenerators:ReactorGlass:1>]]);
 recipes.addShaped(<ic2:resource:12>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <forestry:sturdyMachine>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
@@ -89,7 +86,7 @@ recipes.addShaped(<ic2:crafting:16>, [[<bigreactors:ingotmetals:2>, <bigreactors
 recipes.addShaped(<ic2:forge_hammer>, [[<minecraft:iron_ingot>, <ore:ingotIron>, null], [<ore:ingotIron>, <immersiveengineering:material>, <immersiveengineering:material>], [<minecraft:iron_ingot>, <ore:ingotIron>, null]]);
 recipes.addShaped(<ic2:heat_vent>, [[<ore:barsIron>, <ore:plateIron>, <ore:barsIron>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:barsIron>, <ore:plateIron>, <ore:barsIron>]]);
 recipes.addShaped(<ic2:component_heat_vent>, [[<ore:plateTin>, <ore:barsIron>, <ore:plateTin>], [<ore:barsIron>, null, <ore:barsIron>], [<ore:plateTin>, <ore:barsIron>, <ore:plateTin>]]);
-recipes.addShapeless(<ic2:dust:15>, [<aroma1997sdimension:portalIgniter>.transformDamage(), <minecraft:stone>]);
 
 <ic2:crafting:25>.addTooltip("Right click water to create construction foam fluid");
 <ic2:resource:11>.addTooltip("Made by filling iron scaffolds with construction foam");
+

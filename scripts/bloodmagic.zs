@@ -14,8 +14,11 @@ mods.bloodmagic.Altar.addRecipe(<draconicevolution:draconium_dust>, 1, 10000, 20
 //Removals
 recipes.remove(<bloodmagic:BlockSoulForge>);
 recipes.removeShaped(<bloodmagic:BlockAlchemyTable>);
+recipes.remove(<bloodmagic:BlockBloodStoneBrick>);
 
 //Additions
 recipes.addShaped(<bloodmagic:BlockSoulForge>, [[<ore:ingotTitaniumAluminide>, <arsmagica2:essence:3>, <ore:ingotTitaniumAluminide>], [<ore:ingotTitaniumAluminide>, <ore:runeFireB>, <ore:ingotTitaniumAluminide>],[<ore:ingotTitaniumAluminide>, <astralsorcery:BlockWell>, <ore:ingotTitaniumAluminide>]]);
 recipes.addShaped(<bloodmagic:BlockAlchemyTable>, [[<ore:ingotDemonicMetal>, <ore:ingotDemonicMetal>, <ore:ingotDemonicMetal>], [<roots:logWildwoodSymbolGlowing>, <botania:quartzTypeBlaze>, <roots:logWildwoodSymbolGlowing>], [<ore:ingotGreengold>, <bloodmagic:ItemSlate>, <ore:ingotGreengold>]]);
+recipes.addShaped(<bloodmagic:BlockBloodStoneBrick> * 2, [[<ore:blockSlimeCongealed>, <enderio:blockReinforcedObsidian>, <ore:blockSlimeCongealed>], [<ore:blockSlimeCongealed>, <bloodmagic:ItemBloodShard>,<ore:blockSlimeCongealed>], [<ore:blockSlimeCongealed>, <ore:blockSlimeCongealed>, <ore:blockSlimeCongealed>]]);
+
 

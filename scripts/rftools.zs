@@ -14,6 +14,7 @@ recipes.remove(<rftools:powercell>);
 recipes.remove(<rftools:powercell_card>);
 recipes.remove(<rftools:builder>);
 recipes.remove(<rftools:machine_infuser>);
+recipes.remove(<rftools:storage_scanner>);
 recipes.remove(<rftools:charged_porter>);
 recipes.remove(<rftools:advanced_charged_porter>);
 recipes.remove(<rftools:remote_storage>);
@@ -35,6 +36,8 @@ recipes.remove(<rftools:machine_frame>);
 
 
 //Additions
+recipes.addShaped(<rftools:storage_scanner>, [[<ore:quartzRed>, <ore:ingotPulsatingIron>, <ore:quartzRed>], [<ore:plateSteel>, <rftools:machine_frame>, <ore:plateSteel>], [<ore:quartzRed>, <ore:ingotPulsatingIron>, <ore:quartzRed>]]);
+
 recipes.addShaped(<rftools:creative_screen>, [[<ic2:misc_resource:3>, <rftools:screen>, <ic2:misc_resource:3>]]);
 recipes.addShaped(<rftools:matter_receiver>, [[<ore:blockRedstone>, <ic2:plate:7>, <ore:blockRedstone>], [<ore:pearlFluix>, <rftools:machine_frame>, <ore:pearlFluix>], [<ore:plateSteel>, <mekanism:TeleportationCore>, <ore:plateSteel>]]);
 recipes.addShaped(<rftools:matter_transmitter>, [[<ore:blockRedstone>, <mekanism:TeleportationCore>, <ore:blockRedstone>], [<ore:pearlFluix>, <rftools:machine_frame>, <ore:pearlFluix>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);

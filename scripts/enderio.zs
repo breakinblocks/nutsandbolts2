@@ -29,6 +29,8 @@ recipes.remove(<enderio:itemYetaWrench>);
 recipes.remove(<enderio:itemMachinePart>);
 
 //Additions
+recipes.addShaped(<enderio:itemBasicCapacitor:1>, [[null, <ore:ingotEnergeticAlloy>, null], [<enderio:itemBasicCapacitor>, <ore:nuggetYag>, <enderio:itemBasicCapacitor>], [null, <ore:ingotEnergeticAlloy>, null]]);
+recipes.addShaped(<enderio:itemYetaWrench>, [[<ore:ingotPulsatingIron>, null, <ore:ingotPulsatingIron>], [null, <ore:gearIron>, null], [null, <ore:ingotPulsatingIron>, null]]);
 recipes.addShaped(<enderio:blockTravelAnchor>, [[<ore:itemPulsatingIronNugget>, <extrautils2:decorativeglass:5>, <ore:itemPulsatingIronNugget>], [<ore:itemPulsatingIronNugget>, <ore:manaPearl>, <ore:itemPulsatingIronNugget>], [<ic2:casing:5>, <ore:itemPulsatingIronNugget>, <ic2:casing:5>]]);
 recipes.addShaped(<enderio:itemFunctionUpgrade>, [[<ore:torchRedstoneActive>, <ore:pearlEnderEye>, <ore:torchRedstoneActive>], [<ore:itemConduitBinder>, <ore:gearStone>, <ore:itemConduitBinder>]]);
 recipes.addShaped(<enderio:blockEnchanter>, [[null, <arsmagica2:essence:1>, null], [<extrautils2:decorativesolidwood:1>, <enderio:itemXpTransfer>, <extrautils2:decorativesolidwood:1>], [<actuallyadditions:itemCrystalEmpowered:2>, <ore:blockBam>, <actuallyadditions:itemCrystalEmpowered:2>]]);

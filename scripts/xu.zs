@@ -11,16 +11,20 @@ recipes.remove(<extrautils2:ingredients:9>);
 recipes.remove(<extrautils2:decorativesolid:2> * 4);
 recipes.remove(<extrautils2:ingredients:8>);
 recipes.remove(<extrautils2:drum:3>);
+recipes.remove(<extrautils2:teleporter:1>);
 recipes.remove(<extrautils2:ingredients:6>);
 recipes.remove(<extrautils2:passivegenerator:3>);
 recipes.remove(<extrautils2:decorativesolid:2>);
 recipes.remove(<extrautils2:resonator>);
+recipes.remove(<extrautils2:teleporter:1>);
 
 recipes.removeShaped(<extrautils2:decorativesolid:2> * 4, [[<ore:bricksStone>, <minecraft:stonebrick>], [<ore:bricksStone>, <ore:bricksStone>]]);
 
 
 
 //Additions
+recipes.addShaped(<extrautils2:ingredients:4>, [[null, <ore:alloyBasic>, null], [<ore:alloyBasic>, <ore:coal>, <ore:alloyBasic>], [null, <ore:alloyBasic>, null]]);
+
 recipes.addShaped(<extrautils2:decorativesolid:2> * 8, [[null, <ic2:resource:11>, null], [<ic2:resource:11>, <forge:bucketFilled>.withTag({FluidName: "hydrochloric_acid", Amount: 1000}), <ic2:resource:11>], [null, <ic2:resource:11>, null]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}), [[<ore:ingotTungsteel>, <deepresonance:spent_filter>, <ore:ingotTungsteel>], [<mekanism:ControlCircuit:3>, <extrautils2:machine>, <mekanism:ControlCircuit:3>], [<ore:ingotTungsteel>, <actuallyadditions:blockCrystalEmpowered:5>, <ore:ingotTungsteel>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}), [[<ore:ingotYag>, <ore:netherStar>, <ore:ingotYag>], [<ore:netherStar>, <extrautils2:machine>, <ore:netherStar>], [<ore:ingotTerrasteel>, <ore:ingotTerrasteel>, <ore:ingotTerrasteel>]]);

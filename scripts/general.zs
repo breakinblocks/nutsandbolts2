@@ -10,6 +10,7 @@ val aluminum = <ore:oreAluminum>;
 aluminum.remove(<libvulpes:ore0:9>);
 
 //Removals
+recipes.remove(<advancedrocketry:platePress>);
 recipes.remove(<minecraft:iron_door>);
 recipes.remove(<opencomputers:material:30>);
 recipes.remove(<quantumstorage:quantumdsu>);
@@ -28,7 +29,6 @@ recipes.remove(<redstonearsenal:material:96>);
 recipes.remove(<actuallyadditions:blockMisc:5>);
 recipes.remove(<torchmaster:mega_torch>);
 recipes.remove(<opencomputers:case2>);
-recipes.remove(<opencomputers:case3>);
 recipes.remove(<opencomputers:case1>);
 recipes.remove(<enderstorage:enderStorage:1>);
 recipes.remove(<enderstorage:enderStorage>);
@@ -36,7 +36,6 @@ recipes.remove(<gendustry:PowerModule>);
 recipes.remove(<gendustry:EnvProcessor>);
 recipes.remove(<gendustry:GeneticsProcessor>);
 recipes.remove(<gendustry:GeneSampleBlank>);
-recipes.remove(<bloodmagic:BlockSoulForge>);
 recipes.remove(<bloodmagic:ItemSacrificialDagger>);
 recipes.remove(<bloodmagic:ItemSoulSnare>);
 recipes.remove(<opencomputers:material:2>);
@@ -47,7 +46,6 @@ recipes.remove(<randomthings:advancedItemCollector>);
 recipes.remove(<randomthings:itemCollector>);
 recipes.remove(<darkutils:fake_tnt>);
 recipes.remove(<embers:tinkerHammer>);
-recipes.remove(<fluxnetworks:FluxBlock>);
 recipes.remove(<stevesfactorymanager:BlockMachineManagerName>);
 recipes.remove(<stevesfactorymanager:BlockCableName>);
 recipes.remove(<simplelabels:blockVSU>);
@@ -57,11 +55,9 @@ recipes.remove(<fluxnetworks:FluxController>);
 recipes.remove(<fluxnetworks:FluxCore>);
 recipes.remove(<aroma1997sdimension:portalIgniter>);
 recipes.remove(<theoneprobe:probenote>);
-recipes.remove(<integrateddynamics:squeezer>);
 recipes.remove(<gendustry:MutagenTank>);
 recipes.remove(<gendustry:IndustrialApiary>);
 recipes.remove(<embers:blockCaminiteBrick>);
-recipes.remove(<integrateddynamics:coalGenerator>);
 recipes.remove(<gendustry:PowerModule>);
 
 
@@ -72,21 +68,22 @@ recipes.addShapeless(<extrautils2:ingredients:9> * 2, [<ic2:plate:2>]);
 
 
 //add Shaped
+recipes.addShaped(<minecraft:coal>, [[<ore:pelletCoal>, <ore:pelletCoal>, <ore:pelletCoal>], [<ore:pelletCoal>, null, <ore:pelletCoal>], [<rockhounding_oretiers:tiersItems:5>, <rockhounding_oretiers:tiersItems:5>, <ore:pelletCoal>]]);
+
+recipes.addShaped(<fluxnetworks:FluxStorage>, [[<thermalfoundation:material:359>, <thermalfoundation:security>, <thermalfoundation:material:359>], [<advanced_solar_panels:crafting:6>, <advanced_solar_panels:crafting:5>, <advanced_solar_panels:crafting:6>], [<thermalfoundation:material:359>, <plustic:osmiridiumingot>, <thermalfoundation:material:359>]]);
+recipes.addShaped(<fluxnetworks:FluxController>, [[<gravisuite:crafting:1>, <mekanism:MachineBlock:11>, <gravisuite:crafting:1>], [<appliedenergistics2:material:23>, <draconicevolution:dislocator>, <appliedenergistics2:material:23>], [<atmrockhounding:ingot:16>, <gravisuite:crafting:1>, <atmrockhounding:ingot:16>]]);
+recipes.addShaped(<grapplemod:longfallboots>, [[<ore:fabricHemp>, <minecraft:diamond_boots>, <ore:fabricHemp>], [<ore:fabricHemp>, <forestry:thermionicTubes:8>, <ore:fabricHemp>], [<ore:fabricHemp>, <ore:fabricHemp>,<ore:fabricHemp>]]);
 recipes.addShaped(<thermalfoundation:coin:103>, [[<bbtweaks:breakbitworldbreaker>]]);
 recipes.addShaped(<minecraft:iron_door>, [[<ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped(<embers:tinkerHammer>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <forestry:oakStick>, <ore:ingotTin>], [null, <forestry:oakStick>, null]]);
-recipes.addShaped(<fluxnetworks:FluxBlock>, [[<advanced_solar_panels:crafting:7>, <fluxnetworks:FluxCore>, <advanced_solar_panels:crafting:7>], [<fluxnetworks:FluxCore>, <ore:dustLudicrite>, <fluxnetworks:FluxCore>], [<advanced_solar_panels:crafting:7>, <fluxnetworks:FluxCore>, <advanced_solar_panels:crafting:7>]]);
 recipes.addShaped(<stevesfactorymanager:BlockCableName> * 8, [[<extrautils2:decorativeglass>, <ore:plateGold>, <extrautils2:decorativeglass>], [<mekanism:MultipartTransmitter:5>, <actuallyadditions:itemCrystal>, <mekanism:MultipartTransmitter:5>], [<extrautils2:decorativeglass>, <ore:plateGold>, <extrautils2:decorativeglass>]]);
 recipes.addShaped(<stevesfactorymanager:BlockMachineManagerName>, [[<actuallyadditions:itemCrystalEmpowered:2>, <ore:oc:apu1>, <actuallyadditions:itemCrystalEmpowered:2>], [<mekanism:ControlCircuit:1>, <ore:blockTungsteel>, <mekanism:ControlCircuit:1>], [<actuallyadditions:itemCrystalEmpowered:2>, <ore:oc:apu1>, <actuallyadditions:itemCrystalEmpowered:2>]]);
-recipes.addShaped(<fluxnetworks:FluxStorage>, [[<fluxnetworks:FluxBlock>, <fluxnetworks:FluxBlock>, <fluxnetworks:FluxBlock>], [<advanced_solar_panels:crafting:6>, <mekanism:EnergyCube>, <advanced_solar_panels:crafting:6>], [<fluxnetworks:FluxBlock>, <fluxnetworks:FluxBlock>, <fluxnetworks:FluxBlock>]]);
-recipes.addShaped(<fluxnetworks:FluxController>, [[<fluxnetworks:FluxBlock>, <mekanism:MachineBlock2:13>, <fluxnetworks:FluxBlock>], [<appliedenergistics2:material:23>, <draconicevolution:dislocator>, <appliedenergistics2:material:23>], [<fluxnetworks:FluxBlock>, <ore:blockTungsteel>, <fluxnetworks:FluxBlock>]]);
 recipes.addShaped(<fluxnetworks:FluxCore>, [[<ore:ingotRefinedObsidian>, <fluxnetworks:Flux>, <ore:ingotRefinedObsidian>], [<fluxnetworks:Flux>, <actuallyadditions:itemCrystalEmpowered:2>, <fluxnetworks:Flux>], [<ore:ingotRefinedObsidian>, <fluxnetworks:Flux>, <ore:ingotRefinedObsidian>]]);
 recipes.addShaped(<bloodmagic:BlockDemonExtra:10>, [[<ore:ingotMischmetal>, <bloodmagic:ItemDemonCrystal>, <ore:ingotMischmetal>], [<bloodmagic:ItemDemonCrystal>, <ore:blockDemonicMetal>, <bloodmagic:ItemDemonCrystal>], [<ore:ingotMischmetal>, <bloodmagic:ItemDemonCrystal>, <ore:ingotMischmetal>]]);
 recipes.addShaped(<aroma1997sdimension:portalIgniter>, [[<ore:compressed1xCobblestone>, <ore:itemFlint>, <ore:compressed1xCobblestone>], [null, <actuallyadditions:stonePaxel>, null], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<morebees:nether_starFragment> * 4, [[<ore:netherStar>]]);
 recipes.addShaped(<theoneprobe:probenote>, [[<ore:blockDirt>]]);
 recipes.addShaped(<minecraft:end_rod>, [[<botania:thirdEye>], [<randomthings:enderAnchor>], [<randomthings:enderAnchor>]]);
-recipes.addShaped(<integrateddynamics:squeezer>, [[<ore:stickWood>, <ore:compressed1xCobblestone>, <ore:stickWood>], [<ore:stickWood>, null, <ore:stickWood>], [<ore:compressed1xCobblestone>, <minecraft:wooden_pressure_plate>, <ore:compressed1xCobblestone>]]);
 recipes.addShaped(<embers:dustAsh>, [[null, <ore:dustCoal>, null], [<ore:dustCoal>, <forestry:ash>, <ore:dustCoal>], [null, <ore:dustCoal>, null]]);
 recipes.addShaped(<gendustry:MutagenTank>, [[<ore:plateTitaniumAluminide>, <advanced_solar_panels:crafting:6>, <ore:plateTitaniumAluminide>], [<ore:plateTitaniumAluminide>, <advanced_solar_panels:crafting:6>, <ore:plateTitaniumAluminide>], [<ore:plateTitaniumAluminide>, <advanced_solar_panels:crafting:6>, <ore:plateTitaniumAluminide>]]);
 recipes.addShaped(<gendustry:IndustrialApiary>, [[<ore:plateDawnstone>, <gendustry:BeeReceptacle>, <ore:plateDawnstone>], [<ore:gearBronze>, <forestry:apiary>, <ore:gearBronze>], [<ore:plateDawnstone>, <forestry:thermionicTubes:5>, <ore:plateDawnstone>]]);
@@ -94,7 +91,6 @@ recipes.addShaped(<embers:blockCaminiteBrick>, [[null, <embers:brickCaminite>, n
 recipes.addShaped(<enderstorage:enderStorage:1> * 2, [[<ore:plateObsidian>, <botania:forestEye>, <ore:plateObsidian>], [<ic2:crafting:15>, <enderio:blockReservoir>, <ic2:crafting:15>], [<ore:plateObsidian>, <ore:blockWool>, <ore:plateObsidian>]]);
 recipes.addShaped(<enderstorage:enderStorage> * 2, [[<ic2:plate:6>, <botania:forestEye>, <ic2:plate:6>], [<ic2:crafting:15>, <ironchest:BlockIronChest:2>, <ic2:crafting:15>], [<ic2:plate:6>, <minecraft:wool>, <ic2:plate:6>]]);
 recipes.addShaped(<opencomputers:material:30>, [[<translocator:diamondNugget>]]);
-recipes.addShaped(<enderio:itemYetaWrench>, [[<ore:ingotSteel>, null, <ore:ingotSteel>], [null, <ore:gearStone>, null], [null, <ore:ingotSteel>, null]]);
 recipes.addShaped(<quantumstorage:quantumdsu>, [[<mekanism:Polyethene:2>, <ore:gemDiamond>, <mekanism:Polyethene:2>], [<ore:plateSteel>, <ironchest:BlockIronChest:6>, <ore:plateSteel>], [<mekanism:Polyethene:2>, <ore:plateSteel>, <mekanism:Polyethene:2>]]);
 recipes.addShaped(<quantumstorage:quantumtank>, [[<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>], [<ore:ingotDarkSteel>, <extrautils2:drum:3>, <ore:ingotDarkSteel>], [<ore:ingotDarkSteel>, <ic2:crafting:4>, <ore:ingotDarkSteel>]]);
 recipes.addShaped(<pressure:input>, [[null, <ic2:crafting:4>, null], [<mekanism:MultipartTransmitter:7>, <enderio:itemMaterial:1>, <mekanism:MultipartTransmitter:7>], [null, <pressure:Interface>, null]]);
@@ -105,7 +101,6 @@ recipes.addShaped(<pressure:Canister>, [[<botania:manaGlass>, <ore:ingotSteel>, 
 recipes.addShaped(<opencomputers:caseCreative>, [[<ic2:casing:5>, <ore:oc:circuitChip3>, <ic2:casing:5>], [<ore:elvenDragonstone>, <rftools:modular_storage>, <ore:elvenDragonstone>], [<ic2:casing:5>, <arsmagica2:essence:9>, <ic2:casing:5>]]);
 recipes.addShaped(<gendustry:PowerModule>, [[<ore:gearBronze>, <rftools:infused_diamond>, <ore:gearBronze>], [<ore:craftingPiston>, <rftools:powercell_simple>, <ore:craftingPiston>], [<ore:gearBronze>, <enderio:itemBasicCapacitor:1>, <ore:gearBronze>]]);
 recipes.addShaped(<gendustry:GeneSampleBlank>, [[null, <ic2:casing:6>, null], [<ic2:casing:6>, <extrautils2:decorativesolid:3>, <ic2:casing:6>], [null, <ic2:casing:6>, null]]);
-recipes.addShaped(<bloodmagic:BlockSoulForge>, [[<ore:ingotManasteel>, <deepresonance:lens>, <ore:ingotManasteel>], [<minecraft:magma>, <ore:plateGold>, <minecraft:magma>], [<minecraft:magma>, <ore:blockBlaze>, <minecraft:magma>]]);
 recipes.addShaped(<bloodmagic:ItemSacrificialDagger>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [null, <ore:ingotGold>, <ore:blockGlassColorless>], [<tconstruct:tool_rod>.withTag({Material: "steel"}), null, <ore:blockGlassColorless>]]);
 recipes.addShaped(<bloodmagic:ItemSoulSnare> * 8, [[<immersiveengineering:material:4>, <ore:nuggetKnightslime>, <immersiveengineering:material:4>], [<ore:nuggetKnightslime>, <ore:redstoneRoot>, <ore:nuggetKnightslime>], [<immersiveengineering:material:4>, <ore:nuggetKnightslime>, <immersiveengineering:material:4>]]);
 recipes.addShaped(<opencomputers:material:2> * 8, [[<minecraft:sugar>, <minecraft:slime_ball>, <minecraft:fermented_spider_eye>], [<minecraft:bone>, <minecraft:potion>, null]]);
