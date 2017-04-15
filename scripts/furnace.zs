@@ -28,6 +28,9 @@ furnace.addRecipe(<ic2:ingot:6>, <ore:crushedTin>, 4.5);
 furnace.addRecipe(<ic2:ingot:2>, <ore:crushedCopper>, 4.5);
 furnace.addRecipe(<ic2:ingot:3>, <ore:crushedLead>, 4.5);
 furnace.addRecipe(<ic2:ingot:4>, <ore:crushedSilver>, 4.5);
+furnace.addRecipe(<immersiveengineering:metal:4>,<ore:dustNickel>, 4.5);
+furnace.addRecipe(<ic2:dust:15> *2, <minecraft:stone>, 4.5);
+
 
 furnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, 4.5);
 furnace.addRecipe(<minecraft:gold_ingot>, <ore:dustGold>, 4.5);

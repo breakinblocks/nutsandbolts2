@@ -24,10 +24,11 @@ recipes.removeShaped(<extrautils2:decorativesolid:2> * 4, [[<ore:bricksStone>, <
 
 //Additions
 recipes.addShaped(<extrautils2:ingredients:4>, [[null, <ore:alloyBasic>, null], [<ore:alloyBasic>, <ore:coal>, <ore:alloyBasic>], [null, <ore:alloyBasic>, null]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}), [[<avaritiaadditions:neutronium_ingot>, <ore:netherStar>, <avaritiaadditions:neutronium_ingot>], [<ore:netherStar>, <draconicevolution:chaos_shard>, <ore:netherStar>],[<ore:ingotTerrasteel>, <ore:ingotTerrasteel>, <ore:ingotTerrasteel>]]);
+
 
 recipes.addShaped(<extrautils2:decorativesolid:2> * 8, [[null, <ic2:resource:11>, null], [<ic2:resource:11>, <forge:bucketFilled>.withTag({FluidName: "hydrochloric_acid", Amount: 1000}), <ic2:resource:11>], [null, <ic2:resource:11>, null]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}), [[<ore:ingotTungsteel>, <deepresonance:spent_filter>, <ore:ingotTungsteel>], [<mekanism:ControlCircuit:3>, <extrautils2:machine>, <mekanism:ControlCircuit:3>], [<ore:ingotTungsteel>, <actuallyadditions:blockCrystalEmpowered:5>, <ore:ingotTungsteel>]]);
-recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}), [[<ore:ingotYag>, <ore:netherStar>, <ore:ingotYag>], [<ore:netherStar>, <extrautils2:machine>, <ore:netherStar>], [<ore:ingotTerrasteel>, <ore:ingotTerrasteel>, <ore:ingotTerrasteel>]]);
 recipes.addShaped(<extrautils2:rainbowgenerator>, [[<extrautils2:opinium:5>, <extrautils2:rainbowgenerator:2>, <extrautils2:opinium:5>], [<ic2:nuclear:3>, <draconicevolution:awakened_core>, <ic2:nuclear:3>], [<astralsorcery:ItemCraftingComponent:1>, <extrautils2:rainbowgenerator:1>, <astralsorcery:ItemCraftingComponent:1>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}), [[<ore:stone>, <minecraft:brewing_stand>, <ore:stone>], [<ore:quartzDark>, <extrautils2:machine>, <ore:quartzDark>], [<ore:stone>, <ore:blockVinteum>, <ore:stone>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_dragonsbreath"}), [[<ore:blockMarble>, <minecraft:dragon_breath>, <ore:blockMarble>], [<ore:blockMarble>, <extrautils2:machine>, <ore:blockMarble>], [<ore:blockMarble>, <ore:blockMarble>, <ore:blockMarble>]]);

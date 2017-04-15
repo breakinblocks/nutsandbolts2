@@ -128,6 +128,7 @@ recipes.remove(<actuallyadditions:blockOilGenerator>);
 
 
 //Atomic Reconstructor
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:itemCrystal:1>,<minecraft:prismarine_shard>, 125000);
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<mekanism:OtherDust:4>,<libvulpes:productdust>,250000);
 mods.actuallyadditions.AtomicReconstructor.remove(<minecraft:quartz>);
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<minecraft:quartz>,<botania:quartz:6>,150000);
@@ -141,8 +142,8 @@ recipes.addShaped(<actuallyadditions:itemMiningLens>, [[<ore:ingotOsmiridium>, <
 recipes.addShaped(<actuallyadditions:blockOilGenerator>, [[<ore:compressed1xCobblestone>, <enderio:blockVat>, <ore:compressed1xCobblestone>], [<ore:craftingPiston>, <ore:seedCanola>, <ore:craftingPiston>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
 recipes.addShaped(<actuallyadditions:blockAtomicReconstructor>, [[<ic2:resource:11>, <arsmagica2:crystal_marker:5>, <ic2:resource:11>], [<deepresonance:resonating_plate>, <forestry:thermionicTubes:9>, <deepresonance:resonating_plate>], [<ic2:resource:11>, <ore:blockReflectiveAlloy>, <ic2:resource:11>]]);
 recipes.addShaped(<actuallyadditions:blockGiantChest>, [[<randomthings:blockOfSticks>, <ore:chest>, <randomthings:blockOfSticks>], [<ore:plankTreatedWood>, <forestry:impregnatedCasing>, <ore:plankTreatedWood>], [<randomthings:blockOfSticks>, <ore:chest>, <randomthings:blockOfSticks>]]);
-recipes.addShaped(<actuallyadditions:blockGiantChestMedium>, [[<actuallyadditions:blockCrystal:3>, <ore:ingotElectrum>, <actuallyadditions:blockCrystal:3>], [<ore:ingotElectrum>, <actuallyadditions:blockGiantChest>, <ore:ingotElectrum>], [<actuallyadditions:blockCrystal:3>, <ore:ingotElectrum>, <actuallyadditions:blockCrystal:3>]]);
-recipes.addShaped(<actuallyadditions:blockGiantChestLarge>, [[<actuallyadditions:blockCrystalEmpowered:3>, <ore:ingotSteel>, <actuallyadditions:blockCrystalEmpowered:3>], [<ore:ingotSteel>, <actuallyadditions:blockGiantChestMedium>, <ore:ingotSteel>], [<actuallyadditions:blockCrystalEmpowered:3>, <ore:ingotSteel>, <actuallyadditions:blockCrystalEmpowered:3>]]);
+recipes.addShaped(<actuallyadditions:blockGiantChestMedium>, [[<actuallyadditions:blockCrystal:3>, <immersiveengineering:metal:7>, <actuallyadditions:blockCrystal:3>], [<immersiveengineering:metal:7>, <actuallyadditions:blockGiantChest>, <immersiveengineering:metal:7>], [<actuallyadditions:blockCrystal:3>, <immersiveengineering:metal:7>, <actuallyadditions:blockCrystal:3>]]);
+recipes.addShaped(<actuallyadditions:blockGiantChestLarge>, [[<actuallyadditions:blockCrystalEmpowered:3>, <mekanism:Ingot:4>, <actuallyadditions:blockCrystalEmpowered:3>], [<mekanism:Ingot:4>, <actuallyadditions:blockGiantChestMedium>, <mekanism:Ingot:4>], [<actuallyadditions:blockCrystalEmpowered:3>, <mekanism:Ingot:4>, <actuallyadditions:blockCrystalEmpowered:3>]]);
 recipes.addShaped(<actuallyadditions:itemDisenchantingLens>, [[<ore:elvenDragonstone>, <minecraft:enchanting_table>, <botania:manaResource:9>], [<ore:elvenDragonstone>, <actuallyadditions:itemMisc:18>, <ore:elvenDragonstone>], [<botania:manaResource:9>, <actuallyadditions:blockCrystalEmpowered:2>, <ore:elvenDragonstone>]]);
 recipes.addShaped(<actuallyadditions:itemMoreDamageLens>, [[<botania:manaGlass>, <actuallyadditions:itemDamageLens>, <botania:manaGlass>], [<botania:manaGlass>, <bloodmagic:ItemSentientSword>, <botania:manaGlass>], [<botania:manaGlass>, <draconicevolution:draconic_core>, <botania:manaGlass>]]);
 recipes.addShaped(<actuallyadditions:itemMisc:18>, [[<ore:quartzSunny>, <botania:manaGlass>, <ore:quartzSunny>], [<botania:manaGlass>, null, <botania:manaGlass>], [<ore:quartzSunny>, <botania:manaGlass>, <ore:quartzSunny>]]);

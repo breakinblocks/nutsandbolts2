@@ -102,7 +102,8 @@ recipes.remove(<mekanism:MachineBlock:4>);
 recipes.remove(<mekanismgenerators:Reactor>);
 recipes.remove(<mekanismgenerators:Reactor:1>);
 recipes.remove(<mekanism:MachineBlock2:10>);
-
+recipes.remove(<mekanism:BasicBlock2:6>)
+;
 //Shapeless
 recipes.addShapeless(<mekanism:Dust:5>, [<ic2:crushed:4>]);
 recipes.addShapeless(<mekanism:Dust:6>, [<ic2:crushed:3>]);
@@ -113,6 +114,8 @@ recipes.addShapeless(<mekanism:Dust:4>, [<ore:crushedTin>]);
 
 
 //Additions
+recipes.addShaped(<mekanism:BasicBlock2:6>, [[<ore:ingotTungsteel>, <enderio:blockDarkIronBars>, <ore:ingotTungsteel>],[<enderio:blockDarkIronBars>, <mekanism:ControlCircuit:3>, <enderio:blockDarkIronBars>], [<ore:ingotTungsteel>, <enderio:blockDarkIronBars>, <ore:ingotTungsteel>]]);
+
 recipes.addShaped(<minecraft:chest>, [[<ore:chest>]]);
 recipes.addShaped(<mekanism:BasicBlock:10> * 4, [[<ore:ingotSteel>, <ore:ingotOsmium>, <ore:ingotSteel>], [<ore:ingotOsmium>, <thermalfoundation:glass_alloy:6>, <ore:ingotOsmium>], [<ore:ingotSteel>, <ore:ingotOsmium>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:MultipartTransmitter:3> * 8, [[<enderio:itemPowerConduit:2>, <enderio:itemPowerConduit:2>], [<ic2:misc_resource:3>, <ic2:misc_resource:3>], [<enderio:itemPowerConduit:2>, <enderio:itemPowerConduit:2>]]);
@@ -136,7 +139,7 @@ recipes.addShaped(<mekanism:MachineBlock3>, [[<mekanism:BasicBlock:7>, <mekanism
 recipes.addShaped(<mekanism:MachineBlock2:4>, [[<ore:plateSteel>, <mekanism:CompressedRedstone>, <ore:plateSteel>], [<ore:alloyElite>, <mekanism:ElectrolyticCore>, <ore:alloyElite>], [<ore:plateSteel>, <mekanism:CompressedRedstone>, <ore:plateSteel>]]);
 recipes.addShaped(<enderstorage:enderStorage> * 2, [[<ic2:plate:6>, <botania:forestEye>, <ic2:plate:6>], [<ic2:crafting:15>, <ironchest:BlockIronChest:2>, <ic2:crafting:15>], [<ic2:plate:6>, <minecraft:wool>, <ic2:plate:6>]]);
 recipes.addShaped(<enderstorage:enderStorage:1> * 2, [[<ore:plateObsidian>, <botania:forestEye>, <ore:plateObsidian>], [<ic2:crafting:15>, <enderio:blockReservoir>, <ic2:crafting:15>], [<ore:plateObsidian>, <ore:blockWool>, <ore:plateObsidian>]]);
-recipes.addShaped(<mekanism:MachineBlock2:11>.withTag({tier: 0}), [[<ore:blockGlassColorless>, <ore:ingotOsmium>, <ore:blockGlassColorless>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:blockGlassColorless>, <ore:ingotOsmium>, <ore:blockGlassColorless>]]);
+recipes.addShaped(<mekanism:MachineBlock2:11>.withTag({tier: 0}), [[<ore:blockGlassColorless>, <ore:ingotOsmium>, <ore:blockGlassColorless>], [<ore:plateSteel>, null, <ore:plateSteel], [<ore:blockGlassColorless>, <ore:ingotOsmium>, <ore:blockGlassColorless>]]);
 recipes.addShaped(<mekanism:MachineBlock>, [[<ore:blockRedstone>, <mekanism:ControlCircuit>, <ore:blockRedstone>], [<ore:ingotManyullyn>, <mekanism:BasicBlock:8>, <ore:ingotManyullyn>], [<ore:blockRedstone>, <mekanism:ControlCircuit>, <ore:blockRedstone>]]);
 recipes.addShaped(<mekanism:MachineBlock:1>, [[<ic2:resource:11>, <ore:plateTitaniumAluminide>, <ic2:resource:11>], [<mekanism:ControlCircuit:1>, <ic2:te:43>, <mekanism:ControlCircuit:1>], [<ic2:resource:11>, <mekanism:BasicBlock:8>, <ic2:resource:11>]]);
 recipes.addShaped(<mekanism:MachineBlock:3>, [[<mekanism:CompressedRedstone>, <mekanism:ControlCircuit>, <mekanism:CompressedRedstone>], [<ore:plateTitaniumAluminide>, <mekanism:BasicBlock:8>, <ore:plateTitaniumAluminide>], [<mekanism:CompressedRedstone>, <mekanism:ControlCircuit>, <mekanism:CompressedRedstone>]]);

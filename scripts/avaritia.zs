@@ -5,6 +5,17 @@ mods.avaritiaadditions.Compressor.add(<avaritiaadditions:lapis_singularity>, 100
 mods.avaritiaadditions.Compressor.add(<avaritiaadditions:gold_singularity>, 10000, <minecraft:gold_ingot>);
 mods.avaritiaadditions.Compressor.add(<avaritiaadditions:redstone_singularity>, 10000, <minecraft:redstone>);
 
+mods.avaritia.ExtremeCrafting.remove(<avaritiaadditions:infinity_catalyst>);
+mods.avaritia.ExtremeCrafting.remove(<avaritiaadditions:infinity_ingot>);
+mods.avaritia.ExtremeCrafting.remove(<avaritiaadditions:neutronium_compressor>);
+mods.avaritia.ExtremeCrafting.remove(<avaritiaadditions:infinity_bow>);
+mods.avaritia.ExtremeCrafting.remove(<avaritiaadditions:infinity_pickaxe>);
+mods.avaritia.ExtremeCrafting.remove(<avaritiaadditions:infinity_sword>);
+mods.avaritia.ExtremeCrafting.remove(<avaritiaadditions:infinity_shovel>);
+mods.avaritia.ExtremeCrafting.remove(<avaritiaadditions:infinity_axe>);
+mods.avaritia.ExtremeCrafting.remove(<avaritiaadditions:infinity_armor_head>);
+mods.avaritia.ExtremeCrafting.remove(<avaritiaadditions:infinity_armor_chest>);
+
 //mods.avaritia.ExtremeCrafting.addShapeless(<> * 1, 
 //[
 //[null,	null,	null,	null,	null,	null,	null,	null,	null],
@@ -51,9 +62,9 @@ mods.avaritia.ExtremeCrafting.addShaped(<mekanism:EnergyCube>.withTag({tier: 4, 
 [<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0}),	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0})],
 [<draconicevolution:awakened_core>,	<gravisuite:crafting:1>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<gravisuite:crafting:1>,	<draconicevolution:awakened_core>],
 [<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
-[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<draconicevolution:draconium_capacitor>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<draconicevolution:draconium_capacitor>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<draconicevolution:draconium_capacitor>,	<avaritiaadditions:infinity_ingot>,	<draconicevolution:chaos_shard>,	<avaritiaadditions:infinity_ingot>,	<draconicevolution:draconium_capacitor>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
 [<projecte:matter_block:1>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	<ic2:lapotron_crystal:26>,	<mekanism:BasicBlock2:4>.withTag({tier: 3}),	<ic2:lapotron_crystal:26>,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<projecte:matter_block:1>],
-[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<draconicevolution:draconium_capacitor>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<ic2:lapotron_crystal:26>,	<draconicevolution:draconium_capacitor>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<draconicevolution:draconium_capacitor>,	<avaritiaadditions:infinity_ingot>,	<draconicevolution:chaos_shard>,	<avaritiaadditions:infinity_ingot>,	<draconicevolution:draconium_capacitor>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
 [<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<draconicevolution:draconium_capacitor>,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
 [<draconicevolution:awakened_core>,	<gravisuite:crafting:1>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<gravisuite:crafting:1>,	<draconicevolution:awakened_core>],
 [<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0}),	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0})]
@@ -72,29 +83,16 @@ mods.avaritia.ExtremeCrafting.addShaped(<tconstruct:materials:50> * 1,
 [null,	null,	null,	null,	null,	null,	null,	null,	null]
 ]);
 
-mods.avaritia.ExtremeCrafting.addShaped(<botania:manaTablet>.withTag({mana: 500000, creative: 1 as byte}) * 1,
-[
-[null,	null,	null,	null,	null,	null,	null,	null,	null],
-[null,	null,	null,	null,	null,	null,	null,	null,	null],
-[null,	null,	null,	null,	null,	null,	null,	null,	null],
-[null,	null,	null,	<morebees:CombCrystal>,	<draconicevolution:chaotic_core>,	<botania:laputaShard:19>,	null,	null,	null],
-[null,	null,	null,	<bloodmagic:BlockCrystal>,	<botania:manaTablet>.withTag({mana: 500000}),	<bloodmagic:BlockCrystal>,	null,	null,	null],
-[null,	null,	null,	<botania:laputaShard:19>,	<bloodmagic:BlockCrystal>,	<morebees:CombCrystal>,	null,	null,	null],
-[null,	null,	null,	null,	null,	null,	null,	null,	null],
-[null,	null,	null,	null,	null,	null,	null,	null,	null],
-[null,	null,	null,	null,	null,	null,	null,	null,	null]
-]);
-
 mods.avaritia.ExtremeCrafting.addShaped(<botania:pool:1> * 1,
 [
 [<ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>],
-[<ore:ingotYag>, <ic2:misc_resource:3>,	<ic2:misc_resource:3>, <ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>,	<ic2:misc_resource:3>,	<ore:ingotYag>],
-[<ore:ingotYag>, <ic2:misc_resource:3>,	<draconicevolution:awakened_core>,<ore:gaiaIngot>,<astralsorcery:ItemCraftingComponent:1>,<ore:gaiaIngot>,<draconicevolution:awakened_core>,<ic2:misc_resource:3>,<ore:ingotYag>],
-[<ore:ingotYag>, <ic2:misc_resource:3>,	<ore:gaiaIngot>, <bloodmagic:BlockDemonExtra:10>,<projecte:item.pe_matter:1>,<bloodmagic:BlockDemonExtra:10>,<ore:gaiaIngot>,<ic2:misc_resource:3>,<ore:ingotYag>],
-[<ore:ingotYag>, <ic2:misc_resource:3>,	<astralsorcery:ItemCraftingComponent:1>,<projecte:item.pe_matter:1>,<botania:pool:3>,<projecte:item.pe_matter:1>,<astralsorcery:ItemCraftingComponent:1>,<ic2:misc_resource:3>,<ore:ingotYag>],
-[<ore:ingotYag>, <ic2:misc_resource:3>,	<ore:gaiaIngot>, <bloodmagic:BlockDemonExtra:10>,<projecte:item.pe_matter:1>,<bloodmagic:BlockDemonExtra:10>,<ore:gaiaIngot>,<ic2:misc_resource:3>,<ore:ingotYag>],
-[<ore:ingotYag>, <ic2:misc_resource:3>,	<draconicevolution:awakened_core>,<ore:gaiaIngot>,<astralsorcery:ItemCraftingComponent:1>,<ore:gaiaIngot>,<draconicevolution:awakened_core>,<ic2:misc_resource:3>,<ore:ingotYag>],
-[<ore:ingotYag>, <ic2:misc_resource:3>,	<ic2:misc_resource:3>,	<ic2:misc_resource:3>,	<ic2:misc_resource:3>,	<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ic2:misc_resource:3>,<ore:ingotYag>],
+[<ore:ingotYag>, <ic2:misc_resource:3>,	<botania:storage:1>, <botania:storage:1>,<botania:storage:1>,<botania:storage:1>,<botania:storage:1>,	<ic2:misc_resource:3>,	<ore:ingotYag>],
+[<ore:ingotYag>, <botania:storage:1>,	<draconicevolution:awakened_core>,<ore:gaiaIngot>,<avaritiaadditions:infinity_ingot>,<ore:gaiaIngot>,<draconicevolution:awakened_core>,<botania:storage:1>,<ore:ingotYag>],
+[<ore:ingotYag>, <botania:storage:1>,	<ore:gaiaIngot>, <bloodmagic:BlockDemonExtra:10>,<projecte:matter_block:1>,<bloodmagic:BlockDemonExtra:10>,<ore:gaiaIngot>,<botania:storage:1>,<ore:ingotYag>],
+[<ore:ingotYag>, <botania:storage:1>,	<astralsorcery:ItemCraftingComponent:1>,<draconicevolution:chaos_shard>,<botania:pool:3>,<draconicevolution:chaos_shard>,<astralsorcery:ItemCraftingComponent:1>,<botania:storage:1>,<ore:ingotYag>],
+[<ore:ingotYag>, <botania:storage:1>,	<ore:gaiaIngot>, <bloodmagic:BlockDemonExtra:10>,<projecte:matter_block:1>,<bloodmagic:BlockDemonExtra:10>,<ore:gaiaIngot>,<botania:storage:1>,<ore:ingotYag>],
+[<ore:ingotYag>, <botania:storage:1>,	<draconicevolution:awakened_core>,<ore:gaiaIngot>,<avaritiaadditions:infinity_ingot>,<ore:gaiaIngot>,<draconicevolution:awakened_core>,<botania:storage:1>,<ore:ingotYag>],
+[<ore:ingotYag>, <ic2:misc_resource:3>,	<botania:storage:1>,	<botania:storage:1>,	<botania:storage:1>,	<botania:storage:1>,<botania:storage:1>,<ic2:misc_resource:3>,<ore:ingotYag>],
 [<ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>, <ore:ingotYag>],
 ]);
 
@@ -128,15 +126,15 @@ mods.avaritia.ExtremeCrafting.addShaped(<cyberware:creativeBattery> * 1,
 
 mods.avaritia.ExtremeCrafting.addShaped(<pressure:CreativeSource> * 1,
 [
-[<bloodmagic:BlockDemonExtra:10>,<forge:bucketFilled>.withTag({FluidName: "xpjuice", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "yellorium", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "xpjuice", Amount: 1000}),<bloodmagic:BlockDemonExtra:10>],
-[<forge:bucketFilled>.withTag({FluidName: "yellorium", Amount: 1000}),<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "yellorium", Amount: 1000})],
-[<forge:bucketFilled>.withTag({FluidName: "liquiddna", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "liquiddna", Amount: 1000})],
+[<bloodmagic:BlockDemonExtra:10>,<forge:bucketFilled>.withTag({FluidName: "xpjuice", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000}),<powersuits:powerArmorComponent:22>,<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "xpjuice", Amount: 1000}),<bloodmagic:BlockDemonExtra:10>],
+[<powersuits:powerArmorComponent:22>,<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<advanced_solar_panels:crafting:5>,<powersuits:powerArmorComponent:22>],
+[<forge:bucketFilled>.withTag({FluidName: "liquiddna", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<avaritiaadditions:infinity_ingot>,<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<avaritiaadditions:infinity_ingot>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "liquiddna", Amount: 1000})],
 [<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<draconicevolution:draconium_block:1>,<draconicevolution:awakened_core>,<minecraft:lava_bucket>,<draconicevolution:awakened_core>,<draconicevolution:draconium_block:1>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000})],
-[<forge:bucketFilled>.withTag({FluidName: "yellorium", Amount: 1000}),<advanced_solar_panels:crafting:5>,<draconicevolution:draconium_block:1>,<minecraft:water_bucket>,<botania:openBucket>,<minecraft:water_bucket>,<draconicevolution:draconium_block:1>,<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "yellorium", Amount: 1000})],
+[<powersuits:powerArmorComponent:22>,<advanced_solar_panels:crafting:5>,<draconicevolution:draconium_block:1>,<draconicevolution:chaos_shard>,<botania:openBucket>,<draconicevolution:chaos_shard>,<draconicevolution:draconium_block:1>,<advanced_solar_panels:crafting:5>,<powersuits:powerArmorComponent:22>],
 [<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<draconicevolution:draconium_block:1>,<draconicevolution:awakened_core>,<minecraft:lava_bucket>,<draconicevolution:awakened_core>,<draconicevolution:draconium_block:1>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000})],
-[<forge:bucketFilled>.withTag({FluidName: "liquiddna", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "liquiddna", Amount: 1000})],
-[<forge:bucketFilled>.withTag({FluidName: "yellorium", Amount: 1000}),<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "yellorium", Amount: 1000})],
-[<bloodmagic:BlockDemonExtra:10>,<forge:bucketFilled>.withTag({FluidName: "xpjuice", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "yellorium", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "xpjuice", Amount: 1000}),<bloodmagic:BlockDemonExtra:10>]
+[<forge:bucketFilled>.withTag({FluidName: "liquiddna", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<avaritiaadditions:infinity_ingot>,<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<draconicevolution:draconium_block:1>,<avaritiaadditions:infinity_ingot>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "liquiddna", Amount: 1000})],
+[<powersuits:powerArmorComponent:22>,<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<advanced_solar_panels:crafting:5>,<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "lifeessence", Amount: 1000}),<advanced_solar_panels:crafting:5>,<powersuits:powerArmorComponent:22>],
+[<bloodmagic:BlockDemonExtra:10>,<forge:bucketFilled>.withTag({FluidName: "xpjuice", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000}),<powersuits:powerArmorComponent:22>,<forge:bucketFilled>.withTag({FluidName: "ender_distillation", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}),<forge:bucketFilled>.withTag({FluidName: "xpjuice", Amount: 1000}),<bloodmagic:BlockDemonExtra:10>]
 ]);
 
 
@@ -159,8 +157,8 @@ mods.avaritia.ExtremeCrafting.addShaped(<draconicevolution:chaos_shard> * 1,
 [
 [null,	null,	null,	null,	null,	null,	null,	null,	null],
 [null,	null,	null,	null,	<projecte:item.pe_matter>,	null,	null,	null,	null],
-[null,	null,	null,	<ore:ingotNimonic>,	<projecte:item.pe_matter>,	<ore:ingotNimonic>,	null,	null,	null],
-[null,	null,	<ore:ingotNimonic>,	<projecte:item.pe_matter>,	<draconicevolution:awakened_core>,	<projecte:item.pe_matter>,	<ore:ingotNimonic>,	null,	null],
+[null,	null,	null,	<ore:ingotNimonic>,<projecte:matter_block:1>,	<ore:ingotNimonic>,	null,	null,	null],
+[null,	null,	<ore:ingotNimonic>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<ore:ingotNimonic>,	null,	null],
 [null,	null,	<ore:ingotNimonic>,	<draconicevolution:awakened_core>,	<bloodmagic:ItemBloodShard:1>,	<draconicevolution:awakened_core>,	<ore:ingotNimonic>,	null,	null],
 [null,	null,	<ore:ingotNimonic>,	<projecte:item.pe_matter>,	<draconicevolution:awakened_core>,	<projecte:item.pe_matter>,	<ore:ingotNimonic>,	null,	null],
 [null,	null,	null,	<ore:ingotNimonic>,	<projecte:item.pe_matter>,	<ore:ingotNimonic>,	null,	null,	null],
@@ -221,5 +219,4 @@ mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_armor_head> 
 recipes.addShaped(<avaritiaadditions:infinity_shovel>, [[<avaritiaadditions:infinity_ingot>, <projecte:item.pe_rm_shovel>, <avaritiaadditions:infinity_ingot>]]);
 recipes.addShaped(<avaritiaadditions:infinity_pickaxe>, [[<avaritiaadditions:infinity_ingot>, <projecte:item.pe_rm_pick>, <avaritiaadditions:infinity_ingot>]]);
 recipes.addShaped(<avaritiaadditions:infinity_axe>, [[<avaritiaadditions:infinity_ingot>, <projecte:item.pe_rm_axe>, <avaritiaadditions:infinity_ingot>]]);
-recipes.addShaped(<avaritiaadditions:collector>, [[<ore:plateTitaniumAluminide>, <extrautils2:passivegenerator>, <ore:plateTitaniumAluminide>], [<astralsorcery:ItemCraftingComponent:1>, <ic2:lapotron_crystal:26>, <astralsorcery:ItemCraftingComponent:1>], [<ore:plateTitaniumAluminide>, <extrautils2:passivegenerator:1>, <ore:plateTitaniumAluminide>]]);
 recipes.addShaped(<avaritiaadditions:neutronium_compressor>, [[<ore:ingotOsmiridium>, <ore:runeGluttonyB>, <ore:ingotOsmiridium>], [<ore:itemCompressedObsidian>, <draconicevolution:awakened_core>, <ore:itemCompressedObsidian>], [<ore:ingotOsmiridium>, <advanced_solar_panels:crafting:5>, <ore:ingotOsmiridium>]]);

@@ -16,6 +16,8 @@ recipes.remove(<cyberware:blueprintArchive>);
 
 
 //Additions
+recipes.addShaped(<cyberware:heartUpgrades>, [[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<ic2:cable:6>, <enderio:itemBasicCapacitor>, <ic2:crafting:15>], [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
+recipes.addShaped(<cyberware:cybereyeUpgrades>, [[<ore:itemSilicon>, <botania:enderEyeBlock>, <ore:itemSilicon>], [<botania:manaGlass>, <actuallyadditions:itemPotionRing:9>, <botania:manaGlass>], [<ore:itemSilicon>, <ore:circuitAdvanced>, <ore:itemSilicon>]]);
 recipes.addShaped(<cyberware:bodyPart:3>, [[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <minecraft:fish:3>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
 recipes.addShapeless(<cyberware:neuropozyne> * 8, [<rftools:syringe>, <forge:bucketFilled>.withTag({FluidName: "nutrient_distillation"})]);
 recipes.addShaped(<cyberware:scanner>, [[<ic2:casing:5>, <cyberware:cybereyes>, <ic2:casing:5>], [<mekanismgenerators:ReactorGlass:1>, <ore:gemDiamond>, <mekanismgenerators:ReactorGlass:1>], [<ic2:casing:5>, <forestry:analyzer>, <ic2:casing:5>]]);
@@ -48,7 +50,6 @@ recipes.addShaped(<cyberware:brainUpgrades:4>, [[null, <immersiveengineering:wir
 recipes.addShaped(<cyberware:brainUpgrades:2>, [[<minecraft:rotten_flesh>, <ic2:frequency_transmitter>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <extrautils2:magicapple>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
 recipes.addShaped(<cyberware:heartUpgrades:2>, [[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<forestry:propolis>, <atmrockhounding:testTube>, <forestry:propolis>], [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
 recipes.addShaped(<cyberware:heartUpgrades:1>, [[<minecraft:rotten_flesh>, <mekanism:MultipartTransmitter:4>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <tconstruct:edible:3>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
-recipes.addShaped(<cyberware:heartUpgrades>, [[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<ic2:cable:6>.withTag({type: 6 as byte, insulation: 0 as byte}), <ic2:energy_crystal:26>, <ic2:cable:6>], [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
 recipes.addShaped(<cyberware:brainUpgrades:3>, [[<ore:blockDirt>, <ore:oc:circuitChip2>, <ore:gravel>], [<ore:sand>, <ore:materialEnderPearl>, <ore:treeLeaves>], [<ore:logWood>, <ore:stone>, <ore:blockGlassColorless>]]);
 recipes.addShaped(<cyberware:lungsUpgrades>, [[<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <advancedrocketry:oxygenScrubber>, <minecraft:rotten_flesh>], [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]]);
 recipes.addShaped(<cyberware:lowerOrgansUpgrades>, [[<natura:materials:7>, <minecraft:rotten_flesh>, <natura:materials:7>], [<minecraft:rotten_flesh>, <deepresonance:filter>, <minecraft:rotten_flesh>], [<natura:materials:7>, <minecraft:rotten_flesh>, <natura:materials:7>]]);
@@ -66,7 +67,6 @@ recipes.addShaped(<cyberware:cybereyeUpgrades:2>, [[null, <ore:circuitBasic>, nu
 recipes.addShaped(<cyberware:brainUpgrades:1>, [[<darkutils:material:1>, <ore:oc:circuitChip2>, <darkutils:material:1>], [null, <ic2:frequency_transmitter>, null], [null, <minecraft:end_rod>, null]]);
 recipes.addShaped(<cyberware:cybereyeUpgrades:3>, [[<ore:barsIron>, <minecraft:iron_bars>, <ore:barsIron>], [null, <randomthings:entityDetector>, null], [null, <astralsorcery:ItemHandTelescope>, null]]);
 recipes.addShaped(<cyberware:boneUpgrades:1>, [[<ore:slimeballGreen>, <immersiveengineering:wirecoil:5>, <ore:slimeballGreen>], [<immersiveengineering:wirecoil:5>, <ore:bone>, <immersiveengineering:wirecoil:5>], [<ore:slimeballGreen>, <immersiveengineering:wirecoil:5>, <ore:slimeballGreen>]]);
-recipes.addShaped(<cyberware:cybereyeUpgrades>, [[null, <ic2:nightvision_goggles>, null], [<botania:manaGlass>, <actuallyadditions:itemPotionRing:9>, <botania:manaGlass>]]);
 recipes.addShaped(<cyberware:armUpgrades>, [[null, <ore:stickSteel>], [<minecraft:bow>, <ore:craftingPiston>], [null, <ore:stickSteel>]]);
 recipes.addShaped(<cyberware:footUpgrades:1>, [[<ic2:crafting:6>, <ore:oc:circuitChip3>, <ic2:crafting:6>], [<ore:fanSteel>, null, <ore:fanSteel>]]);
 recipes.addShaped(<cyberware:footUpgrades:2>, [[<minecraft:piston>, <minecraft:piston>, <minecraft:piston>], [<immersiveengineering:material:2>, <ic2:crafting:6>, <immersiveengineering:material:2>], [null, <ore:gearTitanium>, null]]);

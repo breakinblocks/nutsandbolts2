@@ -26,7 +26,6 @@ recipes.remove(<enderio:blockInventoryPanel>);
 recipes.remove(<enderio:itemMachinePart:1>);
 recipes.remove(<enderio:itemBasicCapacitor:1>);
 recipes.remove(<enderio:itemYetaWrench>);
-recipes.remove(<enderio:itemMachinePart>);
 
 //Additions
 recipes.addShaped(<enderio:itemBasicCapacitor:1>, [[null, <ore:ingotEnergeticAlloy>, null], [<enderio:itemBasicCapacitor>, <ore:nuggetYag>, <enderio:itemBasicCapacitor>], [null, <ore:ingotEnergeticAlloy>, null]]);
@@ -41,13 +40,12 @@ recipes.addShaped(<enderio:blockAlloySmelter>, [[null, <ore:itemMachineChassi>, 
 recipes.addShaped(<enderio:itemSoulVessel>, [[null, <ore:ingotSoularium>, null], [<botania:elfGlass>, null, <botania:elfGlass>], [null, <botania:elfGlass>, null]]);
 recipes.addShaped(<enderio:blockReservoir>, [[<extrautils2:decorativeglass>, <minecraft:quartz>, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <minecraft:cauldron>, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>]]);
 recipes.addShaped(<enderio:itemPowerConduit> * 8, [[<extrautils2:decorativeglass>, <ore:gemRedstone>, <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <extrautils2:decorativeglass>], [<extrautils2:decorativeglass>, <ore:gemRedstone>, <extrautils2:decorativeglass>]]);
-recipes.addShaped(<enderio:itemMachinePart>, [[<mekanism:Ingot:4>, <enderio:itemBasicCapacitor>, <mekanism:Ingot:4>], [<minecraft:iron_bars>, <ic2:resource:13>, <ore:barsIron>], [<mekanism:Ingot:4>, <mekanism:Ingot:4>, <mekanism:Ingot:4>]]);
+recipes.addShaped(<enderio:itemMachinePart>, [[<ore:ingotSteel>, <enderio:itemBasicCapacitor>, <ore:ingotSteel>], [<ore:itemEnrichedAlloy>, <ic2:resource:13>, <ore:itemEnrichedAlloy>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<enderio:itemBasicCapacitor>, [[null, <ore:gemRedstone>, <ore:nuggetElectrum>], [<ore:gemRedstone>, <ore:crystalDilithium>, <ore:gemRedstone>], [<ore:nuggetElectrum>, <ore:gemRedstone>, null]]);
 recipes.addShaped(<enderio:itemMaterial:2> * 8, [[<ore:dustCoal>, <ore:itemClay>, <ore:dustCoal>], [<ore:sand>, <mekanism:Polyethene>, <ore:sand>], [<ore:dustCoal>, <ore:itemClay>, <ore:dustCoal>]]);
 recipes.addShaped(<enderio:itemSoulVessel:1>.withTag({entityId: "MushroomCow"}), [[<minecraft:brown_mushroom>, <ore:egg>, <minecraft:brown_mushroom>], [<ore:egg>, <enderio:itemSoulVessel:1>.withTag({entityId: "Cow"}), <ore:egg>], [<minecraft:red_mushroom>, <minecraft:egg>, <minecraft:red_mushroom>]]);
 recipes.addShaped(<enderio:itemBasicCapacitor:1>, [[null, <ore:ingotEnergeticAlloy>, null], [<enderio:itemBasicCapacitor>, <ore:dustHOPGraphite>, <enderio:itemBasicCapacitor>], [null, <ore:ingotEnergeticAlloy>, null]]);
-recipes.addShaped(<enderio:blockStirlingGenerator>, [[<ore:itemPulsatingIronNugget>, <ore:itemPulsatingIronNugget>, <ore:itemPulsatingIronNugget>], [<ore:itemPulsatingIronNugget>, <extrautils2:machine>, 
-<ore:itemPulsatingIronNugget>], [<ore:stone>, <minecraft:cauldron>, <ore:stone>]]);
+recipes.addShaped(<enderio:blockStirlingGenerator>, [[<ore:itemPulsatingIronNugget>, <ore:itemPulsatingIronNugget>, <ore:itemPulsatingIronNugget>], [<ore:itemPulsatingIronNugget>, <extrautils2:machine>, <ore:itemPulsatingIronNugget>], [<ore:stone>, <minecraft:cauldron>, <ore:stone>]]);
 recipes.addShaped(<enderio:itemMaterial:2>, [[<ore:dustObsidian>, <ore:itemRubber>, <ore:dustObsidian>], [<ore:itemRubber>, <advancedrocketry:hotTurf>, <ore:itemRubber>], [<ore:dustObsidian>, <ore:itemRubber>, <ore:dustObsidian>]]);
 recipes.addShaped(<enderio:blockInventoryPanel>, [[<ore:plateIron>, <rscircuits:resource:2>, <ore:plateIron>], [<arsmagica2:magic_wall>, <ore:itemPulsatingCrystal>, <arsmagica2:magic_wall>], [<ore:plateIron>, <rscircuits:resource:1>, <ore:plateIron>]]);
 recipes.addShaped(<enderio:itemMachinePart:1>, [[<ore:torchRedstoneActive>, <ore:cobblestone>, <ore:torchRedstoneActive>], [<ore:cobblestone>, null, <ore:cobblestone>], [<ore:torchRedstoneActive>, <ore:cobblestone>, <ore:torchRedstoneActive>]]);

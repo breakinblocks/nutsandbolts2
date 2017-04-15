@@ -23,8 +23,15 @@ mods.botania.PureDaisy.addRecipe(Sand,Salt);
 mods.botania.Apothecary.removeRecipe(<botania:specialFlower>.withTag({type: "orechid"}));
 mods.botania.Apothecary.removeRecipe(<botania:specialFlower>.withTag({type: "clayconia"}));
 
+
 mods.botania.Apothecary.addRecipe(<botania:specialFlower>.withTag({type: "orechid"}), [<ore:petalGray>,<ore:petalGray>,<ore:petalYellow>,<ore:petalGreen>,<ore:petalRed>,<arsmagica2:core:2>, <ore:elvenPixieDust>, <ore:runeGreedB>]);
 mods.botania.Apothecary.addRecipe(<botania:specialFlower>.withTag({type: "clayconia"}), [<ore:petalGray>,<botania:petal:8>,<botania:petal:8>,<botania:rune:2>,<harvestcraft:firmtofuItem>,<harvestcraft:firmtofuItem>]);
+
+
+//Crystal growth
+mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:material:10>,<appliedenergistics2:crystal_seed>,5000);
+mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:material:11>,<appliedenergistics2:crystal_seed:600>,5000);
+mods.botania.ManaInfusion.addInfusion(<appliedenergistics2:material:12>,<appliedenergistics2:crystal_seed:1200>,5000);
 
 //ManaSteel requires Steel
 mods.botania.ManaInfusion.removeRecipe(<botania:manaResource>);
@@ -49,7 +56,7 @@ mods.botania.ManaInfusion.addInfusion(<botania:rune:8>, <arsmagica2:essence:1>, 
 
 //Alchemy Catalyst
 mods.botania.ManaInfusion.addAlchemy(<minecraft:prismarine_shard>,<minecraft:dye:4>, 1250);
-
+mods.botania.ManaInfusion.addAlchemy(<cm2:minifluiddrop> * 4,<enderio:itemMaterial:12>,2500);
 
 //Runic Altar
 
