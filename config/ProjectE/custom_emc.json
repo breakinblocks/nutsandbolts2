@@ -19,6 +19,130 @@
     {
       "item": "astralsorcery:BlockMarble|0",
       "emc": 1
+    },
+    {
+      "item": "minecraft:enchanted_book|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:nether_star|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dragon_egg|0",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:blaze_powder|0",
+      "emc": 0
+    },
+    {
+      "item": "enderio:blockFusedQuartz|0",
+      "emc": 0
+    },
+    {
+      "item": "enderio:itemExtractSpeedUpgrade|0",
+      "emc": 2600
+    },
+    {
+      "item": "enderio:itemAlloy|5",
+      "emc": 0
+    },
+    {
+      "item": "enderio:itemAlloy|7",
+      "emc": 0
+    },
+    {
+      "item": "bloodmagic:ItemComponent|21",
+      "emc": 0
+    },
+    {
+      "item": "enderio:itemAlloy|4",
+      "emc": 0
+    },
+    {
+      "item": "enderio:itemAlloy|2",
+      "emc": 0
+    },
+    {
+      "item": "enderio:itemAlloy|1",
+      "emc": 0
+    },
+    {
+      "item": "enderio:itemAlloy|3",
+      "emc": 0
+    },
+    {
+      "item": "appliedenergistics2:part|16",
+      "emc": 2048
+    },
+    {
+      "item": "enderio:itemPowerConduit|2",
+      "emc": 1337
+    },
+    {
+      "item": "enderio:itemItemConduit|0",
+      "emc": 987
+    },
+    {
+      "item": "libvulpes:productingot|7",
+      "emc": 4096
+    },
+    {
+      "item": "enderio:itemMaterial|1",
+      "emc": 128
+    },
+    {
+      "item": "stevesfactorymanager:BlockCableName|0",
+      "emc": 3596
+    },
+    {
+      "item": "enderio:itemLiquidConduit|2",
+      "emc": 768
+    },
+    {
+      "item": "extrautils2:decorativeglass|0",
+      "emc": 32
+    },
+    {
+      "item": "ic2:upgrade|0",
+      "emc": 3200
+    },
+    {
+      "item": "projecte:transmutation_table|0",
+      "emc": 256000
+    },
+    {
+      "item": "storagedrawers:upgradeStorage|3",
+      "emc": 32890
+    },
+    {
+      "item": "storagedrawers:upgradeVoid|0",
+      "emc": 205
+    },
+    {
+      "item": "mekanism:MufflingUpgrade|0",
+      "emc": 512
+    },
+    {
+      "item": "rftools:dimensional_shard|0",
+      "emc": 2560
+    },
+    {
+      "item": "deepresonance:resonating_ore|0",
+      "emc": 0
+    },
+    {
+      "item": "projecte:item.pe_fuel|0",
+      "emc": 512
+    },
+    {
+      "item": "projecte:item.pe_fuel|1",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:item.pe_klein_star|0",
+      "emc": 24576
     }
   ]
 }

@@ -13,6 +13,54 @@
       "matchNBT": false
     },
     {
+      "item": "actuallyadditions:itemBooklet",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+      "item": "xnet:xnet_manual",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+	"item": "hardcorequesting:quest_book",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+	"item": "woot:manual",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+	"item": "rftoolscontrol:rftoolscontrol_manual",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+	"item": "woot:manual",
+      "handlerType": "rightclick",
+      "matchDamage": false,
+      "matchNBT": false
+    },
+	{
+	"item": "guideapi:ItemGuideBook:2",
+      "handlerType": "rightclick",
+      "matchDamage": true,
+      "matchNBT": false
+    },
+	{
+	"item": "guideapi:ItemGuideBook:1",
+      "handlerType": "rightclick",
+      "matchDamage": true,
+      "matchNBT": false
+    },
+    {
       "item": "minecraft:written_book",
       "handlerType": "rightclick",
       "matchDamage": false,

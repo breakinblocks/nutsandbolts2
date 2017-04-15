@@ -1,0 +1,82 @@
+<galaxy>
+    <star name="Sol" temp="100" x="0" y="0" numPlanets="13" numGasGiants="4">
+        <planet name="Terra" DIMID="0" dimMapping="">
+            <planet name="Luna">
+            <atmosphereDensity>10</atmosphereDensity>
+            <gravitationalMultiplier>16</gravitationalMultiplier>
+		<biomeIds>90</biomeIds>
+		<orbitalDistance>90</orbitalDistance>
+            </planet>
+        </planet>
+    </star>
+    <star name="Stela Temporis" temp="90" x="50" y="5" numPlanets="6" numGasGiants="2">
+        <planet name="Risa" customIcon="EarthLike">
+			<isKnown>True</isKnown>
+			<hasRings>true</hasRings>
+            <fogColor>0x8bb1ef</fogColor>
+            <skyColor>0x8bb1ef</skyColor>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <orbitalDistance>90</orbitalDistance>
+            <orbitalTheta>90</orbitalTheta>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<biomeIds>0,16,70,77,79,95,96,97,100,108,24,87,104,111</biomeIds>
+        </planet>
+        <planet name="Eros" customIcon="EarthLike">
+			<isKnown>True</isKnown>
+            <fogColor>0xd89c43</fogColor>
+            <skyColor>0x989fea</skyColor>
+            <atmosphereDensity>75</atmosphereDensity>
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <orbitalDistance>70</orbitalDistance>
+            <orbitalTheta>80</orbitalTheta>
+            <rotationalPeriod>22000</rotationalPeriod>
+			<biomeIds>1,2,17,37,38,39,81,95,108</biomeIds>
+        </planet>
+        <planet name="Hoth" customIcon="IceWorld">
+            <fogColor>0xeaecfc</fogColor>
+			<isKnown>True</isKnown>
+            <skyColor>0xc5c8ea</skyColor>
+            <atmosphereDensity>75</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>190</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <rotationalPeriod>22000</rotationalPeriod>
+            <biomeIds>10,11,12,13,133,140,41</biomeIds>
+        </planet>
+        <planet name="Arrakis" customIcon="MarsLike">
+            <fogColor>1,1,1</fogColor> 
+			<isKnown>True</isKnown>
+            <skyColor>0,0,1</skyColor>
+            <atmosphereDensity>76</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>50</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <biomeIds>2,17,130,37,38,39</biomeIds>
+        </planet>
+        <planet name="ZhaDum" customIcon="Lava">
+            <fogColor>#631709</fogColor>
+			<isKnown>True</isKnown>
+            <skyColor>#631709</skyColor>
+            <atmosphereDensity>10</atmosphereDensity>
+            <gravitationalMultiplier>150</gravitationalMultiplier>
+            <orbitalDistance>140</orbitalDistance>
+            <orbitalTheta>60</orbitalTheta>
+            <rotationalPeriod>48000</rotationalPeriod>
+			<biomeIds>8,105,101</biomeIds>
+        </planet>
+        <planet name="Gallifrey" customIcon="EarthLike">
+            <fogColor>#26525e</fogColor>
+			<hasRings>true</hasRings>
+			<isKnown>True</isKnown>
+            <skyColor>#1c8e57</skyColor>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>1250</orbitalDistance>
+            <orbitalTheta>90</orbitalTheta>
+            <rotationalPeriod>36000</rotationalPeriod>
+			<biomeIds>0,116,108,107,104,79,51,41,24,15,16</biomeIds>
+ 		</planet>
+		</star>
+</galaxy>
