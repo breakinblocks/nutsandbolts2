@@ -43,7 +43,11 @@ mods.tconstruct.Casting.addBasinRecipe(<embers:blockDawnstone>, <liquid:dawnston
 //Melting
 //removal
 mods.tconstruct.Smeltery.removeMelting(<advanced_solar_panels:crafting:10>);
-
+mods.tconstruct.Smeltery.removeMelting(<libvulpes:productrod:10>);
+mods.tconstruct.Smeltery.removeMelting(<libvulpes:productrod:1>);
+mods.tconstruct.Smeltery.removeMelting(<libvulpes:productrod:4>);
+mods.tconstruct.Smeltery.removeMelting(<libvulpes:productrod:6>);
+mods.tconstruct.Smeltery.removeMelting(<libvulpes:productrod:7>);
 
 //InputStack, OutputFluid, TemperatureAmount, BlockRender
 mods.tconstruct.Smeltery.addMelting(<liquid:dawnstone> * 144, <embers:ingotDawnstone>, 200);
@@ -61,6 +65,11 @@ mods.tconstruct.Smeltery.addMelting(<liquid:silver> * 144, <ore:crushedSilver>, 
 mods.tconstruct.Smeltery.addMelting(<liquid:lead> * 144, <ore:crushedLead>, 200);
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 200, <rockhounding_oretiers:ironOres:6>, 200);
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 100, <rockhounding_oretiers:ironOres:7>, 100);
+mods.tconstruct.Smeltery.addMelting(<liquid:iridium> * 72, <libvulpes:productrod:10>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 72, <libvulpes:productrod:1>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:copper> *72, <libvulpes:productrod:4>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:steel> * 72, <libvulpes:productrod:6>, 200);
+mods.tconstruct.Smeltery.addMelting(<liquid:titanium> * 72, <libvulpes:productrod:7>, 200);
 
 //Removal Casting of certain metals
 mods.tconstruct.Casting.removeBasinRecipe(<plustic:osmiridiumblock>);
