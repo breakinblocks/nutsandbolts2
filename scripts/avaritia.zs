@@ -60,7 +60,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<extrautils2:itemcreativebuilderswand> *
 val charged_draconium_capacitor = <draconicevolution:draconium_capacitor>.withTag({Energy: 64000000});
 mods.avaritia.ExtremeCrafting.addShaped(<mekanism:EnergyCube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}) * 1,
 [
-[<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0}),	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0})],
+[<ic2:quad_mox_fuel_rod>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<ic2:quad_mox_fuel_rod>],
 [<draconicevolution:awakened_core>,	<gravisuite:crafting:1>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<gravisuite:crafting:1>,	<draconicevolution:awakened_core>],
 [<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
 [<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	charged_draconium_capacitor,	<avaritiaadditions:infinity_ingot>,	<draconicevolution:chaos_shard>,	<avaritiaadditions:infinity_ingot>,	charged_draconium_capacitor,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
@@ -68,7 +68,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<mekanism:EnergyCube>.withTag({tier: 4, 
 [<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	charged_draconium_capacitor,	<avaritiaadditions:infinity_ingot>,	<draconicevolution:chaos_shard>,	<avaritiaadditions:infinity_ingot>,	charged_draconium_capacitor,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
 [<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
 [<draconicevolution:awakened_core>,	<gravisuite:crafting:1>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<gravisuite:crafting:1>,	<draconicevolution:awakened_core>],
-[<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0}),	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0})]
+[<ic2:quad_mox_fuel_rod>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<ic2:quad_mox_fuel_rod>]
 ]);
 
 mods.avaritia.ExtremeCrafting.addShaped(<tconstruct:materials:50> * 1,
