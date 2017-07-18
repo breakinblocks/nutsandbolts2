@@ -1,0 +1,664 @@
+Lumium
+	plateLumium
+	dustLumium
+	gearLumium
+	nuggetLumium
+	blockLumium
+	ingotLumium
+	coinLumium
+
+RefinedObsidian
+	dustRefinedObsidian
+	blockRefinedObsidian
+	ingotRefinedObsidian
+
+HOPGraphite
+	dustHOPGraphite
+	ingotHOPGraphite
+
+Rosegold
+	dustRosegold
+	nuggetRosegold
+	blockRosegold
+	ingotRosegold
+
+Yag
+	dustYag
+	nuggetYag
+	blockYag
+	ingotYag
+
+Shakudo
+	dustShakudo
+	nuggetShakudo
+	blockShakudo
+	ingotShakudo
+
+Cupronickel
+	dustCupronickel
+	nuggetCupronickel
+	blockCupronickel
+	ingotCupronickel
+
+Mischmetal
+	dustMischmetal
+	nuggetMischmetal
+	blockMischmetal
+	ingotMischmetal
+
+Iridium
+	coilIridium
+	stickIridium
+	plateIridium
+	dustIridium
+	gearIridium
+	nuggetIridium
+	blockIridium
+	oreIridium
+	ingotIridium
+	coinIridium
+
+ConductiveIron
+	blockConductiveIron
+	ingotConductiveIron
+
+Iron
+	lumpIron
+	candelabraIron
+	pelletIron
+	oreBogIron
+	crushedIron
+	slabSheetmetalIron
+	clumpIron
+	sheetIron
+	crushedPurifiedIron
+	stickIron
+	dustDirtyIron
+	dustTinyIron
+	shardIron
+	plateIron
+	blockSheetmetalIron
+	dustIron
+	lampIron
+	gearIron
+	nuggetIron
+	blockIron
+	oreIron
+	plateDenseIron
+	ingotIron
+	coinIron
+
+Psi
+	dustPsi
+	ingotPsi
+
+EnergeticAlloy
+	blockEnergeticAlloy
+	ingotEnergeticAlloy
+
+Scal
+	dustScal
+	nuggetScal
+	blockScal
+	ingotScal
+
+Tin
+	crushedTin
+	clumpTin
+	crushedPurifiedTin
+	dustDirtyTin
+	dustTinyTin
+	shardTin
+	plateTin
+	dustTin
+	gearTin
+	nuggetTin
+	blockTin
+	oreTin
+	plateDenseTin
+	ingotTin
+	coinTin
+
+Yellorium
+	dustYellorium
+	blockYellorium
+	oreYellorium
+	ingotYellorium
+
+Gold
+	candelabraGold
+	crushedGold
+	slabSheetmetalGold
+	coilGold
+	clumpGold
+	crushedPurifiedGold
+	dustDirtyGold
+	dustTinyGold
+	shardGold
+	plateGold
+	blockSheetmetalGold
+	dustGold
+	lampGold
+	gearGold
+	nuggetGold
+	blockGold
+	oreGold
+	plateDenseGold
+	ingotGold
+	coinGold
+
+Ludicrite
+	dustLudicrite
+	blockLudicrite
+	ingotLudicrite
+
+DarkSteel
+	blockDarkSteel
+	ingotDarkSteel
+
+Titanium
+	coilTitanium
+	sheetTitanium
+	stickTitanium
+	plateTitanium
+	dustTitanium
+	gearTitanium
+	nuggetTitanium
+	blockTitanium
+	oreTitanium
+	ingotTitanium
+
+PulsatingIron
+	nuggetPulsatingIron
+	blockPulsatingIron
+	ingotPulsatingIron
+
+RedAlloy
+	ingotRedAlloy
+
+Bam
+	dustBam
+	nuggetBam
+	blockBam
+	ingotBam
+
+Greengold
+	dustGreengold
+	nuggetGreengold
+	blockGreengold
+	ingotGreengold
+
+Brick
+	stairStoneBrick
+	stairNetherBrick
+	pillarNetherBrick
+	wedgeNetherBrick
+	slabStoneBrick
+	ingotBrick
+	prismarineBrick
+
+Soularium
+	blockSoularium
+	ingotSoularium
+
+ElvenElementium
+	nuggetElvenElementium
+	ingotElvenElementium
+
+Steel
+	scaffoldingSteel
+	fanSteel
+	wireSteel
+	slabSheetmetalSteel
+	sheetSteel
+	stickSteel
+	plateSteel
+	blockSheetmetalSteel
+	dustSteel
+	gearSteel
+	nuggetSteel
+	blockSteel
+	plateDenseSteel
+	ingotSteel
+	coinSteel
+
+Carborundum
+	dustCarborundum
+	nuggetCarborundum
+	blockCarborundum
+	ingotCarborundum
+
+EnderiumBase
+	ingotEnderiumBase
+
+Hastelloy
+	dustHastelloy
+	nuggetHastelloy
+	blockHastelloy
+	ingotHastelloy
+
+RefinedGlowstone
+	blockRefinedGlowstone
+	ingotRefinedGlowstone
+
+RefinedIron
+
+TitaniumAluminide
+	sheetTitaniumAluminide
+	stickTitaniumAluminide
+	dustTitaniumAluminide
+	gearTitaniumAluminide
+	nuggetTitaniumAluminide
+	blockTitaniumAluminide
+	plateTitaniumAluminide
+	ingotTitaniumAluminide
+
+Mirion
+	nuggetMirion
+	blockMirion
+	ingotMirion
+
+Cube
+	dustCube
+	nuggetCube
+	blockCube
+	ingotCube
+
+Manyullyn
+	nuggetManyullyn
+	blockManyullyn
+	ingotManyullyn
+
+Siena
+	dustSiena
+	nuggetSiena
+	blockSiena
+	ingotSiena
+
+EbonyPsi
+	ingotEbonyPsi
+
+Bronze
+	dustTinyBronze
+	plateBronze
+	dustBronze
+	gearBronze
+	nuggetBronze
+	blockBronze
+	plateDenseBronze
+	ingotBronze
+	coinBronze
+
+Platinum
+	platePlatinum
+	dustPlatinum
+	gearPlatinum
+	nuggetPlatinum
+	blockPlatinum
+	orePlatinum
+	ingotPlatinum
+	coinPlatinum
+
+Uranium
+	crushedUranium
+	slabSheetmetalUranium
+	crushedPurifiedUranium
+	plateUranium
+	blockSheetmetalUranium
+	dustUranium
+	nuggetUranium
+	blockUranium
+	oreUranium
+	ingotUranium
+
+CosmicNeutronium
+	blockCosmicNeutronium
+	ingotCosmicNeutronium
+
+BrickSeared
+	ingotBrickSeared
+
+DarkSoularium
+	ingotDarkSoularium
+
+Cyanite
+	dustCyanite
+	blockCyanite
+	ingotCyanite
+
+Pigiron
+	nuggetPigiron
+	blockPigiron
+	ingotPigiron
+
+Purplegold
+	dustPurplegold
+	nuggetPurplegold
+	blockPurplegold
+	ingotPurplegold
+
+Invar
+	plateInvar
+	dustInvar
+	gearInvar
+	nuggetInvar
+	blockInvar
+	ingotInvar
+	coinInvar
+
+Alumite
+	nuggetAlumite
+	blockAlumite
+	ingotAlumite
+
+TitaniumIridium
+	sheetTitaniumIridium
+	stickTitaniumIridium
+	plateTitaniumIridium
+	dustTitaniumIridium
+	gearTitaniumIridium
+	nuggetTitaniumIridium
+	blockTitaniumIridium
+	ingotTitaniumIridium
+
+Lead
+	crushedLead
+	slabSheetmetalLead
+	clumpLead
+	crushedPurifiedLead
+	dustDirtyLead
+	dustTinyLead
+	shardLead
+	plateLead
+	blockSheetmetalLead
+	dustLead
+	gearLead
+	nuggetLead
+	blockLead
+	oreLead
+	plateDenseLead
+	ingotLead
+	coinLead
+
+Ardite
+	dustArdite
+	nuggetArdite
+	blockArdite
+	oreArdite
+	ingotArdite
+
+Carbon
+	dustCarbon
+	ingotCarbon
+
+Nichrome
+	dustNichrome
+	nuggetNichrome
+	blockNichrome
+	ingotNichrome
+
+Mithril
+	plateMithril
+	dustMithril
+	gearMithril
+	nuggetMithril
+	blockMithril
+	oreMithril
+	ingotMithril
+	coinMithril
+
+Electrum
+	wireElectrum
+	slabSheetmetalElectrum
+	plateElectrum
+	blockSheetmetalElectrum
+	dustElectrum
+	gearElectrum
+	nuggetElectrum
+	blockElectrum
+	ingotElectrum
+	coinElectrum
+
+Draconium
+	dustDraconium
+	nuggetDraconium
+	blockDraconium
+	ingotDraconium
+
+Whitegold
+	dustWhitegold
+	nuggetWhitegold
+	blockWhitegold
+	ingotWhitegold
+
+Nickel
+	slabSheetmetalNickel
+	plateNickel
+	blockSheetmetalNickel
+	dustNickel
+	gearNickel
+	nuggetNickel
+	blockNickel
+	oreNickel
+	ingotNickel
+	coinNickel
+
+Signalum
+	plateSignalum
+	dustSignalum
+	gearSignalum
+	nuggetSignalum
+	blockSignalum
+	ingotSignalum
+	coinSignalum
+
+Brass
+
+IvoryPsi
+	ingotIvoryPsi
+
+Cunife
+	dustCunife
+	nuggetCunife
+	blockCunife
+	ingotCunife
+
+ElectrumFlux
+	plateElectrumFlux
+	dustElectrumFlux
+	gearElectrumFlux
+	nuggetElectrumFlux
+	blockElectrumFlux
+	ingotElectrumFlux
+
+Tombak
+	dustTombak
+	nuggetTombak
+	blockTombak
+	ingotTombak
+
+Hydronalium
+	dustHydronalium
+	nuggetHydronalium
+	blockHydronalium
+	ingotHydronalium
+
+Copper
+	crushedCopper
+	wireCopper
+	slabSheetmetalCopper
+	coilCopper
+	clumpCopper
+	sheetCopper
+	crushedPurifiedCopper
+	stickCopper
+	dustDirtyCopper
+	dustTinyCopper
+	shardCopper
+	plateCopper
+	blockSheetmetalCopper
+	dustCopper
+	gearCopper
+	nuggetCopper
+	blockCopper
+	oreCopper
+	plateDenseCopper
+	ingotCopper
+	coinCopper
+
+Shibuichi
+	dustShibuichi
+	nuggetShibuichi
+	blockShibuichi
+	ingotShibuichi
+
+CrystalMatrix
+	blockCrystalMatrix
+	ingotCrystalMatrix
+
+DemonicMetal
+	blockDemonicMetal
+	ingotDemonicMetal
+
+Silicon
+	bouleSilicon
+	waferSilicon
+	plateSilicon
+	dustSilicon
+	nuggetSilicon
+	ingotSilicon
+
+Graphite
+	dustGraphite
+	blockGraphite
+	ingotGraphite
+
+RedstoneAlloy
+	blockRedstoneAlloy
+	ingotRedstoneAlloy
+
+Nimonic
+	dustNimonic
+	nuggetNimonic
+	blockNimonic
+	ingotNimonic
+
+Alubrass
+	nuggetAlubrass
+	blockAlubrass
+	ingotAlubrass
+
+Corten
+	dustCorten
+	nuggetCorten
+	blockCorten
+	ingotCorten
+
+EnchantedMetal
+	blockEnchantedMetal
+	ingotEnchantedMetal
+
+VibrantAlloy
+	nuggetVibrantAlloy
+	blockVibrantAlloy
+	ingotVibrantAlloy
+
+DraconiumAwakened
+	nuggetDraconiumAwakened
+	blockDraconiumAwakened
+	ingotDraconiumAwakened
+
+Dawnstone
+	plateDawnstone
+	nuggetDawnstone
+	blockDawnstone
+	ingotDawnstone
+
+Manasteel
+	nuggetManasteel
+	ingotManasteel
+
+ElectricalSteel
+	blockElectricalSteel
+	ingotElectricalSteel
+
+Pewter
+	dustPewter
+	nuggetPewter
+	blockPewter
+	ingotPewter
+
+Evil
+	blockEvil
+	ingotEvil
+
+Blutonium
+	dustBlutonium
+	blockBlutonium
+	ingotBlutonium
+
+Silver
+	crushedSilver
+	slabSheetmetalSilver
+	clumpSilver
+	crushedPurifiedSilver
+	dustDirtySilver
+	dustTinySilver
+	shardSilver
+	plateSilver
+	blockSheetmetalSilver
+	dustSilver
+	gearSilver
+	nuggetSilver
+	blockSilver
+	oreSilver
+	ingotSilver
+	coinSilver
+
+Terrasteel
+	nuggetTerrasteel
+	ingotTerrasteel
+
+Osmium
+	clumpOsmium
+	dustDirtyOsmium
+	shardOsmium
+	dustOsmium
+	blockOsmium
+	oreOsmium
+	ingotOsmium
+
+Cobalt
+	dustCobalt
+	nuggetCobalt
+	blockCobalt
+	oreCobalt
+	ingotCobalt
+
+Tinite
+	dustTinite
+	nuggetTinite
+	blockTinite
+	ingotTinite
+
+Enderium
+	plateEnderium
+	dustEnderium
+	gearEnderium
+	nuggetEnderium
+	blockEnderium
+	ingotEnderium
+	coinEnderium
+
+ElectrotineAlloy
+	ingotElectrotineAlloy
+
+Osmiridium
+	nuggetOsmiridium
+	blockOsmiridium
+	ingotOsmiridium
+
+Infinity
+	blockInfinity
+	ingotInfinity
+
