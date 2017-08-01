@@ -6,7 +6,7 @@ val lWood = <botania:livingwood:150>;
 val Sand = <minecraft:sand>;
 val Marble = <ore:blockMarble>;
 val Star = <astralsorcery:BlockCustomOre:1>;
-val Mineral = <atmrockhounding:mineralOres:150>;
+val Mineral = <rockhounding_chemistry:mineralOres>;
 val dWood = <botania:dreamwood>;
 val wild = <roots:logWildwood>;
 
@@ -25,7 +25,7 @@ mods.botania.Apothecary.removeRecipe(<botania:specialFlower>.withTag({type: "cla
 
 
 mods.botania.Apothecary.addRecipe(<botania:specialFlower>.withTag({type: "orechid"}), [<ore:petalGray>,<ore:petalGray>,<ore:petalYellow>,<ore:petalGreen>,<ore:petalRed>,<arsmagica2:core:2>, <ore:elvenPixieDust>, <ore:runeGreedB>]);
-mods.botania.Apothecary.addRecipe(<botania:specialFlower>.withTag({type: "clayconia"}), [<ore:petalGray>,<botania:petal:8>,<botania:petal:8>,<botania:rune:2>,<harvestcraft:firmtofuItem>,<harvestcraft:firmtofuItem>]);
+mods.botania.Apothecary.addRecipe(<botania:specialFlower>.withTag({type: "clayconia"}), [<ore:petalGray>,<botania:petal:8>,<botania:petal:8>,<botania:rune:2>,<harvestcraft:firmtofuitem>,<harvestcraft:firmtofuitem>]);
 
 
 //Crystal growth
@@ -60,39 +60,37 @@ mods.botania.ManaInfusion.addAlchemy(<cm2:minifluiddrop> * 4,<enderio:itemMateri
 
 //Runic Altar
 
-
-
 //Elven Trade - Maybe later, not currently working in modtweaker
-mods.botania.ElvenTrade.removeRecipe(<botania:dreamwood>);
+//mods.botania.ElvenTrade.removeRecipe(dWood);
 //OutputStack, InputArray
-mods.botania.ElvenTrade.addRecipe([dWood],[wild]);
+//mods.botania.ElvenTrade.addRecipe(dWood, [wild]);
 
 //Orechid
 # Orechid
-    mods.botania.Orechid.addOre(<ore:oreCoal>, 40);                   
-    mods.botania.Orechid.addOre(<ore:oreAnthracite>, 10);             
-    mods.botania.Orechid.addOre(<ore:oreBituminous>, 20);             
-    mods.botania.Orechid.addOre(<ore:oreLignite>, 60);                
-    mods.botania.Orechid.addOre(<ore:oreGoethite>, 12);              
-    mods.botania.Orechid.addOre(<ore:oreLimonite>, 15);              
-    mods.botania.Orechid.addOre(<ore:oreAluminum>,  8);                
-    mods.botania.Orechid.addOre(<ore:oreVinteum>, 10);                 
-    mods.botania.Orechid.addOre(<ore:oreChimerite>,  7);               
-    mods.botania.Orechid.addOre(<ore:oreBlueTopaz>,  7);               
-    mods.botania.Orechid.addOre(<ore:oreRuby>, 3);                     
-    mods.botania.Orechid.addOre(<ore:orePeridot>, 3);                  
-    mods.botania.Orechid.addOre(<ore:oreTopaz>, 3);                    
-    mods.botania.Orechid.addOre(<ore:oreTanzanite>, 3);                
-    mods.botania.Orechid.addOre(<ore:oreMalchite>, 3);                 
-    mods.botania.Orechid.addOre(<ore:oreSapphire>, 3);                 
-    mods.botania.Orechid.addOre(<ore:oreAmber>, 1);                    
-    mods.botania.Orechid.addOre(<ore:oreApatite>, 1);                  
-    mods.botania.Orechid.addOre(<ore:oreResonating>, 1);               
-    mods.botania.Orechid.addOre(<ore:oreIridium>, 1);                  
-    mods.botania.Orechid.addOre(<ore:oreDilithium>, 1);         
-    mods.botania.Orechid.addOre(<ore:oreRutile>, 1);                        
-	mods.botania.Orechid.addOre(<ore:mineralOres>, 10);
-	
+    mods.botania.Orechid.addOre(<ore:oreCoal>, 40);
+    mods.botania.Orechid.addOre(<ore:oreAnthracite>, 10);
+    mods.botania.Orechid.addOre(<ore:oreBituminous>, 20);
+    mods.botania.Orechid.addOre(<ore:oreLignite>, 60);
+    mods.botania.Orechid.addOre(<ore:oreGoethite>, 12);
+    mods.botania.Orechid.addOre(<ore:oreLimonite>, 15);
+    mods.botania.Orechid.addOre(<ore:oreAluminum>,  8);
+    mods.botania.Orechid.addOre(<ore:oreVinteum>, 10);
+    mods.botania.Orechid.addOre(<ore:oreChimerite>,  7);
+    mods.botania.Orechid.addOre(<ore:oreBlueTopaz>,  7);
+    mods.botania.Orechid.addOre(<ore:oreRuby>, 3);
+    mods.botania.Orechid.addOre(<ore:orePeridot>, 3);
+    mods.botania.Orechid.addOre(<ore:oreTopaz>, 3);
+    mods.botania.Orechid.addOre(<ore:oreTanzanite>, 3);
+    mods.botania.Orechid.addOre(<ore:oreMalchite>, 3);
+    mods.botania.Orechid.addOre(<ore:oreSapphire>, 3);
+    mods.botania.Orechid.addOre(<ore:oreAmber>, 1);
+    mods.botania.Orechid.addOre(<ore:oreApatite>, 1);
+    mods.botania.Orechid.addOre(<ore:oreResonating>, 1);
+    mods.botania.Orechid.addOre(<ore:oreIridium>, 1);
+    mods.botania.Orechid.addOre(<ore:oreDilithium>, 1);
+    mods.botania.Orechid.addOre(<ore:oreRutile>, 1);
+	  mods.botania.Orechid.addOre(<ore:mineralOres>, 10);
+
 
 #Nether Orechid
 
@@ -130,4 +128,3 @@ recipes.addShaped(<botania:alchemyCatalyst>, [[<bloodmagic:BlockBloodRune>, <ore
 recipes.addShaped(<botania:terraPlate>, [[<minecraft:prismarine>, <minecraft:prismarine>, <minecraft:prismarine>], [<botania:rune:8>, <botania:storage>, <botania:rune:8>], [<bloodmagic:ItemComponent:4>, <arsmagica2:essence:1>,<bloodmagic:ItemComponent:4>]]);
 recipes.addShaped(<botania:conjurationCatalyst>, [[<roots:runeStoneSymbolGlowing>, <bloodmagic:ItemArcaneAshes>, <roots:runeStoneSymbolGlowing>], [<ore:ingotElvenElementium>, <botania:alchemyCatalyst>, <ore:ingotElvenElementium>], [<roots:runeStoneSymbolGlowing>, <ore:ingotElvenElementium>, <roots:runeStoneSymbolGlowing>]]);
 recipes.addShaped(<botania:thirdEye>, [[<minecraft:golden_carrot>, <arsmagica2:rune:3>, <minecraft:golden_carrot>], [<ore:blockQuartz>, <ore:pearlEnderEye>, <ore:blockQuartz>], [<minecraft:golden_carrot>, <ore:manaDiamond>,<minecraft:golden_carrot>]]);
-

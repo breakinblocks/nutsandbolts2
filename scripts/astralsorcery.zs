@@ -22,4 +22,4 @@ mods.astralsorcery.Lightwell.addLiquefaction(<arsmagica2:item_ore>, <liquid:liqu
 
 
 //Light transmutation
-mods.astralsorcery.LightTransmutation.addTransmutation(<minecraft:gravel>, <atmrockhounding:mineralOres>, 12);
+mods.astralsorcery.LightTransmutation.addTransmutation(<minecraft:gravel>, <rockhounding_chemistry:mineralOres>, 12);
