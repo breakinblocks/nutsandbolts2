@@ -211,13 +211,13 @@ val charged_draconium_capacitor = <draconicevolution:draconium_capacitor>.withTa
 mods.avaritia.ExtremeCrafting.addShaped(<mekanism:EnergyCube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}) * 1,
 [
 [<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0}),	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0})],
-[<draconicevolution:awakened_core>,	<gravisuite:crafting:1>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<gravisuite:crafting:1>,	<draconicevolution:awakened_core>],
-[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
-[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	charged_draconium_capacitor,	<avaritia:resource:6>,	<draconicevolution:chaos_shard>,	<avaritia:resource:6>,	charged_draconium_capacitor,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
-[<projecte:matter_block:1>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	<ic2:lapotron_crystal:*>,	<mekanism:BasicBlock2:4>.withTag({tier: 3}),	<ic2:lapotron_crystal:*>,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<projecte:matter_block:1>],
-[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	charged_draconium_capacitor,	<avaritia:resource:6>,	<draconicevolution:chaos_shard>,	<avaritia:resource:6>,	charged_draconium_capacitor,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
-[<draconicevolution:awakened_core>,	<ore:blockTungsteel>,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	<ore:blockTungsteel>,	<draconicevolution:awakened_core>],
-[<draconicevolution:awakened_core>,	<gravisuite:crafting:1>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<ore:blockTungsteel>,	<gravisuite:crafting:1>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<gravisuite:crafting:1>,	<rockhounding_chemistry:alloyBBlocks:6>,	<rockhounding_chemistry:alloyBBlocks:6>,	<rockhounding_chemistry:alloyBBlocks:6>,	<rockhounding_chemistry:alloyBBlocks:6>,	<rockhounding_chemistry:alloyBBlocks:6>,	<gravisuite:crafting:1>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<rockhounding_chemistry:alloyBBlocks:6>,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	<rockhounding_chemistry:alloyBBlocks:6>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<rockhounding_chemistry:alloyBBlocks:6>,	charged_draconium_capacitor,	<avaritia:resource:6>,	<draconicevolution:chaos_shard>,	<avaritia:resource:6>,	charged_draconium_capacitor,	<rockhounding_chemistry:alloyBBlocks:6>,	<draconicevolution:awakened_core>],
+[<projecte:matter_block:1>,	<rockhounding_chemistry:alloyBBlocks:6>,	<ic2:advanced_solar_panels_te_machines:3>,	<ic2:lapotron_crystal:*>,	<mekanism:BasicBlock2:4>.withTag({tier: 3}),	<ic2:lapotron_crystal:*>,	<ic2:advanced_solar_panels_te_machines:3>,	<rockhounding_chemistry:alloyBBlocks:6>,	<projecte:matter_block:1>],
+[<draconicevolution:awakened_core>,	<<rockhounding_chemistry:alloyBBlocks:6>,	charged_draconium_capacitor,	<avaritia:resource:6>,	<draconicevolution:chaos_shard>,	<avaritia:resource:6>,	charged_draconium_capacitor,	<rockhounding_chemistry:alloyBBlocks:6>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<rockhounding_chemistry:alloyBBlocks:6>,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	charged_draconium_capacitor,	<ic2:advanced_solar_panels_te_machines:3>,	<rockhounding_chemistry:alloyBBlocks:6>,	<draconicevolution:awakened_core>],
+[<draconicevolution:awakened_core>,	<gravisuite:crafting:1>,	<rockhounding_chemistry:alloyBBlocks:6>,	<rockhounding_chemistry:alloyBBlocks:6>,	<rockhounding_chemistry:alloyBBlocks:6>,	<rockhounding_chemistry:alloyBBlocks:6>,	<rockhounding_chemistry:alloyBBlocks:6>,	<gravisuite:crafting:1>,	<draconicevolution:awakened_core>],
 [<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0}),	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<projecte:matter_block:1>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<draconicevolution:awakened_core>,	<ic2:quad_mox_fuel_rod>.withTag({advDmg: 0})]
 ]);
 
@@ -296,11 +296,11 @@ mods.avaritia.ExtremeCrafting.addShaped(<extrautils2:passivegenerator:6> * 1,
 [
 [null,	null,	null,	null,	null,	null,	null,	null,	null],
 [null,	null,	null,	null,	null,	null,	null,	null,	null],
-[null,	null,	<ore:ingotTungsteel>,	<ore:itemVibrantCrystal>,	<ore:ingotTungsteel>,	<ore:itemVibrantCrystal>,	<ore:ingotTungsteel>,	null,	null],
+[null,	null,	<rockhounding_chemistry:alloyBItems:19>,	<ore:itemVibrantCrystal>,	<rockhounding_chemistry:alloyBItems:19>,	<ore:itemVibrantCrystal>,	<rockhounding_chemistry:alloyBItems:19>,	null,	null],
 [null,	null,	<ore:itemVibrantCrystal>,	<botania:storage:2>,	<extrautils2:passivegenerator:8>,	<botania:storage:2>,	<ore:itemVibrantCrystal>,	null,	null],
-[null,	null,	<ore:ingotTungsteel>,	<extrautils2:passivegenerator:8>,	<draconicevolution:draconic_block>,	<extrautils2:passivegenerator:8>,	<ore:ingotTungsteel>,	null,	null],
+[null,	null,	<rockhounding_chemistry:alloyBItems:19>,	<extrautils2:passivegenerator:8>,	<draconicevolution:draconic_block>,	<extrautils2:passivegenerator:8>,	<rockhounding_chemistry:alloyBItems:19>,	null,	null],
 [null,	null,	<ore:itemVibrantCrystal>,	<botania:storage:2>,	<extrautils2:passivegenerator:8>,	<botania:storage:2>,	<ore:itemVibrantCrystal>,	null,	null],
-[null,	null,	<ore:ingotTungsteel>,	<ore:itemVibrantCrystal>,	<ore:ingotTungsteel>,	<ore:itemVibrantCrystal>,	<ore:ingotTungsteel>,	null,	null],
+[null,	null,	<rockhounding_chemistry:alloyBItems:19>,	<ore:itemVibrantCrystal>,	<rockhounding_chemistry:alloyBItems:19>,	<ore:itemVibrantCrystal>,	<rockhounding_chemistry:alloyBItems:19>,	null,	null],
 [null,	null,	null,	null,	null,	null,	null,	null,	null],
 [null,	null,	null,	null,	null,	null,	null,	null,	null]
 ]);
