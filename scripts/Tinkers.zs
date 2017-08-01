@@ -75,5 +75,5 @@ mods.tconstruct.Smeltery.addMelting(<liquid:titanium> * 72, <libvulpes:productro
 mods.tconstruct.Casting.removeBasinRecipe(<plustic:osmiridiumblock>);
 mods.tconstruct.Casting.removeTableRecipe(<plustic:osmiridiumingot>);
 mods.tconstruct.Casting.removeTableRecipe(<plustic:osmiridiumnugget>);
-mods.tconstruct.Casting.removeTableRecipe(<libvulpes:productnugget:7>);
+//mods.tconstruct.Casting.removeTableRecipe(<libvulpes:productnugget:7>);
 //mods.tconstruct.Casting.removeTableRecipe(<libvulpes:productingot:7>);

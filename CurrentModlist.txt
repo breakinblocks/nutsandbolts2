@@ -175,7 +175,6 @@ StorageDrawers-1.10.2-3.7.10.jar
 StuffASockInIt-1.10.2-1.0.0.4.jar
 SuperCircuitMaker-1.0.4.jar
 TConstruct-1.10.2-2.6.5.jar
-Tesla-1.10.2-1.2.1.49.jar
 theoneprobe-1.1x-1.4.14.jar
 ThermalExpansion-1.10.2-5.1.9.23-universal.jar
 ThermalFoundation-1.10.2-2.1.5.12-universal.jar

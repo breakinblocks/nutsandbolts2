@@ -7,66 +7,66 @@
 				{
 					"blockID":"endmetals:end_copper_ore",
 					"size":0,
-					"variation":12,
-					"frequency":20,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":96
+					"maxHeight":0
 				},
 				{
 					"blockID":"endmetals:end_lead_ore",
 					"size":0,
-					"variation":12,
-					"frequency":20,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":96
+					"maxHeight":0
 				},
 				{
 					"blockID":"endmetals:end_mercury_ore",
 					"size":0,
-					"variation":4,
-					"frequency":10,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":32
+					"maxHeight":0
 				},
 				{
 					"blockID":"endmetals:end_nickel_ore",
 					"size":0,
-					"variation":4,
-					"frequency":10,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":96
+					"maxHeight":0
 				},
 				{
 					"blockID":"endmetals:end_platinum_ore",
 					"size":0,
-					"variation":4,
-					"frequency":10,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":32
+					"maxHeight":0
 				},
 				{
 					"blockID":"endmetals:end_silver_ore",
 					"size":0,
-					"variation":8,
-					"frequency":10,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":32
+					"maxHeight":0
 				},
 				{
 					"blockID":"endmetals:end_tin_ore",
 					"size":0,
-					"variation":12,
-					"frequency":20,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":96
+					"maxHeight":0
 				},
 				{
 					"blockID":"endmetals:end_zinc_ore",
 					"size":0,
-					"variation":8,
-					"frequency":12,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":96
+					"maxHeight":0
 				}
 			]
 		}

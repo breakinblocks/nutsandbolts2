@@ -7,66 +7,66 @@
 				{
 					"blockID":"nethermetals:nether_copper_ore",
 					"size":0,
-					"variation":12,
-					"frequency":12,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":128
+					"maxHeight":0
 				},
 				{
 					"blockID":"nethermetals:nether_lead_ore",
 					"size":0,
-					"variation":12,
-					"frequency":8,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":128
+					"maxHeight":0
 				},
 				{
 					"blockID":"nethermetals:nether_mercury_ore",
 					"size":0,
-					"variation":4,
-					"frequency":4,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":128
+					"maxHeight":0
 				},
 				{
 					"blockID":"nethermetals:nether_nickel_ore",
 					"size":0,
-					"variation":4,
-					"frequency":8,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":128
+					"maxHeight":0
 				},
 				{
 					"blockID":"nethermetals:nether_platinum_ore",
 					"size":0,
-					"variation":2,
-					"frequency":2,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":128
+					"maxHeight":0
 				},
 				{
 					"blockID":"nethermetals:nether_silver_ore",
 					"size":0,
-					"variation":6,
-					"frequency":6,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":128
+					"maxHeight":0
 				},
 				{
 					"blockID":"nethermetals:nether_tin_ore",
 					"size":0,
-					"variation":12,
-					"frequency":12,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":128
+					"maxHeight":0
 				},
 				{
 					"blockID":"nethermetals:nether_zinc_ore",
 					"size":0,
-					"variation":8,
-					"frequency":12,
+					"variation":0,
+					"frequency":0,
 					"minHeight":0,
-					"maxHeight":128
+					"maxHeight":0
 				}
 			]
 		}
