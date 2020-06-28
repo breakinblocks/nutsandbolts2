@@ -93,10 +93,6 @@
       "emc": 128
     },
     {
-      "item": "stevesfactorymanager:BlockCableName|0",
-      "emc": 3596
-    },
-    {
       "item": "enderio:itemLiquidConduit|2",
       "emc": 768
     },
@@ -143,6 +139,34 @@
     {
       "item": "projecte:item.pe_klein_star|0",
       "emc": 24576
+    },
+    {
+      "item": "mekanism:Polyethene|0",
+      "emc": 256
+    },
+    {
+      "item": "randomthings:advancedItemCollector|0",
+      "emc": 4048
+    },
+    {
+      "item": "actuallyadditions:itemMisc|5",
+      "emc": 256
+    },
+    {
+      "item": "extrautils2:ineffableglass|2",
+      "emc": 1024
+    },
+    {
+      "item": "mekanism:BasicBlock|8",
+      "emc": 18432
+    },
+    {
+      "item": "mekanism:Polyethene|2",
+      "emc": 768
+    },
+    {
+      "item": "mekanism:PlasticBlock|15",
+      "emc": 1536
     }
   ]
 }

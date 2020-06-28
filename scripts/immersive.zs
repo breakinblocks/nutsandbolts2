@@ -1,4 +1,4 @@
-//Squeezer 
+//Squeezer
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 50, <ore:cropCanola>, 80);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 50, <actuallyadditions:itemCanolaSeed>, 120);
 
@@ -17,7 +17,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<draconicevolution:draconium_ingo
 //Crusher
 //OutputStack1, InputStack, Energy, OutputStack2, OutputStack2Chance //Chance in Decimals
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:10>);
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:10> * 2, <ore:oreAluminum>, 8000, <atmrockhounding:chemicalDusts:29>, 0.15);
+mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:10> * 2, <ore:oreAluminum>, 8000, <modernmetals:titanium_blend>, 0.15);
 mods.immersiveengineering.Crusher.addRecipe(<astralsorcery:ItemCraftingComponent:2> * 2, <astralsorcery:BlockCustomOre:1>, 8000, <astralsorcery:ItemCraftingComponent:2>, 0.10);
 
 //Blast Furnace
